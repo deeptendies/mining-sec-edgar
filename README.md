@@ -30,5 +30,6 @@ suggestions:
 https://pandas.pydata.org/docs/reference/api/pandas.read_excel.html
 
 
-# Would be nice to have if we can periodically generate some reports and update our stakeholders at wsb
+# Noice to haves
+Would be nice to have if we can periodically generate some reports and update our stakeholders at wsb
 https://www.reddit.com/r/wallstreetbets/
