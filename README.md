@@ -1,4 +1,4 @@
-# setup
+# Setup
 https://github.com/sec-edgar/sec-edgar
 ```shell
 pip install nest-asyncio
