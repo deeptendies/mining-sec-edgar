@@ -1,0 +1,501 @@
+<XBRL>
+<?xml version="1.0" encoding="utf-8"?>
+<InstanceReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.0.0.10</Version>
+  <hasSegments>false</hasSegments>
+  <ReportName>Receivables, Net</ReportName>
+  <ReportLongName>0606 - Disclosure - Receivables, Net</ReportLongName>
+  <DisplayLabelColumn>true</DisplayLabelColumn>
+  <ShowElementNames>false</ShowElementNames>
+  <RoundingOption />
+  <HasEmbeddedReports>false</HasEmbeddedReports>
+  <Columns>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>1</Id>
+      <Labels>
+        <Label Id="1" Label="12 Months Ended" />
+        <Label Id="2" Label="Jan. 30, 2010" />
+      </Labels>
+      <CurrencyCode>usd</CurrencyCode>
+      <CurrencySymbol>$</CurrencySymbol>
+      <FootnoteIndexer />
+      <hasSegments>false</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments />
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>Shares</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>USD</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>USDEPS</UnitID>
+          <UnitType>Divide</UnitType>
+          <NumeratorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </NumeratorMeasure>
+          <DenominatorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </DenominatorMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+    </Column>
+  </Columns>
+  <Rows>
+    <Row>
+      <Id>2</Id>
+      <Label>Receivables, Net [Abstract]</Label>
+      <Level>0</Level>
+      <ElementName>us-gaap_ReceivablesNetCurrentAbstract</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ElementDataType>string</ElementDataType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>true</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>3</Id>
+      <Label>Receivables, Net</Label>
+      <Level>1</Level>
+      <ElementName>us-gaap_ReceivablesPolicyTextBlock</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ElementDataType>string</ElementDataType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>verboselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note 6 - us-gaap:ReceivablesPolicyTextBlock--&gt;
+   &lt;div style="margin-left: 0%"&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff; text-align: left"&gt;
+   &lt;tr&gt;
+       &lt;td width="3%"&gt;&lt;/td&gt;
+       &lt;td width="97%"&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="top"&gt;
+       &lt;td&gt;
+       &lt;b&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;6.&amp;#160;&amp;#160;&lt;/font&gt;&lt;/b&gt;
+   &lt;/td&gt;
+       &lt;td&gt;
+       &lt;b&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Receivables,
+       Net&lt;/font&gt;&lt;/b&gt;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;/table&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       Receivables consist primarily of bankcard receivables and other
+       receivables. Other receivables include receivables from &lt;i&gt;Game
+       Informer Magazine &lt;/i&gt;advertising customers, receivables from
+       landlords for tenant allowances and receivables from vendors for
+       merchandise returns, vendor marketing allowances and various
+       other programs. An allowance for doubtful accounts has been
+       recorded to reduce receivables to an amount expected to be
+       collectible. Receivables consisted of the following:
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;table border="0" width="100%" align="center" cellpadding="0" cellspacing="0" style="font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff; text-align: left"&gt;
+   &lt;!-- Table Width Row BEGIN --&gt;
+   &lt;tr style="font-size: 1pt" valign="bottom"&gt;
+       &lt;td width="77%"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=01 type=maindata --&gt;
+       &lt;td width="2%"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=02 type=gutter --&gt;
+       &lt;td width="1%" align="right"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=02 type=lead --&gt;
+       &lt;td width="7%" align="right"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=02 type=body --&gt;
+       &lt;td width="1%" align="left"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=02 type=hang1 --&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=03 type=gutter --&gt;
+       &lt;td width="1%" align="right"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=03 type=lead --&gt;
+       &lt;td width="7%" align="right"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=03 type=body --&gt;
+       &lt;td width="1%" align="left"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=03 type=hang1 --&gt;
+   &lt;/tr&gt;
+   &lt;!-- Table Width Row END --&gt;
+   &lt;!-- TableOutputHead --&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom" align="center"&gt;
+   &lt;td nowrap="nowrap" align="center" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;January&amp;#160;30,&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;January&amp;#160;31,&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom" align="center"&gt;
+   &lt;td nowrap="nowrap" align="center" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom" style="border-bottom: 1px solid #000000"&gt;
+       &lt;b&gt;2010&lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom" style="border-bottom: 1px solid #000000"&gt;
+       &lt;b&gt;2009&lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom" align="center"&gt;
+   &lt;td nowrap="nowrap" align="center" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="6" align="center" valign="bottom"&gt;
+       &lt;b&gt;(In thousands)&lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="line-height: 3pt; font-size: 1pt"&gt;
+   &lt;td&gt;&amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- TableOutputBody --&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 10pt"&gt;
+       Bankcard receivables
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       $
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       51,460
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       $
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       45,650
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 10pt"&gt;
+       Other receivables
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       15,931
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       24,097
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+   &lt;td align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 10pt"&gt;
+       Allowance for doubtful accounts
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       (3,385
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       )
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       (3,766
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       )
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="font-size: 1pt"&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 1px solid #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 1px solid #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 1px solid #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 1px solid #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+   &lt;td align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 10pt"&gt;
+       Total receivables, net
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       $
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       64,006
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       $
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       65,981
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="font-size: 1pt"&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;/table&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 0%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+   &lt;/div&gt;
+   &lt;/div&gt;
+</NonNumbericText>
+          <NonNumericTextHeader>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note</NonNumericTextHeader>
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDefenition>Describes an entity's accounting policy for trade and other accounts receivable, and finance, loan and lease receivables, including those classified as held for investment and held for sale. This disclosure may include (1) the basis at which such receivables are carried in the entity's statements of financial position (2) how the level of the valuation allowance for receivables is determined (3) when impairments, charge-offs or recoveries are recognized for such receivables (4) the treatment of origination fees and costs, including the amortization method for net deferred fees or costs (5) the treatment of any premiums or discounts or unearned income (6) the entity's income recognition policies for such receivables, including those that are impaired, past due or placed on nonaccrual status and (7) the treatment of foreclosures or repossessions (8) the nature and amount of any guarantees to repurchase receivables.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher SEC
+ -Name Regulation S-X (SX)
+ -Number 210
+ -Section 02
+ -Paragraph 3-5
+ -Article 5
+
+Reference 2: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 114
+ -Paragraph 20
+ -Subparagraph b
+
+Reference 3: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Emerging Issues Task Force (EITF)
+ -Number 92-5
+
+Reference 4: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher AICPA
+ -Name Statement of Position (SOP)
+ -Number 01-6
+ -Paragraph 13
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+  </Rows>
+  <Footnotes />
+  <ComparabilityReport>false</ComparabilityReport>
+  <NumberOfCols>1</NumberOfCols>
+  <NumberOfRows>2</NumberOfRows>
+  <HasScenarios>false</HasScenarios>
+  <MonetaryRoundingLevel>UnKnown</MonetaryRoundingLevel>
+  <SharesRoundingLevel>UnKnown</SharesRoundingLevel>
+  <PerShareRoundingLevel>UnKnown</PerShareRoundingLevel>
+  <HasPureData>false</HasPureData>
+  <SharesShouldBeRounded>true</SharesShouldBeRounded>
+</InstanceReport>
+</XBRL>

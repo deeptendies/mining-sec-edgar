@@ -1,0 +1,609 @@
+{
+  "ACCESSION_NUMBER": "0001193125-13-140443",
+  "CONFORMED_PERIOD_OF_REPORT": "20130202",
+  "CONFORMED_SUBMISSION_TYPE": "10-K",
+  "DATE_AS_OF_CHANGE": "20130403",
+  "FILED_AS_OF_DATE": "20130403",
+  "FILER": {
+    "BUSINESS_ADDRESS": {
+      "BUSINESS_PHONE": "817-424-2000",
+      "CITY": "GRAPEVINE",
+      "STATE": "TX",
+      "STREET_1": "625 WESTPORT PARKWAY",
+      "ZIP": "76051"
+    },
+    "COMPANY_DATA": {
+      "CENTRAL_INDEX_KEY": "0001326380",
+      "COMPANY_CONFORMED_NAME": "GameStop Corp.",
+      "FISCAL_YEAR_END": "0128",
+      "IRS_NUMBER": "000000000",
+      "STANDARD_INDUSTRIAL_CLASSIFICATION": "RETAIL-COMPUTER & COMPUTER SOFTWARE STORES [5734]",
+      "STATE_OF_INCORPORATION": "DE"
+    },
+    "FILING_VALUES": {
+      "FILM_NUMBER": "13739852",
+      "FORM_TYPE": "10-K",
+      "SEC_ACT": "1934 Act",
+      "SEC_FILE_NUMBER": "001-32637"
+    },
+    "FORMER_COMPANY": {
+      "DATE_OF_NAME_CHANGE": "20050506",
+      "FORMER_CONFORMED_NAME": "GSC Holdings Corp."
+    },
+    "MAIL_ADDRESS": {
+      "CITY": "GRAPEVINE",
+      "STATE": "TX",
+      "STREET_1": "625 WESTPORT PARKWAY",
+      "ZIP": "76051"
+    }
+  },
+  "PUBLIC_DOCUMENT_COUNT": "21",
+  "acceptance-datetime": "20130403162913",
+  "documents": [
+    {
+      "filename": "d469015d10k.htm",
+      "sequence": "1",
+      "type": "10-K"
+    },
+    {
+      "filename": "d469015dex32.htm",
+      "sequence": "2",
+      "type": "EX-3.2"
+    },
+    {
+      "filename": "d469015dex1034.htm",
+      "sequence": "3",
+      "type": "EX-10.34"
+    },
+    {
+      "filename": "d469015dex1035.htm",
+      "sequence": "4",
+      "type": "EX-10.35"
+    },
+    {
+      "filename": "d469015dex141.htm",
+      "sequence": "5",
+      "type": "EX-14.1"
+    },
+    {
+      "filename": "d469015dex142.htm",
+      "sequence": "6",
+      "type": "EX-14.2"
+    },
+    {
+      "filename": "d469015dex211.htm",
+      "sequence": "7",
+      "type": "EX-21.1"
+    },
+    {
+      "filename": "d469015dex231.htm",
+      "sequence": "8",
+      "type": "EX-23.1"
+    },
+    {
+      "filename": "d469015dex311.htm",
+      "sequence": "9",
+      "type": "EX-31.1"
+    },
+    {
+      "filename": "d469015dex312.htm",
+      "sequence": "10",
+      "type": "EX-31.2"
+    },
+    {
+      "filename": "d469015dex321.htm",
+      "sequence": "11",
+      "type": "EX-32.1"
+    },
+    {
+      "filename": "d469015dex322.htm",
+      "sequence": "12",
+      "type": "EX-32.2"
+    },
+    {
+      "filename": "gme-20130202.xml",
+      "sequence": "13",
+      "type": "EX-101.INS"
+    },
+    {
+      "filename": "gme-20130202.xsd",
+      "sequence": "14",
+      "type": "EX-101.SCH"
+    },
+    {
+      "filename": "gme-20130202_cal.xml",
+      "sequence": "15",
+      "type": "EX-101.CAL"
+    },
+    {
+      "filename": "gme-20130202_def.xml",
+      "sequence": "16",
+      "type": "EX-101.DEF"
+    },
+    {
+      "filename": "gme-20130202_lab.xml",
+      "sequence": "17",
+      "type": "EX-101.LAB"
+    },
+    {
+      "filename": "gme-20130202_pre.xml",
+      "sequence": "18",
+      "type": "EX-101.PRE"
+    },
+    {
+      "filename": "g469015g02r77.jpg",
+      "sequence": "19",
+      "type": "GRAPHIC"
+    },
+    {
+      "filename": "g469015g80x46.jpg",
+      "sequence": "20",
+      "type": "GRAPHIC"
+    },
+    {
+      "filename": "g469015g94d82.jpg",
+      "sequence": "21",
+      "type": "GRAPHIC"
+    },
+    {
+      "filename": "R39.htm",
+      "sequence": "22",
+      "type": "XML"
+    },
+    {
+      "filename": "R54.htm",
+      "sequence": "23",
+      "type": "XML"
+    },
+    {
+      "filename": "R48.htm",
+      "sequence": "24",
+      "type": "XML"
+    },
+    {
+      "filename": "R70.htm",
+      "sequence": "25",
+      "type": "XML"
+    },
+    {
+      "filename": "R55.htm",
+      "sequence": "26",
+      "type": "XML"
+    },
+    {
+      "filename": "R78.htm",
+      "sequence": "27",
+      "type": "XML"
+    },
+    {
+      "filename": "R46.htm",
+      "sequence": "28",
+      "type": "XML"
+    },
+    {
+      "filename": "R33.htm",
+      "sequence": "29",
+      "type": "XML"
+    },
+    {
+      "filename": "R79.htm",
+      "sequence": "30",
+      "type": "XML"
+    },
+    {
+      "filename": "report.css",
+      "sequence": "31",
+      "type": "XML"
+    },
+    {
+      "filename": "R73.htm",
+      "sequence": "32",
+      "type": "XML"
+    },
+    {
+      "filename": "R57.htm",
+      "sequence": "33",
+      "type": "XML"
+    },
+    {
+      "filename": "R76.htm",
+      "sequence": "34",
+      "type": "XML"
+    },
+    {
+      "filename": "R86.htm",
+      "sequence": "35",
+      "type": "XML"
+    },
+    {
+      "filename": "R81.htm",
+      "sequence": "36",
+      "type": "XML"
+    },
+    {
+      "filename": "R87.htm",
+      "sequence": "37",
+      "type": "XML"
+    },
+    {
+      "filename": "R77.htm",
+      "sequence": "38",
+      "type": "XML"
+    },
+    {
+      "filename": "R71.htm",
+      "sequence": "39",
+      "type": "XML"
+    },
+    {
+      "filename": "R25.htm",
+      "sequence": "40",
+      "type": "XML"
+    },
+    {
+      "filename": "R50.htm",
+      "sequence": "41",
+      "type": "XML"
+    },
+    {
+      "filename": "R42.htm",
+      "sequence": "42",
+      "type": "XML"
+    },
+    {
+      "filename": "R75.htm",
+      "sequence": "43",
+      "type": "XML"
+    },
+    {
+      "filename": "R37.htm",
+      "sequence": "44",
+      "type": "XML"
+    },
+    {
+      "filename": "R52.htm",
+      "sequence": "45",
+      "type": "XML"
+    },
+    {
+      "filename": "R67.htm",
+      "sequence": "46",
+      "type": "XML"
+    },
+    {
+      "filename": "R61.htm",
+      "sequence": "47",
+      "type": "XML"
+    },
+    {
+      "filename": "0001193125-13-140443-xbrl.zip",
+      "sequence": "48",
+      "type": "ZIP"
+    },
+    {
+      "filename": "R47.htm",
+      "sequence": "49",
+      "type": "XML"
+    },
+    {
+      "filename": "R9.htm",
+      "sequence": "50",
+      "type": "XML"
+    },
+    {
+      "filename": "R62.htm",
+      "sequence": "51",
+      "type": "XML"
+    },
+    {
+      "filename": "Financial_Report.xls",
+      "sequence": "52",
+      "type": "EXCEL"
+    },
+    {
+      "filename": "R43.htm",
+      "sequence": "53",
+      "type": "XML"
+    },
+    {
+      "filename": "R29.htm",
+      "sequence": "54",
+      "type": "XML"
+    },
+    {
+      "filename": "R28.htm",
+      "sequence": "55",
+      "type": "XML"
+    },
+    {
+      "filename": "R56.htm",
+      "sequence": "56",
+      "type": "XML"
+    },
+    {
+      "filename": "R44.htm",
+      "sequence": "57",
+      "type": "XML"
+    },
+    {
+      "filename": "R30.htm",
+      "sequence": "58",
+      "type": "XML"
+    },
+    {
+      "filename": "R31.htm",
+      "sequence": "59",
+      "type": "XML"
+    },
+    {
+      "filename": "R8.htm",
+      "sequence": "60",
+      "type": "XML"
+    },
+    {
+      "filename": "R32.htm",
+      "sequence": "61",
+      "type": "XML"
+    },
+    {
+      "filename": "R83.htm",
+      "sequence": "62",
+      "type": "XML"
+    },
+    {
+      "filename": "R40.htm",
+      "sequence": "63",
+      "type": "XML"
+    },
+    {
+      "filename": "R53.htm",
+      "sequence": "64",
+      "type": "XML"
+    },
+    {
+      "filename": "R72.htm",
+      "sequence": "65",
+      "type": "XML"
+    },
+    {
+      "filename": "R2.htm",
+      "sequence": "66",
+      "type": "XML"
+    },
+    {
+      "filename": "R45.htm",
+      "sequence": "67",
+      "type": "XML"
+    },
+    {
+      "filename": "R6.htm",
+      "sequence": "68",
+      "type": "XML"
+    },
+    {
+      "filename": "R59.htm",
+      "sequence": "69",
+      "type": "XML"
+    },
+    {
+      "filename": "R35.htm",
+      "sequence": "70",
+      "type": "XML"
+    },
+    {
+      "filename": "R65.htm",
+      "sequence": "71",
+      "type": "XML"
+    },
+    {
+      "filename": "R22.htm",
+      "sequence": "72",
+      "type": "XML"
+    },
+    {
+      "filename": "R36.htm",
+      "sequence": "73",
+      "type": "XML"
+    },
+    {
+      "filename": "R24.htm",
+      "sequence": "74",
+      "type": "XML"
+    },
+    {
+      "filename": "R68.htm",
+      "sequence": "75",
+      "type": "XML"
+    },
+    {
+      "filename": "Show.js",
+      "sequence": "76",
+      "type": "XML"
+    },
+    {
+      "filename": "R7.htm",
+      "sequence": "77",
+      "type": "XML"
+    },
+    {
+      "filename": "R3.htm",
+      "sequence": "78",
+      "type": "XML"
+    },
+    {
+      "filename": "R17.htm",
+      "sequence": "79",
+      "type": "XML"
+    },
+    {
+      "filename": "R1.htm",
+      "sequence": "80",
+      "type": "XML"
+    },
+    {
+      "filename": "R18.htm",
+      "sequence": "81",
+      "type": "XML"
+    },
+    {
+      "filename": "R80.htm",
+      "sequence": "82",
+      "type": "XML"
+    },
+    {
+      "filename": "R4.htm",
+      "sequence": "83",
+      "type": "XML"
+    },
+    {
+      "filename": "R12.htm",
+      "sequence": "84",
+      "type": "XML"
+    },
+    {
+      "filename": "R11.htm",
+      "sequence": "85",
+      "type": "XML"
+    },
+    {
+      "filename": "R23.htm",
+      "sequence": "86",
+      "type": "XML"
+    },
+    {
+      "filename": "R19.htm",
+      "sequence": "87",
+      "type": "XML"
+    },
+    {
+      "filename": "R84.htm",
+      "sequence": "88",
+      "type": "XML"
+    },
+    {
+      "filename": "R15.htm",
+      "sequence": "89",
+      "type": "XML"
+    },
+    {
+      "filename": "R60.htm",
+      "sequence": "90",
+      "type": "XML"
+    },
+    {
+      "filename": "R13.htm",
+      "sequence": "91",
+      "type": "XML"
+    },
+    {
+      "filename": "R14.htm",
+      "sequence": "92",
+      "type": "XML"
+    },
+    {
+      "filename": "R16.htm",
+      "sequence": "93",
+      "type": "XML"
+    },
+    {
+      "filename": "R64.htm",
+      "sequence": "94",
+      "type": "XML"
+    },
+    {
+      "filename": "R85.htm",
+      "sequence": "95",
+      "type": "XML"
+    },
+    {
+      "filename": "R66.htm",
+      "sequence": "96",
+      "type": "XML"
+    },
+    {
+      "filename": "R63.htm",
+      "sequence": "97",
+      "type": "XML"
+    },
+    {
+      "filename": "R34.htm",
+      "sequence": "98",
+      "type": "XML"
+    },
+    {
+      "filename": "R51.htm",
+      "sequence": "99",
+      "type": "XML"
+    },
+    {
+      "filename": "R21.htm",
+      "sequence": "100",
+      "type": "XML"
+    },
+    {
+      "filename": "R26.htm",
+      "sequence": "101",
+      "type": "XML"
+    },
+    {
+      "filename": "R49.htm",
+      "sequence": "102",
+      "type": "XML"
+    },
+    {
+      "filename": "R41.htm",
+      "sequence": "103",
+      "type": "XML"
+    },
+    {
+      "filename": "R5.htm",
+      "sequence": "104",
+      "type": "XML"
+    },
+    {
+      "filename": "R10.htm",
+      "sequence": "105",
+      "type": "XML"
+    },
+    {
+      "filename": "R58.htm",
+      "sequence": "106",
+      "type": "XML"
+    },
+    {
+      "filename": "R82.htm",
+      "sequence": "107",
+      "type": "XML"
+    },
+    {
+      "filename": "R69.htm",
+      "sequence": "108",
+      "type": "XML"
+    },
+    {
+      "filename": "R27.htm",
+      "sequence": "109",
+      "type": "XML"
+    },
+    {
+      "filename": "FilingSummary.xml",
+      "sequence": "110",
+      "type": "XML"
+    },
+    {
+      "filename": "R74.htm",
+      "sequence": "111",
+      "type": "XML"
+    },
+    {
+      "filename": "R38.htm",
+      "sequence": "112",
+      "type": "XML"
+    },
+    {
+      "filename": "R20.htm",
+      "sequence": "113",
+      "type": "XML"
+    }
+  ]
+}

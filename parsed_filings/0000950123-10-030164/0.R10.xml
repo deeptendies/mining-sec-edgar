@@ -1,0 +1,272 @@
+<XBRL>
+<?xml version="1.0" encoding="utf-8"?>
+<InstanceReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.0.0.10</Version>
+  <hasSegments>false</hasSegments>
+  <ReportName>Vendor Arrangements</ReportName>
+  <ReportLongName>0603 - Disclosure - Vendor Arrangements</ReportLongName>
+  <DisplayLabelColumn>true</DisplayLabelColumn>
+  <ShowElementNames>false</ShowElementNames>
+  <RoundingOption />
+  <HasEmbeddedReports>false</HasEmbeddedReports>
+  <Columns>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>1</Id>
+      <Labels>
+        <Label Id="1" Label="12 Months Ended" />
+        <Label Id="2" Label="Jan. 30, 2010" />
+      </Labels>
+      <CurrencyCode>usd</CurrencyCode>
+      <CurrencySymbol>$</CurrencySymbol>
+      <FootnoteIndexer />
+      <hasSegments>false</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments />
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>Shares</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>USD</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>USDEPS</UnitID>
+          <UnitType>Divide</UnitType>
+          <NumeratorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </NumeratorMeasure>
+          <DenominatorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </DenominatorMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+    </Column>
+  </Columns>
+  <Rows>
+    <Row>
+      <Id>2</Id>
+      <Label>Vendor Arrangements [Abstract]</Label>
+      <Level>0</Level>
+      <ElementName>gme_VendorArrangementsAbstract</ElementName>
+      <ElementPrefix>gme</ElementPrefix>
+      <IsBaseElement>false</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ElementDataType>string</ElementDataType>
+      <ShortDefinition>Vendor Arrangements.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>true</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDefenition>Vendor Arrangements.</ElementDefenition>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>3</Id>
+      <Label>Vendor Arrangements</Label>
+      <Level>1</Level>
+      <ElementName>gme_VendorArrangementsTextBlock</ElementName>
+      <ElementPrefix>gme</ElementPrefix>
+      <IsBaseElement>false</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ElementDataType>string</ElementDataType>
+      <ShortDefinition>Vendor Arrangements.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>verboselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note 3 - gme:VendorArrangementsTextBlock--&gt;
+   &lt;div style="margin-left: 0%"&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff; text-align: left"&gt;
+   &lt;tr&gt;
+       &lt;td width="3%"&gt;&lt;/td&gt;
+       &lt;td width="97%"&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="top"&gt;
+       &lt;td&gt;
+       &lt;b&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;3.&amp;#160;&amp;#160;&lt;/font&gt;&lt;/b&gt;
+   &lt;/td&gt;
+       &lt;td&gt;
+       &lt;b&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Vendor
+       Arrangements&lt;/font&gt;&lt;/b&gt;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;/table&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       The Company and approximately 50 of its vendors participate in
+       cooperative advertising programs and other vendor marketing
+       programs in which the vendors provide the Company with cash
+       consideration in exchange for marketing and advertising the
+       vendors&amp;#8217; products. The Company&amp;#8217;s accounting for
+       cooperative advertising arrangements and other vendor marketing
+       programs results in a portion of the consideration received from
+       the Company&amp;#8217;s vendors reducing the product costs in
+       inventory rather than as an offset to the Company&amp;#8217;s
+       marketing and advertising costs. The consideration serving as a
+       reduction in inventory is recognized in cost of sales as
+       inventory is sold. The amount of vendor allowances to be
+       recorded as a reduction of inventory was determined by
+       calculating the ratio of vendor allowances in excess of
+       specific, incremental and identifiable advertising and
+       promotional costs to merchandise purchases. The Company then
+       applied this ratio to the value of inventory in determining the
+       amount of vendor reimbursements to be recorded as a reduction to
+       inventory reflected on the balance sheet.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       The cooperative advertising programs and other vendor marketing
+       programs generally cover a period from a few days up to a few
+       weeks and include items such as product catalog advertising,
+       in-store display promotions, Internet advertising, co-op print
+       advertising, product training and promotion at the
+       Company&amp;#8217;s annual store managers conference. The allowance
+       for each event is negotiated with the vendor and requires
+       specific performance by the Company to be earned.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       Specific, incremental and identifiable advertising and
+       promotional costs were $92,952, $92,083 and $76,074 in the
+       52&amp;#160;week periods ended January&amp;#160;30, 2010,
+       January&amp;#160;31, 2009 and February&amp;#160;2, 2008, respectively.
+       Vendor allowances received in excess of advertising expenses
+       were recorded as a reduction of cost of sales of $116,877,
+       $125,115 and $92,425 for the 52&amp;#160;week periods ended
+       January&amp;#160;30, 2010, January&amp;#160;31, 2009 and
+       February&amp;#160;2, 2008, respectively. The amounts deferred as a
+       reduction in inventory were $654 and $3,193 for the
+       52&amp;#160;weeks ended January&amp;#160;30, 2010 and January&amp;#160;31,
+       2009, respectively. The amount recognized as income related to
+       the capitalization of excess vendor allowances was $6,113 for
+       the 52&amp;#160;weeks ended February&amp;#160;2, 2008.
+   &lt;/div&gt;
+   &lt;!-- XBRL Pagebreak Begin --&gt;
+   &lt;/div&gt;
+   &lt;!-- END PAGE WIDTH --&gt;
+   &lt;!-- PAGEBREAK --&gt;
+   &lt;div style="margin-left: 0%"&gt;
+   &lt;!-- BEGIN PAGE WIDTH --&gt;
+   &lt;div style="margin-top: 0pt; font-size: 1pt"&gt;
+   &lt;/div&gt;
+   &lt;div align="center" style="margin-left: 0%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+   &lt;b&gt;
+   &lt;font style="font-family: 'Times New Roman', Times"&gt;
+   &lt;/font&gt;
+   &lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 0pt; font-size: 1pt"&gt;
+   &lt;/div&gt;
+   &lt;div align="center" style="margin-left: 0%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+   &lt;b&gt;
+   &lt;font style="font-family: 'Times New Roman', Times"&gt;
+   &lt;/font&gt;
+   &lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 0pt; font-size: 1pt"&gt;
+   &lt;/div&gt;
+   &lt;!-- XBRL Pagebreak End --&gt;
+   &lt;/div&gt;
+</NonNumbericText>
+          <NonNumericTextHeader>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note</NonNumericTextHeader>
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDefenition>Vendor Arrangements.</ElementDefenition>
+      <ElementReferences>No authoritative reference available.</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+  </Rows>
+  <Footnotes />
+  <ComparabilityReport>false</ComparabilityReport>
+  <NumberOfCols>1</NumberOfCols>
+  <NumberOfRows>2</NumberOfRows>
+  <HasScenarios>false</HasScenarios>
+  <MonetaryRoundingLevel>UnKnown</MonetaryRoundingLevel>
+  <SharesRoundingLevel>UnKnown</SharesRoundingLevel>
+  <PerShareRoundingLevel>UnKnown</PerShareRoundingLevel>
+  <HasPureData>false</HasPureData>
+  <SharesShouldBeRounded>true</SharesShouldBeRounded>
+</InstanceReport>
+</XBRL>

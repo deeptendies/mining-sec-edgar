@@ -1,0 +1,463 @@
+<XBRL>
+<?xml version="1.0" encoding="utf-8"?>
+<FilingSummary xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.0.0.10</Version>
+  <MyReports>
+    <Report>
+      <IsDefault>true</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>00 - Document - Document and Entity Information</LongName>
+      <ShortName>Document and Entity Information</ShortName>
+      <Role>http://gamestop.com/role/DocumentAndEntityInformation</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R1.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>01 - Statement - Consolidated Balance Sheets</LongName>
+      <ShortName>Consolidated Balance Sheets</ShortName>
+      <Role>http://gamestop.com/role/BalanceSheets</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R2.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>011 - Statement - Consolidated Balance Sheets (Parenthetical)</LongName>
+      <ShortName>Consolidated Balance Sheets (Parenthetical)</ShortName>
+      <Role>http://gamestop.com/role/BalanceSheetsParenthetical</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R3.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>02 - Statement - Consolidated Statements of Operations</LongName>
+      <ShortName>Consolidated Statements of Operations</ShortName>
+      <Role>http://gamestop.com/role/StatementsOfOperations</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R4.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>03 - Statement - Consolidated Statements of Changes in Stockholders Equity</LongName>
+      <ShortName>Consolidated Statements of Changes in Stockholders Equity</ShortName>
+      <Role>http://gamestop.com/role/StockholdersEquity</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R5.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>031 - Statement - Consolidated Statements of Changes in Stockholders Equity (Parenthetical)</LongName>
+      <ShortName>Consolidated Statements of Changes in Stockholders Equity (Parenthetical)</ShortName>
+      <Role>http://gamestop.com/role/StockholdersEquityParenthetical</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R6.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>04 - Statement - Consolidated Statements of Cash Flows</LongName>
+      <ShortName>Consolidated Statements of Cash Flows</ShortName>
+      <Role>http://gamestop.com/role/CashFlows</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R7.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>0601 - Disclosure - Summary of Significant Accounting Policies</LongName>
+      <ShortName>Summary of Significant Accounting Policies</ShortName>
+      <Role>http://gamestop.com/role/SummaryOfSignificantAccountingPolicies</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R8.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>0602 - Disclosure - Acquisitions</LongName>
+      <ShortName>Acquisitions</ShortName>
+      <Role>http://gamestop.com/role/Acquisitions</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R9.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>0603 - Disclosure - Vendor Arrangements</LongName>
+      <ShortName>Vendor Arrangements</ShortName>
+      <Role>http://gamestop.com/role/VendorArrangements</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R10.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>0604 - Disclosure - Computation of Net Income per Common Share</LongName>
+      <ShortName>Computation of Net Income per Common Share</ShortName>
+      <Role>http://gamestop.com/role/ComputationOfNetEarningsPerCommonShare</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R11.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>0605 - Disclosure - Fair Value Measurements and Financial Instruments</LongName>
+      <ShortName>Fair Value Measurements and Financial Instruments</ShortName>
+      <Role>http://gamestop.com/role/FairValueMeasurementsAndFinancialInstruments</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R12.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>0606 - Disclosure - Receivables, Net</LongName>
+      <ShortName>Receivables, Net</ShortName>
+      <Role>http://gamestop.com/role/ReceivablesNet</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R13.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>0607 - Disclosure - Accrued Liabilities</LongName>
+      <ShortName>Accrued Liabilities</ShortName>
+      <Role>http://gamestop.com/role/AccruedLiabilities</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R14.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>0608 - Disclosure - Goodwill, Intangible Assets and Deferred Financing Fees</LongName>
+      <ShortName>Goodwill, Intangible Assets and Deferred Financing Fees</ShortName>
+      <Role>http://gamestop.com/role/GoodwillIntangibleAssetsAndDeferredFinancingFees</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R15.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>0609 - Disclosure - Debt</LongName>
+      <ShortName>Debt</ShortName>
+      <Role>http://gamestop.com/role/Debt</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R16.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>0610 - Disclosure - Leases</LongName>
+      <ShortName>Leases</ShortName>
+      <Role>http://gamestop.com/role/Leases</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R17.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>0611 - Disclosure - Commitments and Contingencies</LongName>
+      <ShortName>Commitments and Contingencies</ShortName>
+      <Role>http://gamestop.com/role/CommitmentsAndContingencies</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R18.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>0612 - Disclosure - Income Taxes</LongName>
+      <ShortName>Income Taxes</ShortName>
+      <Role>http://gamestop.com/role/IncomeTaxes</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R19.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>0613 - Disclosure - Stock Incentive Plan</LongName>
+      <ShortName>Stock Incentive Plan</ShortName>
+      <Role>http://gamestop.com/role/StockIncentivePlan</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R20.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>0614 - Disclosure - Employees Defined Contribution Plan</LongName>
+      <ShortName>Employees Defined Contribution Plan</ShortName>
+      <Role>http://gamestop.com/role/EmployeesDefinedContributionPlan</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R21.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>0615 - Disclosure - Certain Relationships and Related Transactions</LongName>
+      <ShortName>Certain Relationships and Related Transactions</ShortName>
+      <Role>http://gamestop.com/role/CertainRelationshipsAndRelatedTransactions</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R22.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>0616 - Disclosure - Significant Products</LongName>
+      <ShortName>Significant Products</ShortName>
+      <Role>http://gamestop.com/role/SignificantProducts</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R23.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>0617 - Disclosure - Segment Information</LongName>
+      <ShortName>Segment Information</ShortName>
+      <Role>http://gamestop.com/role/SegmentInformation</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R24.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>0618 - Disclosure - Supplemental Cash Flow Information</LongName>
+      <ShortName>Supplemental Cash Flow Information</ShortName>
+      <Role>http://gamestop.com/role/SupplementalCashFlowInformation</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R25.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>0619 - Disclosure - Shareholders Equity</LongName>
+      <ShortName>Shareholders Equity</ShortName>
+      <Role>http://gamestop.com/role/ShareholdersEquity</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R26.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>0620 - Disclosure - Consolidating Financial Statements</LongName>
+      <ShortName>Consolidating Financial Statements</ShortName>
+      <Role>http://gamestop.com/role/ConsolidatingFinancialStatements</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R27.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>0621 - Disclosure - Unaudited Quarterly Financial Information</LongName>
+      <ShortName>Unaudited Quarterly Financial Information</ShortName>
+      <Role>http://gamestop.com/role/QuarterlyFinancialInformation</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R28.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Sheet</ReportType>
+      <LongName>0701 - Schedule - Valuation and Qualifying Accounts</LongName>
+      <ShortName>Valuation and Qualifying Accounts</ShortName>
+      <Role>http://gamestop.com/role/ValuationAndQualifyingAccounts</Role>
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName>R29.xml</XmlFileName>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <ReportType>Book</ReportType>
+      <LongName>All Reports</LongName>
+      <ShortName>All Reports</ShortName>
+      <Role />
+      <ContainEmbeddedReports>false</ContainEmbeddedReports>
+      <XmlFileName />
+    </Report>
+  </MyReports>
+  <EntityCount>1</EntityCount>
+  <ContextCount>43</ContextCount>
+  <SegmentCount>6</SegmentCount>
+  <ScenarioCount>0</ScenarioCount>
+  <UnitCount>3</UnitCount>
+  <ElementCount>138</ElementCount>
+  <FootnotesReported>true</FootnotesReported>
+  <TuplesReported>false</TuplesReported>
+  <ContextSummary>
+    <ContextSummary>
+      <ContextName>TwelveMonthsEnded_02Feb2008_Additional_Paid_In_Capital_Member</ContextName>
+      <ElementCount>3</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>BalanceAsOf_03Feb2007_Accumulated_Other_Comprehensive_Income_Member</ContextName>
+      <ElementCount>1</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>BalanceAsOf_31Jan2009_Additional_Paid_In_Capital_Member</ContextName>
+      <ElementCount>1</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>BalanceAsOf_30Jan2010_Accumulated_Other_Comprehensive_Income_Member</ContextName>
+      <ElementCount>1</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>BalanceAsOf_03Feb2007_Common_Stock_Member</ContextName>
+      <ElementCount>2</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>TwelveMonthsEnded_31Jan2009</ContextName>
+      <ElementCount>52</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>BalanceAsOf_31Jan2009_Accumulated_Other_Comprehensive_Income_Member</ContextName>
+      <ElementCount>1</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>BalanceAsOf_02Feb2008</ContextName>
+      <ElementCount>2</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>BalanceAsOf_02Feb2008_Accumulated_Other_Comprehensive_Income_Member</ContextName>
+      <ElementCount>1</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>February-01-2009_January-30-2010</ContextName>
+      <ElementCount>87</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>TwelveMonthsEnded_02Feb2008_Retained_Earnings_Member</ContextName>
+      <ElementCount>1</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>TwelveMonthsEnded_03Feb2007</ContextName>
+      <ElementCount>1</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>TwelveMonthsEnded_02Feb2008_Common_Stock_Member</ContextName>
+      <ElementCount>2</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>BalanceAsOf_03Feb2007_Retained_Earnings_Member</ContextName>
+      <ElementCount>1</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>TwelveMonthsEnded_02Feb2008</ContextName>
+      <ElementCount>49</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>BalanceAsOf_31Jul2009</ContextName>
+      <ElementCount>1</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>BalanceAsOf_30Jan2010_Retained_Earnings_Member</ContextName>
+      <ElementCount>1</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>BalanceAsOf_30Jan2010</ContextName>
+      <ElementCount>42</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>TwelveMonthsEnded_31Jan2009_Retained_Earnings_Member</ContextName>
+      <ElementCount>1</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>BalanceAsOf_03Feb2007_Retained_Earnings_Member_Scenario_Previously_Reported_Member</ContextName>
+      <ElementCount>1</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>BalanceAsOf_30Jan2010_Noncontrolling_Interest_Member</ContextName>
+      <ElementCount>1</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>BalanceAsOf_03Feb2007</ContextName>
+      <ElementCount>2</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>TwelveMonthsEnded_31Jan2009_Accumulated_Other_Comprehensive_Income_Member</ContextName>
+      <ElementCount>1</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>TwelveMonthsEnded_30Jan2010_Retained_Earnings_Member</ContextName>
+      <ElementCount>1</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>BalanceAsOf_02Feb2008_Additional_Paid_In_Capital_Member</ContextName>
+      <ElementCount>1</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>BalanceAsOf_30Jan2010_Additional_Paid_In_Capital_Member</ContextName>
+      <ElementCount>1</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>TwelveMonthsEnded_30Jan2010_Accumulated_Other_Comprehensive_Income_Member</ContextName>
+      <ElementCount>1</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>BalanceAsOf_02Feb2008_Common_Stock_Member</ContextName>
+      <ElementCount>2</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>BalanceAsOf_31Jan2009_Retained_Earnings_Member</ContextName>
+      <ElementCount>1</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>TwelveMonthsEnded_31Jan2009_Common_Stock_Member</ContextName>
+      <ElementCount>2</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>TwelveMonthsEnded_31Jan2009_Additional_Paid_In_Capital_Member</ContextName>
+      <ElementCount>3</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>BalanceAsOf_02Feb2008_Retained_Earnings_Member</ContextName>
+      <ElementCount>1</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>BalanceAsOf_03Feb2007_Scenario_Previously_Reported_Member</ContextName>
+      <ElementCount>1</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>TwelveMonthsEnded_30Jan2010_Common_Stock_Member</ContextName>
+      <ElementCount>4</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>TwelveMonthsEnded_30Jan2010_Additional_Paid_In_Capital_Member</ContextName>
+      <ElementCount>5</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>BalanceAsOf_31Jan2009_Common_Stock_Member</ContextName>
+      <ElementCount>2</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>BalanceAsOf_25Mar2010</ContextName>
+      <ElementCount>1</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>BalanceAsOf_30Jan2010_Common_Stock_Member</ContextName>
+      <ElementCount>2</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>TwelveMonthsEnded_30Jan2010_Noncontrolling_Interest_Member</ContextName>
+      <ElementCount>2</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>BalanceAsOf_31Jan2009</ContextName>
+      <ElementCount>42</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>TwelveMonthsEnded_03Feb2007_Retained_Earnings_Member</ContextName>
+      <ElementCount>1</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>BalanceAsOf_03Feb2007_Additional_Paid_In_Capital_Member</ContextName>
+      <ElementCount>1</ElementCount>
+    </ContextSummary>
+    <ContextSummary>
+      <ContextName>TwelveMonthsEnded_02Feb2008_Accumulated_Other_Comprehensive_Income_Member</ContextName>
+      <ElementCount>1</ElementCount>
+    </ContextSummary>
+  </ContextSummary>
+  <BaseTaxonomies />
+  <HasPresentationLinkbase>true</HasPresentationLinkbase>
+  <HasCalculationLinkbase>true</HasCalculationLinkbase>
+</FilingSummary>
+</XBRL>

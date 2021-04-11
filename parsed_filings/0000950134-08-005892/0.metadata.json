@@ -1,0 +1,84 @@
+{
+  "ACCESSION_NUMBER": "0000950134-08-005892",
+  "CONFORMED_PERIOD_OF_REPORT": "20080202",
+  "CONFORMED_SUBMISSION_TYPE": "10-K",
+  "DATE_AS_OF_CHANGE": "20080402",
+  "FILED_AS_OF_DATE": "20080402",
+  "FILER": {
+    "BUSINESS_ADDRESS": {
+      "BUSINESS_PHONE": "817-424-2000",
+      "CITY": "GRAPEVINE",
+      "STATE": "TX",
+      "STREET_1": "625 WESTPORT PARKWAY",
+      "ZIP": "76051"
+    },
+    "COMPANY_DATA": {
+      "CENTRAL_INDEX_KEY": "0001326380",
+      "COMPANY_CONFORMED_NAME": "GameStop Corp.",
+      "FISCAL_YEAR_END": "0203",
+      "IRS_NUMBER": "000000000",
+      "STANDARD_INDUSTRIAL_CLASSIFICATION": "RETAIL-COMPUTER & COMPUTER SOFTWARE STORES [5734]",
+      "STATE_OF_INCORPORATION": "DE"
+    },
+    "FILING_VALUES": {
+      "FILM_NUMBER": "08733749",
+      "FORM_TYPE": "10-K",
+      "SEC_ACT": "1934 Act",
+      "SEC_FILE_NUMBER": "001-32637"
+    },
+    "FORMER_COMPANY": {
+      "DATE_OF_NAME_CHANGE": "20050506",
+      "FORMER_CONFORMED_NAME": "GSC Holdings Corp."
+    },
+    "MAIL_ADDRESS": {
+      "CITY": "GRAPEVINE",
+      "STATE": "TX",
+      "STREET_1": "625 WESTPORT PARKWAY",
+      "ZIP": "76051"
+    }
+  },
+  "PUBLIC_DOCUMENT_COUNT": "8",
+  "acceptance-datetime": "20080402161723",
+  "documents": [
+    {
+      "filename": "d55358e10vk.htm",
+      "sequence": "1",
+      "type": "10-K"
+    },
+    {
+      "filename": "d55358exv12w1.htm",
+      "sequence": "2",
+      "type": "EX-12.1"
+    },
+    {
+      "filename": "d55358exv21w1.htm",
+      "sequence": "3",
+      "type": "EX-21.1"
+    },
+    {
+      "filename": "d55358exv23w1.htm",
+      "sequence": "4",
+      "type": "EX-23.1"
+    },
+    {
+      "filename": "d55358exv31w1.htm",
+      "sequence": "5",
+      "type": "EX-31.1"
+    },
+    {
+      "filename": "d55358exv31w2.htm",
+      "sequence": "6",
+      "type": "EX-31.2"
+    },
+    {
+      "filename": "d55358exv32w1.htm",
+      "sequence": "7",
+      "type": "EX-32.1"
+    },
+    {
+      "filename": "d55358exv32w2.htm",
+      "sequence": "8",
+      "type": "EX-32.2"
+    }
+  ]
+}

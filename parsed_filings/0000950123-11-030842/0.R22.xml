@@ -1,0 +1,77 @@
+<XBRL>
+<?xml version="1.0" encoding="us-ascii"?><InstanceReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"><Version>2.2.0.25</Version><hasSegments>false</hasSegments><hasScenarios>false</hasScenarios><ReportLongName>0215 - Disclosure - Certain Relationships and Related Transactions</ReportLongName><DisplayLabelColumn>true</DisplayLabelColumn><ShowElementNames>false</ShowElementNames><RoundingOption /><HasEmbeddedReports>false</HasEmbeddedReports><Columns><Column><Id>1</Id><IsAbstractGroupTitle>false</IsAbstractGroupTitle><LabelColumn>false</LabelColumn><CurrencyCode>USD</CurrencyCode><FootnoteIndexer /><hasSegments>false</hasSegments><hasScenarios>false</hasScenarios><MCU><KeyName>1/31/2010 - 1/29/2011
+USD ($)
+
+USD ($) / shares
+</KeyName><CurrencySymbol>$</CurrencySymbol><contextRef><ContextID>Jan-31-2010_Jan-29-2011</ContextID><EntitySchema>http://www.sec.gov/CIK</EntitySchema><EntityValue>0001326380</EntityValue><PeriodDisplayName /><PeriodType>duration</PeriodType><PeriodStartDate>2010-01-31T00:00:00</PeriodStartDate><PeriodEndDate>2011-01-29T00:00:00</PeriodEndDate><Segments /><Scenarios /></contextRef><UPS><UnitProperty><UnitID>USD</UnitID><UnitType>Standard</UnitType><StandardMeasure><MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema><MeasureValue>USD</MeasureValue><MeasureNamespace>iso4217</MeasureNamespace></StandardMeasure><Scale>0</Scale></UnitProperty><UnitProperty><UnitID>Shares</UnitID><UnitType>Standard</UnitType><StandardMeasure><MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema><MeasureValue>shares</MeasureValue><MeasureNamespace>xbrli</MeasureNamespace></StandardMeasure><Scale>0</Scale></UnitProperty><UnitProperty><UnitID>USDEPS</UnitID><UnitType>Divide</UnitType><NumeratorMeasure><MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema><MeasureValue>USD</MeasureValue><MeasureNamespace>iso4217</MeasureNamespace></NumeratorMeasure><DenominatorMeasure><MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema><MeasureValue>shares</MeasureValue><MeasureNamespace>xbrli</MeasureNamespace></DenominatorMeasure><Scale>0</Scale></UnitProperty></UPS><CurrencyCode>USD</CurrencyCode><OriginalCurrencyCode>USD</OriginalCurrencyCode></MCU><CurrencySymbol>$</CurrencySymbol><Labels><Label Id="1" Label="12 Months Ended" /><Label Id="2" Label="Jan. 29, 2011" /></Labels></Column></Columns><Rows><Row><Id>2</Id><IsAbstractGroupTitle>true</IsAbstractGroupTitle><Level>0</Level><ElementName>us-gaap_RelatedPartyTransactionDueFromToRelatedPartyAbstract</ElementName><ElementPrefix>us-gaap</ElementPrefix><IsBaseElement>true</IsBaseElement><BalanceType>na</BalanceType><PeriodType>duration</PeriodType><ShortDefinition>No definition available.</ShortDefinition><IsReportTitle>false</IsReportTitle><IsSegmentTitle>false</IsSegmentTitle><IsSubReportEnd>false</IsSubReportEnd><IsCalendarTitle>false</IsCalendarTitle><IsTuple>false</IsTuple><IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow><IsEquityAdjustmentRow>false</IsEquityAdjustmentRow><IsBeginningBalance>false</IsBeginningBalance><IsEndingBalance>false</IsEndingBalance><IsReverseSign>false</IsReverseSign><PreferredLabelRole /><FootnoteIndexer /><Cells><Cell><Id>1</Id><IsNumeric>false</IsNumeric><IsRatio>false</IsRatio><DisplayZeroAsNone>false</DisplayZeroAsNone><NumericAmount>0</NumericAmount><RoundedNumericAmount>0</RoundedNumericAmount><NonNumbericText /><NonNumericTextHeader /><FootnoteIndexer /><CurrencyCode /><CurrencySymbol /><IsIndependantCurrency>false</IsIndependantCurrency><ShowCurrencySymbol>false</ShowCurrencySymbol><DisplayDateInUSFormat>false</DisplayDateInUSFormat><hasSegments>false</hasSegments><hasScenarios>false</hasScenarios></Cell></Cells><OriginalInstanceReportColumns /><Unit>Other</Unit><ElementDataType>xbrli:stringItemType</ElementDataType><SimpleDataType>string</SimpleDataType><ElementDefenition>No definition available.</ElementDefenition><IsTotalLabel>false</IsTotalLabel><IsEPS>false</IsEPS><Label>Certain Relationships and Related Transactions [Abstract]</Label></Row><Row><Id>3</Id><IsAbstractGroupTitle>false</IsAbstractGroupTitle><Level>0</Level><ElementName>us-gaap_RelatedPartyTransactionsDisclosureTextBlock</ElementName><ElementPrefix>us-gaap</ElementPrefix><IsBaseElement>true</IsBaseElement><BalanceType>na</BalanceType><PeriodType>duration</PeriodType><ShortDefinition>No definition available.</ShortDefinition><IsReportTitle>false</IsReportTitle><IsSegmentTitle>false</IsSegmentTitle><IsSubReportEnd>false</IsSubReportEnd><IsCalendarTitle>false</IsCalendarTitle><IsTuple>false</IsTuple><IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow><IsEquityAdjustmentRow>false</IsEquityAdjustmentRow><IsBeginningBalance>false</IsBeginningBalance><IsEndingBalance>false</IsEndingBalance><IsReverseSign>false</IsReverseSign><PreferredLabelRole>verboselabel</PreferredLabelRole><FootnoteIndexer /><Cells><Cell><Id>1</Id><IsNumeric>false</IsNumeric><IsRatio>false</IsRatio><DisplayZeroAsNone>false</DisplayZeroAsNone><NumericAmount>0</NumericAmount><RoundedNumericAmount>0</RoundedNumericAmount><NonNumbericText>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note 16 - us-gaap:RelatedPartyTransactionsDisclosureTextBlock--&gt;
+   &lt;div style="margin-left: 0%"&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: transparent; text-align: left"&gt;
+   &lt;tr&gt;
+       &lt;td width="5%"&gt;&lt;/td&gt;
+       &lt;td width="95%"&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="top"&gt;
+       &lt;td&gt;
+       &lt;b&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;15.&amp;#160;&amp;#160;&lt;/font&gt;&lt;/b&gt;
+   &lt;/td&gt;
+       &lt;td&gt;
+       &lt;b&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Certain
+       Relationships and Related Transactions&lt;/font&gt;&lt;/b&gt;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;/table&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: transparent"&gt;
+       The Company has various relationships with Barnes&amp;#160;&amp;#038;
+       Noble, Inc. (&amp;#8220;Barnes&amp;#160;&amp;#038; Noble&amp;#8221;), a related
+       party through a common stockholder who is the Chairman of the
+       Board of Directors of Barnes&amp;#160;&amp;#038; Noble and a member of
+       the Company&amp;#8217;s Board of Directors. The Company operates
+       departments within eight bookstores operated by
+       Barnes&amp;#160;&amp;#038; Noble, whereby the Company pays a license fee
+       to Barnes&amp;#160;&amp;#038; Noble on the gross sales of such
+       departments. Additionally, &lt;u&gt;www.gamestop.com&lt;/u&gt; is the
+       exclusive specialty video game retailer listed on
+       &lt;u&gt;www.bn.com&lt;/u&gt;, Barnes&amp;#160;&amp;#038; Noble&amp;#8217;s
+       &lt;font style="white-space: nowrap"&gt;e-commerce&lt;/font&gt;
+       site whereby the Company pays a fee to Barnes&amp;#160;&amp;#038; Noble
+       for sales of video game or PC entertainment products sold
+       through &lt;u&gt;www.bn.com.&lt;/u&gt; The Company also continues to incur
+       costs related to its participation in Barnes&amp;#160;&amp;#038;
+       Noble&amp;#8217;s workers&amp;#8217; compensation, property and general
+       liability insurance programs prior to June 2005. During the
+       52&amp;#160;weeks ended January&amp;#160;29, 2011, January&amp;#160;30, 2010
+       and January&amp;#160;31, 2009, the charges related to these
+       transactions amounted to $1.4&amp;#160;million, $1.6&amp;#160;million
+       and $1.9&amp;#160;million, respectively.
+   &lt;/div&gt;
+   &lt;/div&gt;
+</NonNumbericText><NonNumericTextHeader>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note</NonNumericTextHeader><FootnoteIndexer /><CurrencyCode /><CurrencySymbol /><IsIndependantCurrency>false</IsIndependantCurrency><ShowCurrencySymbol>false</ShowCurrencySymbol><DisplayDateInUSFormat>false</DisplayDateInUSFormat><hasSegments>false</hasSegments><hasScenarios>false</hasScenarios></Cell></Cells><OriginalInstanceReportColumns /><Unit>Other</Unit><ElementDataType>us-types:textBlockItemType</ElementDataType><SimpleDataType>string</SimpleDataType><ElementDefenition>This element may be used for the entire related party transactions disclosure as a single block of text. Disclosure may include:  the nature of the relationship(s), a description of the transactions, the amount of the transactions, the effects of any change in the method of establishing the terms of the transaction from the previous period, stated interest rate, expiration date, terms and manner of settlement per the agreement with the related party, and amounts due to or from related parties. If the entity and one or more other entities are under common ownership or management control and this control affects the operating results or financial position, disclosure includes the nature of the control relationship even if there are no transactions between the entities. Disclosure may also include the aggregate amount of current and deferred tax expense for each statement of earnings presented where the entity is a member of a group that files a consolidated tax return, the amount of any tax related balances due to or from affiliates as of the date of each statement of financial position presented, the principal provisions of the method by which the consolidated amount of current and deferred tax expense is allocated to the members of the group and the nature and effect of any changes in that method. Examples of related party transactions include transactions between (a) a parent company and its subsidiary; (b) subsidiaries of a common parent; (c) and entity and its principal owners; and (d) affiliates.</ElementDefenition><ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher SEC
+ -Name Regulation S-X (SX)
+ -Number 210
+ -Section 04
+ -Paragraph b
+ -Article 3A
+
+Reference 2: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher SEC
+ -Name Regulation S-X (SX)
+ -Number 210
+ -Section 08
+ -Paragraph k
+ -Article 4
+
+Reference 3: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 57
+ -Paragraph 1-4
+
+</ElementReferences><IsTotalLabel>false</IsTotalLabel><IsEPS>false</IsEPS><Label>Certain Relationships and Related Transactions</Label></Row></Rows><Footnotes /><NumberOfCols>1</NumberOfCols><NumberOfRows>2</NumberOfRows><ReportName>Certain Relationships and Related Transactions</ReportName><MonetaryRoundingLevel>UnKnown</MonetaryRoundingLevel><SharesRoundingLevel>UnKnown</SharesRoundingLevel><PerShareRoundingLevel>UnKnown</PerShareRoundingLevel><ExchangeRateRoundingLevel>UnKnown</ExchangeRateRoundingLevel><HasCustomUnits>false</HasCustomUnits><SharesShouldBeRounded>true</SharesShouldBeRounded></InstanceReport>
+</XBRL>

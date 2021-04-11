@@ -1,0 +1,90 @@
+<XBRL>
+<?xml version="1.0" encoding="us-ascii" standalone="no"?>
+<!--XBRL document created with Bowne Tagger XBRL Enabler by Bowne Software version 10.0.0.82-->
+<!--Based on XBRL 2.1-->
+<!--Created on: 3/30/2010 11:44:14 PM-->
+<!--Modified on: 3/30/2010 11:44:14 PM-->
+<linkbase xmlns="http://www.xbrl.org/2003/linkbase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:xbrldt="http://xbrl.org/2005/xbrldt">
+  <roleRef xlink:type="simple" xlink:href="gme-20100130.xsd#StockholdersEquityParenthetical" roleURI="http://gamestop.com/role/StockholdersEquityParenthetical" />
+  <arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#hypercube-dimension" arcroleURI="http://xbrl.org/int/dim/arcrole/hypercube-dimension" />
+  <arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain" arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" />
+  <arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-default" arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-default" />
+  <arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member" arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" />
+  <arcroleRef xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#all" arcroleURI="http://xbrl.org/int/dim/arcrole/all" />
+  <roleRef xlink:type="simple" xlink:href="gme-20100130.xsd#StockholdersEquity" roleURI="http://gamestop.com/role/StockholdersEquity" />
+  <definitionLink xlink:type="extended" xlink:role="http://gamestop.com/role/StockholdersEquity" xlink:title="03 - Statement - Consolidated Statements of Changes in Stockholders Equity">
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_StatementTable" xlink:label="us-gaap_StatementTable" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_StatementScenarioAxis" xlink:label="us-gaap_StatementScenarioAxis" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="us-gaap_StatementTable" xlink:to="us-gaap_StatementScenarioAxis" order="20" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_ScenarioUnspecifiedDomain" xlink:label="us-gaap_ScenarioUnspecifiedDomain" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="us-gaap_StatementScenarioAxis" xlink:to="us-gaap_ScenarioUnspecifiedDomain" order="20" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_ScenarioUnspecifiedDomain" xlink:label="us-gaap_ScenarioUnspecifiedDomain_def" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="us-gaap_StatementScenarioAxis" xlink:to="us-gaap_ScenarioUnspecifiedDomain_def" order="20" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_ScenarioPreviouslyReportedMember" xlink:label="us-gaap_ScenarioPreviouslyReportedMember" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_ScenarioUnspecifiedDomain" xlink:to="us-gaap_ScenarioPreviouslyReportedMember" order="20" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_StatementEquityComponentsAxis" xlink:label="us-gaap_StatementEquityComponentsAxis" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="us-gaap_StatementTable" xlink:to="us-gaap_StatementEquityComponentsAxis" order="40" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_EquityComponentDomain" xlink:label="us-gaap_EquityComponentDomain" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="us-gaap_StatementEquityComponentsAxis" xlink:to="us-gaap_EquityComponentDomain" order="20" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_EquityComponentDomain" xlink:label="us-gaap_EquityComponentDomain_def" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-default" xlink:from="us-gaap_StatementEquityComponentsAxis" xlink:to="us-gaap_EquityComponentDomain_def" order="20" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_ParentMember" xlink:label="us-gaap_ParentMember" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_EquityComponentDomain" xlink:to="us-gaap_ParentMember" order="20" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_CommonStockMember" xlink:label="us-gaap_CommonStockMember" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_ParentMember" xlink:to="us-gaap_CommonStockMember" order="20" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_AdditionalPaidInCapitalMember" xlink:label="us-gaap_AdditionalPaidInCapitalMember" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_ParentMember" xlink:to="us-gaap_AdditionalPaidInCapitalMember" order="40" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_AccumulatedOtherComprehensiveIncomeMember" xlink:label="us-gaap_AccumulatedOtherComprehensiveIncomeMember" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_ParentMember" xlink:to="us-gaap_AccumulatedOtherComprehensiveIncomeMember" order="60" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_RetainedEarningsMember" xlink:label="us-gaap_RetainedEarningsMember" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_ParentMember" xlink:to="us-gaap_RetainedEarningsMember" order="80" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_NoncontrollingInterestMember" xlink:label="us-gaap_NoncontrollingInterestMember" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_EquityComponentDomain" xlink:to="us-gaap_NoncontrollingInterestMember" order="40" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_StatementLineItems" xlink:label="us-gaap_StatementLineItems" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_StatementTable" order="60" xlink:closed="true" xbrldt:contextElement="segment" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest" xlink:label="us-gaap_StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_StockholdersEquityIncludingPortionAttributableToNoncontrollingInterest" order="20" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_SharesIssued" xlink:label="us-gaap_SharesIssued" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_SharesIssued" order="40" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_CumulativeEffectOfInitialAdoptionOfNewAccountingPrinciple" xlink:label="us-gaap_CumulativeEffectOfInitialAdoptionOfNewAccountingPrinciple" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_CumulativeEffectOfInitialAdoptionOfNewAccountingPrinciple" order="60" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_MinorityInterestDecreaseFromRedemptions" xlink:label="us-gaap_MinorityInterestDecreaseFromRedemptions" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_MinorityInterestDecreaseFromRedemptions" order="80" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_OtherComprehensiveIncomeLossNetOfTaxPeriodIncreaseDecreaseAbstract" xlink:label="us-gaap_OtherComprehensiveIncomeLossNetOfTaxPeriodIncreaseDecreaseAbstract" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_OtherComprehensiveIncomeLossNetOfTaxPeriodIncreaseDecreaseAbstract" order="100" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_ProfitLoss" xlink:label="us-gaap_ProfitLoss" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_OtherComprehensiveIncomeLossNetOfTaxPeriodIncreaseDecreaseAbstract" xlink:to="us-gaap_ProfitLoss" order="20" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease" xlink:label="us-gaap_OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_OtherComprehensiveIncomeLossNetOfTaxPeriodIncreaseDecreaseAbstract" xlink:to="us-gaap_OtherComprehensiveIncomeForeignCurrencyTransactionAndTranslationAdjustmentNetOfTaxPeriodIncreaseDecrease" order="40" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_ComprehensiveIncomeNetOfTax" xlink:label="us-gaap_ComprehensiveIncomeNetOfTax" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_OtherComprehensiveIncomeLossNetOfTaxPeriodIncreaseDecreaseAbstract" xlink:to="us-gaap_ComprehensiveIncomeNetOfTax" order="60" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue" xlink:label="us-gaap_AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_AdjustmentsToAdditionalPaidInCapitalSharebasedCompensationRequisiteServicePeriodRecognitionValue" order="120" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_StockRepurchasedDuringPeriodValue" xlink:label="us-gaap_StockRepurchasedDuringPeriodValue" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_StockRepurchasedDuringPeriodValue" order="140" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_StockRepurchasedDuringPeriodShares" xlink:label="us-gaap_StockRepurchasedDuringPeriodShares" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_StockRepurchasedDuringPeriodShares" order="160" />
+    <loc xlink:type="locator" xlink:href="gme-20100130.xsd#gme_ExerciseOfStockOptionsAndIssuanceOfSharesUponVestingOfRestrictedStockGrants" xlink:label="gme_ExerciseOfStockOptionsAndIssuanceOfSharesUponVestingOfRestrictedStockGrants" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="gme_ExerciseOfStockOptionsAndIssuanceOfSharesUponVestingOfRestrictedStockGrants" order="180" />
+    <loc xlink:type="locator" xlink:href="gme-20100130.xsd#gme_ExerciseOfStockOptionsAndIssuanceOfSharesUponVestingOfRestrictedStockGrantsShares" xlink:label="gme_ExerciseOfStockOptionsAndIssuanceOfSharesUponVestingOfRestrictedStockGrantsShares" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="gme_ExerciseOfStockOptionsAndIssuanceOfSharesUponVestingOfRestrictedStockGrantsShares" order="200" />
+  </definitionLink>
+  <definitionLink xlink:type="extended" xlink:role="http://gamestop.com/role/StockholdersEquityParenthetical" xlink:title="031 - Statement - Consolidated Statements of Changes in Stockholders Equity (Parenthetical)">
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_StatementTable" xlink:label="us-gaap_StatementTable" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_StatementEquityComponentsAxis" xlink:label="us-gaap_StatementEquityComponentsAxis" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/hypercube-dimension" xlink:from="us-gaap_StatementTable" xlink:to="us-gaap_StatementEquityComponentsAxis" order="20" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_EquityComponentDomain" xlink:label="us-gaap_EquityComponentDomain" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="us-gaap_StatementEquityComponentsAxis" xlink:to="us-gaap_EquityComponentDomain" order="20" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_ParentMember" xlink:label="us-gaap_ParentMember" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_EquityComponentDomain" xlink:to="us-gaap_ParentMember" order="20" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_CommonStockMember" xlink:label="us-gaap_CommonStockMember" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_ParentMember" xlink:to="us-gaap_CommonStockMember" order="20" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_AdditionalPaidInCapitalMember" xlink:label="us-gaap_AdditionalPaidInCapitalMember" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_ParentMember" xlink:to="us-gaap_AdditionalPaidInCapitalMember" order="40" />
+    <loc xlink:type="locator" xlink:href="http://taxonomies.xbrl.us/us-gaap/2009/elts/us-gaap-2009-01-31.xsd#us-gaap_StatementLineItems" xlink:label="us-gaap_StatementLineItems" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/all" xlink:from="us-gaap_StatementLineItems" xlink:to="us-gaap_StatementTable" order="40" xlink:closed="true" xbrldt:contextElement="segment" />
+    <loc xlink:type="locator" xlink:href="gme-20100130.xsd#gme_TaxExpenseForExerciseOfStockOptionsAndIssuanceOfSharesUponVestingOfRestrictedStockGrants" xlink:label="gme_TaxExpenseForExerciseOfStockOptionsAndIssuanceOfSharesUponVestingOfRestrictedStockGrants" />
+    <definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="us-gaap_StatementLineItems" xlink:to="gme_TaxExpenseForExerciseOfStockOptionsAndIssuanceOfSharesUponVestingOfRestrictedStockGrants" order="20" />
+  </definitionLink>
+</linkbase>
+</XBRL>

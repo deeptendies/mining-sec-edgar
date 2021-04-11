@@ -1,0 +1,408 @@
+<XBRL>
+<?xml version="1.0" encoding="utf-8"?>
+<InstanceReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.0.0.10</Version>
+  <hasSegments>false</hasSegments>
+  <ReportName>Shareholders Equity</ReportName>
+  <ReportLongName>0619 - Disclosure - Shareholders Equity</ReportLongName>
+  <DisplayLabelColumn>true</DisplayLabelColumn>
+  <ShowElementNames>false</ShowElementNames>
+  <RoundingOption />
+  <HasEmbeddedReports>false</HasEmbeddedReports>
+  <Columns>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>1</Id>
+      <Labels>
+        <Label Id="1" Label="12 Months Ended" />
+        <Label Id="2" Label="Jan. 30, 2010" />
+      </Labels>
+      <CurrencyCode>usd</CurrencyCode>
+      <CurrencySymbol>$</CurrencySymbol>
+      <FootnoteIndexer />
+      <hasSegments>false</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments />
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>Shares</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>USD</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>USDEPS</UnitID>
+          <UnitType>Divide</UnitType>
+          <NumeratorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </NumeratorMeasure>
+          <DenominatorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </DenominatorMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+    </Column>
+  </Columns>
+  <Rows>
+    <Row>
+      <Id>2</Id>
+      <Label>Shareholders' Equity [Abstract]</Label>
+      <Level>0</Level>
+      <ElementName>us-gaap_StockholdersEquityNoteAbstract</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ElementDataType>string</ElementDataType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>true</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>3</Id>
+      <Label>Shareholders' Equity</Label>
+      <Level>1</Level>
+      <ElementName>us-gaap_StockholdersEquityNoteDisclosureTextBlock</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ElementDataType>string</ElementDataType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>verboselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note 19 - us-gaap:StockholdersEquityNoteDisclosureTextBlock--&gt;
+   &lt;div style="margin-left: 0%"&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff; text-align: left"&gt;
+   &lt;tr&gt;
+       &lt;td width="5%"&gt;&lt;/td&gt;
+       &lt;td width="95%"&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="top"&gt;
+       &lt;td&gt;
+       &lt;b&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;19.&amp;#160;&amp;#160;&lt;/font&gt;&lt;/b&gt;
+   &lt;/td&gt;
+       &lt;td&gt;
+       &lt;b&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Shareholders&amp;#8217;
+       Equity&lt;/font&gt;&lt;/b&gt;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;/table&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       On February&amp;#160;7, 2007, following approval by a majority of
+       the Class&amp;#160;B common stockholders in a special meeting of the
+       Company&amp;#8217;s Class&amp;#160;B common stockholders, all outstanding
+       shares of Class&amp;#160;B common stock were converted into shares
+       of Class&amp;#160;A common stock on a
+       &lt;font style="white-space: nowrap"&gt;one-for-one&lt;/font&gt;
+       basis. In addition, on February&amp;#160;9, 2007, the Board
+   of Directors of the Company authorized a
+       &lt;font style="white-space: nowrap"&gt;two-for-one&lt;/font&gt;
+       stock split, effected by a
+       &lt;font style="white-space: nowrap"&gt;one-for-one&lt;/font&gt;
+       stock dividend to stockholders of record at the close of
+       business on February&amp;#160;20, 2007, paid on March&amp;#160;16, 2007.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       The holders of Class&amp;#160;A common stock are entitled to one
+       vote per share on all matters to be voted on by stockholders.
+       Holders of Class&amp;#160;A common stock will share in any dividend
+       declared by the Board of Directors, subject to any preferential
+       rights of any outstanding preferred stock. In the event of the
+       Company&amp;#8217;s liquidation, dissolution or winding up, all
+       holders of common stock are entitled to share ratably in any
+       assets available for distribution to holders of shares of common
+       stock after payment in full of any amounts required to be paid
+       to holders of preferred stock.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       In 2005, the Company adopted a rights agreement under which one
+       right (a &amp;#8220;Right&amp;#8221;) is attached to each outstanding
+       share of the Company&amp;#8217;s common stock. Each Right entitles
+       the holder to purchase from the Company one one-thousandth of a
+       share of a series of preferred stock, designated as
+       Series&amp;#160;A Junior Participating Preferred Stock (the
+       &amp;#8220;Series&amp;#160;A Preferred Stock&amp;#8221;), at a price of
+       $100.00 per one one-thousandth of a share. The Rights will be
+       exercisable only if a person or group acquires 15% or more of
+       the voting power of the Company&amp;#8217;s outstanding common stock
+       or announces a tender offer or exchange offer, the consummation
+       of which would result in such person or group owning 15% or more
+       of the voting power of the Company&amp;#8217;s outstanding common
+       stock.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       If a person or group acquires 15% or more of the voting power of
+       the Company&amp;#8217;s outstanding common stock, each Right will
+       entitle a holder (other than such person or any member of such
+       group) to purchase, at the Right&amp;#8217;s then current exercise
+       price, a number of shares of common stock having a market value
+       of twice the exercise price of the Right. In addition, if the
+       Company is acquired in a merger or other business combination
+       transaction or 50% or more of its consolidated assets or earning
+       power are sold at any time after the Rights have become
+       exercisable, each Right will entitle its holder to purchase, at
+       the Right&amp;#8217;s then current exercise price, a number of the
+       acquiring company&amp;#8217;s common shares having a market value at
+       that time of twice the exercise price of the Right. Furthermore,
+       at any time after a person or group acquires 15% or more of the
+       voting power of the outstanding common stock of the Company but
+       prior to the acquisition of 50% of such voting power, the Board
+       of Directors may, at its option, exchange part or all of the
+       Rights (other than Rights held by the acquiring person or group)
+       at an exchange rate of one one-thousandth of a share of
+       Series&amp;#160;A Preferred Stock or one share of the Company&amp;#8217;s
+       common stock for each Right.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       The Company will be entitled to redeem the Rights at any time
+       prior to the acquisition by a person or group of 15% or more of
+       the voting power of the outstanding common stock of the Company,
+       at a price of $.01 per Right. The Rights will expire on
+       October&amp;#160;28, 2014.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       The Company has 5,000&amp;#160;shares of $.001&amp;#160;par value
+       preferred stock authorized for issuance, of which
+       500&amp;#160;shares have been designated by the Board of Directors
+       as Series&amp;#160;A Preferred Stock and reserved for issuance upon
+       exercise of the Rights. Each such share of Series&amp;#160;A
+       Preferred Stock will be nonredeemable and junior to any other
+       series of preferred stock the Company may issue (unless
+       otherwise provided in the terms of such stock) and will be
+       entitled to a preferred dividend equal to the greater of $1.00
+       or one thousand times any dividend declared on the
+       Company&amp;#8217;s common stock. In the event of liquidation, the
+       holders of Series&amp;#160;A Preferred Stock will receive a
+       preferred liquidation payment of $1,000.00 per share, plus an
+       amount equal to accrued and unpaid dividends and distributions
+       thereon. Each share of Series&amp;#160;A Preferred Stock will have
+       ten thousand votes, voting together with the Company&amp;#8217;s
+       common stock. However, in the event that dividends on the
+       Series&amp;#160;A Preferred Stock shall be in arrears in an amount
+       equal to six quarterly dividends thereon, holders of the
+       Series&amp;#160;A Preferred Stock shall have the right, voting as a
+       class, to elect two of the Company&amp;#8217;s directors. In the
+       event of any merger, consolidation or other transaction in which
+       the Company&amp;#8217;s common stock is exchanged, each share of
+       Series&amp;#160;A Preferred Stock will be entitled to receive one
+       thousand times the amount and type of consideration received per
+       share of the Company&amp;#8217;s common stock. At January&amp;#160;30,
+       2010, there were no shares of Series&amp;#160;A Preferred Stock
+       outstanding.
+   &lt;/div&gt;
+   &lt;!-- XBRL Pagebreak Begin --&gt;
+   &lt;/div&gt;
+   &lt;!-- END PAGE WIDTH --&gt;
+   &lt;!-- PAGEBREAK --&gt;
+   &lt;div style="margin-left: 0%"&gt;
+   &lt;!-- BEGIN PAGE WIDTH --&gt;
+   &lt;div style="margin-top: 0pt; font-size: 1pt"&gt;
+   &lt;/div&gt;
+   &lt;div align="center" style="margin-left: 0%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+   &lt;b&gt;
+   &lt;font style="font-family: 'Times New Roman', Times"&gt;
+   &lt;/font&gt;
+   &lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 0pt; font-size: 1pt"&gt;
+   &lt;/div&gt;
+   &lt;div align="center" style="margin-left: 0%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+   &lt;b&gt;
+   &lt;font style="font-family: 'Times New Roman', Times"&gt;
+   &lt;/font&gt;
+   &lt;/b&gt;
+   &lt;/div&gt;
+   &lt;!-- XBRL Pagebreak End --&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       On January&amp;#160;11, 2010, the Board of Directors of the Company
+       approved a $300,000&amp;#160;share repurchase program authorizing
+       the Company to repurchase its common stock. For fiscal 2009, the
+       number of shares repurchased were 6,114.5 for an average price
+       per share of $20.12. Approximately $64,615 of treasury share
+       purchases were not settled at the end of fiscal 2009 and have
+       been reported in accrued liabilities. Since the end of fiscal
+       2009, the Company has purchased an additional
+       6,527.7&amp;#160;shares for an average price per share of $19.03.
+   &lt;/div&gt;
+   &lt;/div&gt;
+</NonNumbericText>
+          <NonNumericTextHeader>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note</NonNumericTextHeader>
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDefenition>Disclosures related to accounts comprising shareholders' equity, including other comprehensive income.  Includes: (1) balances of common stock, preferred stock, additional paid-in capital, other capital and retained earnings; (2) accumulated balance for each classification of other comprehensive income and total amount of comprehensive income; (3) amount and nature of changes in separate accounts, including the number of shares authorized and outstanding, number of shares issued upon exercise and conversion, and for other comprehensive income, the adjustments for reclassifications to net income; (4) rights and privileges of each class of stock authorized; (5) basis of treasury stock, if other than cost, and amounts paid and accounting treatment for treasury stock purchased significantly in excess of market; (6) dividends paid or payable per share and in the aggregate for each class of stock for each period presented; (7) dividend restrictions and accumulated preferred dividends in ar
+rears (in aggregate and per share amount); (8) retained earnings appropriations or restrictions, such as dividend restrictions; (9) impact of change in accounting principle, initial adoption of new accounting principle and correction of an error in previously issued financial statements; (10) shares held in trust for Employee Stock Ownership Plan (ESOP); (11) deferred compensation related to issuance of capital stock; (12) note received for issuance of stock; (13) unamortized discount on shares; (14) description, terms and number of warrants or rights outstanding; (15) shares under subscription and subscription receivables; effective date of new retained earnings after quasi-reorganization and deficit eliminated by quasi-reorganization and, for a period of at least ten years after the effective date, the point in time from which the new retained dates; and (16) retroactive effective of subsequent change in capital structure.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 5
+ -Paragraph 15
+
+Reference 2: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher SEC
+ -Name Regulation S-X (SX)
+ -Number 210
+ -Section 04
+ -Article 3
+
+Reference 3: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher SEC
+ -Name Regulation S-X (SX)
+ -Number 210
+ -Section 08
+ -Paragraph d
+ -Article 4
+
+Reference 4: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher SEC
+ -Name Staff Accounting Bulletin (SAB)
+ -Number Topic 4
+ -Section C, E
+
+Reference 5: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher AICPA
+ -Name Accounting Principles Board Opinion (APB)
+ -Number 12
+ -Paragraph 10
+
+Reference 6: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher SEC
+ -Name Regulation S-X (SX)
+ -Number 210
+ -Section 02
+ -Paragraph 29, 30, 31
+ -Article 5
+
+Reference 7: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher AICPA
+ -Name Accounting Research Bulletin (ARB)
+ -Number 43
+ -Chapter 1
+ -Section B
+ -Paragraph 7, 11A
+
+Reference 8: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 129
+ -Paragraph 2, 3, 4, 5, 6, 7, 8
+
+Reference 9: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher SEC
+ -Name Regulation S-X (SX)
+ -Number 210
+ -Section 08
+ -Article 4
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+  </Rows>
+  <Footnotes />
+  <ComparabilityReport>false</ComparabilityReport>
+  <NumberOfCols>1</NumberOfCols>
+  <NumberOfRows>2</NumberOfRows>
+  <HasScenarios>false</HasScenarios>
+  <MonetaryRoundingLevel>UnKnown</MonetaryRoundingLevel>
+  <SharesRoundingLevel>UnKnown</SharesRoundingLevel>
+  <PerShareRoundingLevel>UnKnown</PerShareRoundingLevel>
+  <HasPureData>false</HasPureData>
+  <SharesShouldBeRounded>true</SharesShouldBeRounded>
+</InstanceReport>
+</XBRL>

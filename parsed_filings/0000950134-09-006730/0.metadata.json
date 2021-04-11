@@ -1,0 +1,104 @@
+{
+  "ACCESSION_NUMBER": "0000950134-09-006730",
+  "CONFORMED_PERIOD_OF_REPORT": "20090131",
+  "CONFORMED_SUBMISSION_TYPE": "10-K",
+  "DATE_AS_OF_CHANGE": "20090401",
+  "FILED_AS_OF_DATE": "20090401",
+  "FILER": {
+    "BUSINESS_ADDRESS": {
+      "BUSINESS_PHONE": "817-424-2000",
+      "CITY": "GRAPEVINE",
+      "STATE": "TX",
+      "STREET_1": "625 WESTPORT PARKWAY",
+      "ZIP": "76051"
+    },
+    "COMPANY_DATA": {
+      "CENTRAL_INDEX_KEY": "0001326380",
+      "COMPANY_CONFORMED_NAME": "GameStop Corp.",
+      "FISCAL_YEAR_END": "0203",
+      "IRS_NUMBER": "000000000",
+      "STANDARD_INDUSTRIAL_CLASSIFICATION": "RETAIL-COMPUTER & COMPUTER SOFTWARE STORES [5734]",
+      "STATE_OF_INCORPORATION": "DE"
+    },
+    "FILING_VALUES": {
+      "FILM_NUMBER": "09723764",
+      "FORM_TYPE": "10-K",
+      "SEC_ACT": "1934 Act",
+      "SEC_FILE_NUMBER": "001-32637"
+    },
+    "FORMER_COMPANY": {
+      "DATE_OF_NAME_CHANGE": "20050506",
+      "FORMER_CONFORMED_NAME": "GSC Holdings Corp."
+    },
+    "MAIL_ADDRESS": {
+      "CITY": "GRAPEVINE",
+      "STATE": "TX",
+      "STREET_1": "625 WESTPORT PARKWAY",
+      "ZIP": "76051"
+    }
+  },
+  "PUBLIC_DOCUMENT_COUNT": "12",
+  "acceptance-datetime": "20090401163056",
+  "documents": [
+    {
+      "filename": "d66430e10vk.htm",
+      "sequence": "1",
+      "type": "10-K"
+    },
+    {
+      "filename": "d66430exv12w1.htm",
+      "sequence": "2",
+      "type": "EX-12.1"
+    },
+    {
+      "filename": "d66430exv14w1.htm",
+      "sequence": "3",
+      "type": "EX-14.1"
+    },
+    {
+      "filename": "d66430exv14w2.htm",
+      "sequence": "4",
+      "type": "EX-14.2"
+    },
+    {
+      "filename": "d66430exv21w1.htm",
+      "sequence": "5",
+      "type": "EX-21.1"
+    },
+    {
+      "filename": "d66430exv23w1.htm",
+      "sequence": "6",
+      "type": "EX-23.1"
+    },
+    {
+      "filename": "d66430exv31w1.htm",
+      "sequence": "7",
+      "type": "EX-31.1"
+    },
+    {
+      "filename": "d66430exv31w2.htm",
+      "sequence": "8",
+      "type": "EX-31.2"
+    },
+    {
+      "filename": "d66430exv32w1.htm",
+      "sequence": "9",
+      "type": "EX-32.1"
+    },
+    {
+      "filename": "d66430exv32w2.htm",
+      "sequence": "10",
+      "type": "EX-32.2"
+    },
+    {
+      "filename": "d66430d6643005.gif",
+      "sequence": "11",
+      "type": "GRAPHIC"
+    },
+    {
+      "filename": "d66430d6643002.gif",
+      "sequence": "12",
+      "type": "GRAPHIC"
+    }
+  ]
+}

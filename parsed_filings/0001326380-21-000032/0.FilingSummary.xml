@@ -1,0 +1,1276 @@
+<XML>
+<?xml version='1.0' encoding='utf-8'?>
+<FilingSummary>
+  <Version>3.21.1</Version>
+  <ProcessingTime/>
+  <ReportFormat>html</ReportFormat>
+  <ContextCount>288</ContextCount>
+  <ElementCount>543</ElementCount>
+  <EntityCount>1</EntityCount>
+  <FootnotesReported>false</FootnotesReported>
+  <SegmentCount>104</SegmentCount>
+  <ScenarioCount>0</ScenarioCount>
+  <TuplesReported>false</TuplesReported>
+  <UnitCount>11</UnitCount>
+  <MyReports>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R1.htm</HtmlFileName>
+      <LongName>000010001 - Document - Cover</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/Cover</Role>
+      <ShortName>Cover</ShortName>
+      <MenuCategory>Cover</MenuCategory>
+      <Position>1</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R2.htm</HtmlFileName>
+      <LongName>100010002 - Statement - CONSOLIDATED BALANCE SHEETS</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/CONSOLIDATEDBALANCESHEETS</Role>
+      <ShortName>CONSOLIDATED BALANCE SHEETS</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>2</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R3.htm</HtmlFileName>
+      <LongName>100020003 - Statement - CONSOLIDATED BALANCE SHEETS (Parenthetical)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/CONSOLIDATEDBALANCESHEETSParenthetical</Role>
+      <ShortName>CONSOLIDATED BALANCE SHEETS (Parenthetical)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>3</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R4.htm</HtmlFileName>
+      <LongName>100030004 - Statement - CONSOLIDATED STATEMENTS OF OPERATIONS</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/CONSOLIDATEDSTATEMENTSOFOPERATIONS</Role>
+      <ShortName>CONSOLIDATED STATEMENTS OF OPERATIONS</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>4</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R5.htm</HtmlFileName>
+      <LongName>100040005 - Statement - CONSOLIDATED STATEMENTS OF COMPREHENSIVE (LOSS) INCOME</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/CONSOLIDATEDSTATEMENTSOFCOMPREHENSIVELOSSINCOME</Role>
+      <ShortName>CONSOLIDATED STATEMENTS OF COMPREHENSIVE (LOSS) INCOME</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>5</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R6.htm</HtmlFileName>
+      <LongName>100060006 - Statement - CONSOLIDATED STATEMENTS OF STOCKHOLDERS' EQUITY</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/CONSOLIDATEDSTATEMENTSOFSTOCKHOLDERSEQUITY</Role>
+      <ShortName>CONSOLIDATED STATEMENTS OF STOCKHOLDERS' EQUITY</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>6</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R7.htm</HtmlFileName>
+      <LongName>100070007 - Statement - CONSOLIDATED STATEMENTS OF STOCKHOLDERS' EQUITY (Parenthetical)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/CONSOLIDATEDSTATEMENTSOFSTOCKHOLDERSEQUITYParenthetical</Role>
+      <ShortName>CONSOLIDATED STATEMENTS OF STOCKHOLDERS' EQUITY (Parenthetical)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>7</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R8.htm</HtmlFileName>
+      <LongName>100080008 - Statement - CONSOLIDATED STATEMENTS OF CASH FLOWS</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/CONSOLIDATEDSTATEMENTSOFCASHFLOWS</Role>
+      <ShortName>CONSOLIDATED STATEMENTS OF CASH FLOWS</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>8</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R9.htm</HtmlFileName>
+      <LongName>110051001 - Statement - CCONSOLIDATED STATEMENTS OF COMPREHENSIVE (LOSS) INCOME (Parenthetical)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/CCONSOLIDATEDSTATEMENTSOFCOMPREHENSIVELOSSINCOMEParenthetical</Role>
+      <ShortName>CCONSOLIDATED STATEMENTS OF COMPREHENSIVE (LOSS) INCOME (Parenthetical)</ShortName>
+      <MenuCategory>Statements</MenuCategory>
+      <Position>9</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R10.htm</HtmlFileName>
+      <LongName>210011002 - Disclosure - Nature of Operations and Summary of Significant Accounting Policies</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/NatureofOperationsandSummaryofSignificantAccountingPolicies</Role>
+      <ShortName>Nature of Operations and Summary of Significant Accounting Policies</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>10</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R11.htm</HtmlFileName>
+      <LongName>210181003 - Disclosure - Discontinued Operations and Dispositions</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/DiscontinuedOperationsandDispositions</Role>
+      <ShortName>Discontinued Operations and Dispositions</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>11</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R12.htm</HtmlFileName>
+      <LongName>210231004 - Disclosure - COVID-19 Impacts</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/COVID19Impacts</Role>
+      <ShortName>COVID-19 Impacts</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>12</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R13.htm</HtmlFileName>
+      <LongName>210251005 - Disclosure - Revenue</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/Revenue</Role>
+      <ShortName>Revenue</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>13</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R14.htm</HtmlFileName>
+      <LongName>210301006 - Disclosure - Asset Impairments</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/AssetImpairments</Role>
+      <ShortName>Asset Impairments</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>14</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R15.htm</HtmlFileName>
+      <LongName>210331007 - Disclosure - Fair Value Measurements and Financial Instruments</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/FairValueMeasurementsandFinancialInstruments</Role>
+      <ShortName>Fair Value Measurements and Financial Instruments</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>15</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R16.htm</HtmlFileName>
+      <LongName>210401008 - Disclosure - Receivables, Net</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/ReceivablesNet</Role>
+      <ShortName>Receivables, Net</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>16</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R17.htm</HtmlFileName>
+      <LongName>210431009 - Disclosure - Goodwill and Intangible Assets</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/GoodwillandIntangibleAssets</Role>
+      <ShortName>Goodwill and Intangible Assets</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>17</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R18.htm</HtmlFileName>
+      <LongName>210491010 - Disclosure - Income Taxes</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/IncomeTaxes</Role>
+      <ShortName>Income Taxes</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>18</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R19.htm</HtmlFileName>
+      <LongName>210581011 - Disclosure - Accrued and Other Current Liabilities</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/AccruedandOtherCurrentLiabilities</Role>
+      <ShortName>Accrued and Other Current Liabilities</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>19</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R20.htm</HtmlFileName>
+      <LongName>210611012 - Disclosure - Leases</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/Leases</Role>
+      <ShortName>Leases</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>20</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R21.htm</HtmlFileName>
+      <LongName>210671013 - Disclosure - Debt</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/Debt</Role>
+      <ShortName>Debt</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>21</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R22.htm</HtmlFileName>
+      <LongName>210751014 - Disclosure - Commitments and Contingencies</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/CommitmentsandContingencies</Role>
+      <ShortName>Commitments and Contingencies</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>22</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R23.htm</HtmlFileName>
+      <LongName>210771015 - Disclosure - Common Stock and Share-Based Compensation</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/CommonStockandShareBasedCompensation</Role>
+      <ShortName>Common Stock and Share-Based Compensation</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>23</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R24.htm</HtmlFileName>
+      <LongName>210841016 - Disclosure - Earnings Per Share</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/EarningsPerShare</Role>
+      <ShortName>Earnings Per Share</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>24</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R25.htm</HtmlFileName>
+      <LongName>210871017 - Disclosure - Associates' Defined Contribution Plan</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/AssociatesDefinedContributionPlan</Role>
+      <ShortName>Associates' Defined Contribution Plan</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>25</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R26.htm</HtmlFileName>
+      <LongName>210891018 - Disclosure - Segment Information</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/SegmentInformation</Role>
+      <ShortName>Segment Information</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>26</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R27.htm</HtmlFileName>
+      <LongName>210941019 - Disclosure - Unaudited Quarterly Financial Information</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/UnauditedQuarterlyFinancialInformation</Role>
+      <ShortName>Unaudited Quarterly Financial Information</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>27</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R28.htm</HtmlFileName>
+      <LongName>210971020 - Disclosure - Subsequent Events</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/SubsequentEvents</Role>
+      <ShortName>Subsequent Events</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>28</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R29.htm</HtmlFileName>
+      <LongName>210991021 - Disclosure - Schedule II - Valuation and Qualifying Accounts</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/ScheduleIIValuationandQualifyingAccounts</Role>
+      <ShortName>Schedule II - Valuation and Qualifying Accounts</ShortName>
+      <MenuCategory>Notes</MenuCategory>
+      <Position>29</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R30.htm</HtmlFileName>
+      <LongName>220022001 - Disclosure - Nature of Operations and Summary of Significant Accounting Policies (Policies)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/NatureofOperationsandSummaryofSignificantAccountingPoliciesPolicies</Role>
+      <ShortName>Nature of Operations and Summary of Significant Accounting Policies (Policies)</ShortName>
+      <MenuCategory>Policies</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/NatureofOperationsandSummaryofSignificantAccountingPolicies</ParentRole>
+      <Position>30</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R31.htm</HtmlFileName>
+      <LongName>230033001 - Disclosure - Nature of Operations and Summary of Significant Accounting Policies (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/NatureofOperationsandSummaryofSignificantAccountingPoliciesTables</Role>
+      <ShortName>Nature of Operations and Summary of Significant Accounting Policies (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/NatureofOperationsandSummaryofSignificantAccountingPolicies</ParentRole>
+      <Position>31</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R32.htm</HtmlFileName>
+      <LongName>230193002 - Disclosure - Discontinued Operations and Dispositions (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/DiscontinuedOperationsandDispositionsTables</Role>
+      <ShortName>Discontinued Operations and Dispositions (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/DiscontinuedOperationsandDispositions</ParentRole>
+      <Position>32</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R33.htm</HtmlFileName>
+      <LongName>230263003 - Disclosure - Revenue (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/RevenueTables</Role>
+      <ShortName>Revenue (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/Revenue</ParentRole>
+      <Position>33</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R34.htm</HtmlFileName>
+      <LongName>230313004 - Disclosure - Asset Impairments (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/AssetImpairmentsTables</Role>
+      <ShortName>Asset Impairments (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/AssetImpairments</ParentRole>
+      <Position>34</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R35.htm</HtmlFileName>
+      <LongName>230343005 - Disclosure - Fair Value Measurements and Financial Instruments (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/FairValueMeasurementsandFinancialInstrumentsTables</Role>
+      <ShortName>Fair Value Measurements and Financial Instruments (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/FairValueMeasurementsandFinancialInstruments</ParentRole>
+      <Position>35</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R36.htm</HtmlFileName>
+      <LongName>230413006 - Disclosure - Receivables, Net (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/ReceivablesNetTables</Role>
+      <ShortName>Receivables, Net (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/ReceivablesNet</ParentRole>
+      <Position>36</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R37.htm</HtmlFileName>
+      <LongName>230443007 - Disclosure - Goodwill and Intangible Assets (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/GoodwillandIntangibleAssetsTables</Role>
+      <ShortName>Goodwill and Intangible Assets (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/GoodwillandIntangibleAssets</ParentRole>
+      <Position>37</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R38.htm</HtmlFileName>
+      <LongName>230503008 - Disclosure - Income Taxes (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/IncomeTaxesTables</Role>
+      <ShortName>Income Taxes (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/IncomeTaxes</ParentRole>
+      <Position>38</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R39.htm</HtmlFileName>
+      <LongName>230593009 - Disclosure - Accrued and Other Current Liabilities (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/AccruedandOtherCurrentLiabilitiesTables</Role>
+      <ShortName>Accrued and Other Current Liabilities (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/AccruedandOtherCurrentLiabilities</ParentRole>
+      <Position>39</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R40.htm</HtmlFileName>
+      <LongName>230623010 - Disclosure - Leases (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/LeasesTables</Role>
+      <ShortName>Leases (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/Leases</ParentRole>
+      <Position>40</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R41.htm</HtmlFileName>
+      <LongName>230683011 - Disclosure - Debt (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/DebtTables</Role>
+      <ShortName>Debt (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/Debt</ParentRole>
+      <Position>41</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R42.htm</HtmlFileName>
+      <LongName>230783012 - Disclosure - Common Stock and Share-Based Compensation (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/CommonStockandShareBasedCompensationTables</Role>
+      <ShortName>Common Stock and Share-Based Compensation (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/CommonStockandShareBasedCompensation</ParentRole>
+      <Position>42</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R43.htm</HtmlFileName>
+      <LongName>230853013 - Disclosure - Earnings Per Share (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/EarningsPerShareTables</Role>
+      <ShortName>Earnings Per Share (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/EarningsPerShare</ParentRole>
+      <Position>43</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R44.htm</HtmlFileName>
+      <LongName>230903014 - Disclosure - Segment Information (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/SegmentInformationTables</Role>
+      <ShortName>Segment Information (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/SegmentInformation</ParentRole>
+      <Position>44</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R45.htm</HtmlFileName>
+      <LongName>230953015 - Disclosure - Unaudited Quarterly Financial Information (Tables)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/UnauditedQuarterlyFinancialInformationTables</Role>
+      <ShortName>Unaudited Quarterly Financial Information (Tables)</ShortName>
+      <MenuCategory>Tables</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/UnauditedQuarterlyFinancialInformation</ParentRole>
+      <Position>45</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R46.htm</HtmlFileName>
+      <LongName>240044001 - Disclosure - Nature of Operations and Summary of Significant Accounting Policies - The Company (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/NatureofOperationsandSummaryofSignificantAccountingPoliciesTheCompanyDetails</Role>
+      <ShortName>Nature of Operations and Summary of Significant Accounting Policies - The Company (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/NatureofOperationsandSummaryofSignificantAccountingPoliciesTables</ParentRole>
+      <Position>46</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R47.htm</HtmlFileName>
+      <LongName>240054002 - Disclosure - Nature of Operations and Summary of Significant Accounting Policies - Reclassifications (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/NatureofOperationsandSummaryofSignificantAccountingPoliciesReclassificationsDetails</Role>
+      <ShortName>Nature of Operations and Summary of Significant Accounting Policies - Reclassifications (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>47</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R48.htm</HtmlFileName>
+      <LongName>240064003 - Disclosure - Nature of Operations and Summary of Significant Accounting Policies - Restricted Cash (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/NatureofOperationsandSummaryofSignificantAccountingPoliciesRestrictedCashDetails</Role>
+      <ShortName>Nature of Operations and Summary of Significant Accounting Policies - Restricted Cash (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>48</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R49.htm</HtmlFileName>
+      <LongName>240074004 - Disclosure - Nature of Operations and Summary of Significant Accounting Policies - Cash, Cash Equivalents and Restricted Cash (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/NatureofOperationsandSummaryofSignificantAccountingPoliciesCashCashEquivalentsandRestrictedCashDetails</Role>
+      <ShortName>Nature of Operations and Summary of Significant Accounting Policies - Cash, Cash Equivalents and Restricted Cash (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>49</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R50.htm</HtmlFileName>
+      <LongName>240084005 - Disclosure - Nature of Operations and Summary of Significant Accounting Policies - Merchandise Inventories (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/NatureofOperationsandSummaryofSignificantAccountingPoliciesMerchandiseInventoriesDetails</Role>
+      <ShortName>Nature of Operations and Summary of Significant Accounting Policies - Merchandise Inventories (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>50</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R51.htm</HtmlFileName>
+      <LongName>240094006 - Disclosure - Nature of Operations and Summary of Significant Accounting Policies - Assets Held-for-Sale (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/NatureofOperationsandSummaryofSignificantAccountingPoliciesAssetsHeldforSaleDetails</Role>
+      <ShortName>Nature of Operations and Summary of Significant Accounting Policies - Assets Held-for-Sale (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>51</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R52.htm</HtmlFileName>
+      <LongName>240104007 - Disclosure - Nature of Operations and Summary of Significant Accounting Policies - Schedule of Property and Equipment (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/NatureofOperationsandSummaryofSignificantAccountingPoliciesScheduleofPropertyandEquipmentDetails</Role>
+      <ShortName>Nature of Operations and Summary of Significant Accounting Policies - Schedule of Property and Equipment (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>52</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R53.htm</HtmlFileName>
+      <LongName>240114008 - Disclosure - Nature of Operations and Summary of Significant Accounting Policies - Property and Equipment (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/NatureofOperationsandSummaryofSignificantAccountingPoliciesPropertyandEquipmentDetails</Role>
+      <ShortName>Nature of Operations and Summary of Significant Accounting Policies - Property and Equipment (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>53</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R54.htm</HtmlFileName>
+      <LongName>240124009 - Disclosure - Nature of Operations and Summary of Significant Accounting Policies - Share Repurchases (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/NatureofOperationsandSummaryofSignificantAccountingPoliciesShareRepurchasesDetails</Role>
+      <ShortName>Nature of Operations and Summary of Significant Accounting Policies - Share Repurchases (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>54</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R55.htm</HtmlFileName>
+      <LongName>240134010 - Disclosure - Nature of Operations and Summary of Significant Accounting Policies - Goodwill and Intangible Assets (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/NatureofOperationsandSummaryofSignificantAccountingPoliciesGoodwillandIntangibleAssetsDetails</Role>
+      <ShortName>Nature of Operations and Summary of Significant Accounting Policies - Goodwill and Intangible Assets (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>55</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R56.htm</HtmlFileName>
+      <LongName>240144011 - Disclosure - Nature of Operations and Summary of Significant Accounting Policies - Vendor Arrangements (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/NatureofOperationsandSummaryofSignificantAccountingPoliciesVendorArrangementsDetails</Role>
+      <ShortName>Nature of Operations and Summary of Significant Accounting Policies - Vendor Arrangements (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>56</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R57.htm</HtmlFileName>
+      <LongName>240154012 - Disclosure - Nature of Operations and Summary of Significant Accounting Policies - Advertising Expenses (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/NatureofOperationsandSummaryofSignificantAccountingPoliciesAdvertisingExpensesDetails</Role>
+      <ShortName>Nature of Operations and Summary of Significant Accounting Policies - Advertising Expenses (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>57</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R58.htm</HtmlFileName>
+      <LongName>240164013 - Disclosure - Nature of Operations and Summary of Significant Accounting Policies - Foreign Currency (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/NatureofOperationsandSummaryofSignificantAccountingPoliciesForeignCurrencyDetails</Role>
+      <ShortName>Nature of Operations and Summary of Significant Accounting Policies - Foreign Currency (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>58</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R59.htm</HtmlFileName>
+      <LongName>240174014 - Disclosure - Nature of Operations and Summary of Significant Accounting Policies - Recently Adopted Accounting Pronouncements (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/NatureofOperationsandSummaryofSignificantAccountingPoliciesRecentlyAdoptedAccountingPronouncementsDetails</Role>
+      <ShortName>Nature of Operations and Summary of Significant Accounting Policies - Recently Adopted Accounting Pronouncements (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>59</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R60.htm</HtmlFileName>
+      <LongName>240204015 - Disclosure - Discontinued Operations and Dispositions - Results of Discontinued Operations (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/DiscontinuedOperationsandDispositionsResultsofDiscontinuedOperationsDetails</Role>
+      <ShortName>Discontinued Operations and Dispositions - Results of Discontinued Operations (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>60</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R61.htm</HtmlFileName>
+      <LongName>240214016 - Disclosure - Discontinued Operations and Dispositions - Other Significant Operating Items (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/DiscontinuedOperationsandDispositionsOtherSignificantOperatingItemsDetails</Role>
+      <ShortName>Discontinued Operations and Dispositions - Other Significant Operating Items (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>61</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R62.htm</HtmlFileName>
+      <LongName>240224017 - Disclosure - Discontinued Operations and Dispositions - Divestitures (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/DiscontinuedOperationsandDispositionsDivestituresDetails</Role>
+      <ShortName>Discontinued Operations and Dispositions - Divestitures (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>62</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R63.htm</HtmlFileName>
+      <LongName>240244018 - Disclosure - COVID-19 Impacts (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/COVID19ImpactsDetails</Role>
+      <ShortName>COVID-19 Impacts (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/COVID19Impacts</ParentRole>
+      <Position>63</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R64.htm</HtmlFileName>
+      <LongName>240274019 - Disclosure - Revenue - Sales of Total Net Sales by Significant Product Category (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/RevenueSalesofTotalNetSalesbySignificantProductCategoryDetails</Role>
+      <ShortName>Revenue - Sales of Total Net Sales by Significant Product Category (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>64</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R65.htm</HtmlFileName>
+      <LongName>240284020 - Disclosure - Revenue - Narrative (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/RevenueNarrativeDetails</Role>
+      <ShortName>Revenue - Narrative (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>65</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R66.htm</HtmlFileName>
+      <LongName>240294021 - Disclosure - Revenue - Change in Contract Liabilities (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/RevenueChangeinContractLiabilitiesDetails</Role>
+      <ShortName>Revenue - Change in Contract Liabilities (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>66</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R67.htm</HtmlFileName>
+      <LongName>240324022 - Disclosure - Asset Impairments (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/AssetImpairmentsDetails</Role>
+      <ShortName>Asset Impairments (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/AssetImpairmentsTables</ParentRole>
+      <Position>67</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R68.htm</HtmlFileName>
+      <LongName>240354023 - Disclosure - Fair Value Measurements and Financial Instruments - Fair Value of Assets and Liabilities Measured on Recurring Basis (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/FairValueMeasurementsandFinancialInstrumentsFairValueofAssetsandLiabilitiesMeasuredonRecurringBasisDetails</Role>
+      <ShortName>Fair Value Measurements and Financial Instruments - Fair Value of Assets and Liabilities Measured on Recurring Basis (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>68</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R69.htm</HtmlFileName>
+      <LongName>240364024 - Disclosure - Fair Value Measurements and Financial Instruments - Narrative (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/FairValueMeasurementsandFinancialInstrumentsNarrativeDetails</Role>
+      <ShortName>Fair Value Measurements and Financial Instruments - Narrative (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/FairValueMeasurementsandFinancialInstrumentsTables</ParentRole>
+      <Position>69</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R70.htm</HtmlFileName>
+      <LongName>240374025 - Disclosure - Fair Value Measurements and Financial Instruments - Gains and Losses on Derivative Instruments and Foreign Currency Transaction (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/FairValueMeasurementsandFinancialInstrumentsGainsandLossesonDerivativeInstrumentsandForeignCurrencyTransactionDetails</Role>
+      <ShortName>Fair Value Measurements and Financial Instruments - Gains and Losses on Derivative Instruments and Foreign Currency Transaction (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>70</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R71.htm</HtmlFileName>
+      <LongName>240384026 - Disclosure - Fair Value Measurements and Financial Instruments - Assets that are Measured at Fair Value on a Nonrecurring Basis (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/FairValueMeasurementsandFinancialInstrumentsAssetsthatareMeasuredatFairValueonaNonrecurringBasisDetails</Role>
+      <ShortName>Fair Value Measurements and Financial Instruments - Assets that are Measured at Fair Value on a Nonrecurring Basis (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>71</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R72.htm</HtmlFileName>
+      <LongName>240394027 - Disclosure - Fair Value Measurements and Financial Instruments - Other Fair Value Disclosures (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/FairValueMeasurementsandFinancialInstrumentsOtherFairValueDisclosuresDetails</Role>
+      <ShortName>Fair Value Measurements and Financial Instruments - Other Fair Value Disclosures (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>72</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R73.htm</HtmlFileName>
+      <LongName>240424028 - Disclosure - Receivables, Net (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/ReceivablesNetDetails</Role>
+      <ShortName>Receivables, Net (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/ReceivablesNetTables</ParentRole>
+      <Position>73</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R74.htm</HtmlFileName>
+      <LongName>240454029 - Disclosure - Goodwill and Intangible Assets - Changes in Carrying Amount of Goodwill for Operating Segments (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/GoodwillandIntangibleAssetsChangesinCarryingAmountofGoodwillforOperatingSegmentsDetails</Role>
+      <ShortName>Goodwill and Intangible Assets - Changes in Carrying Amount of Goodwill for Operating Segments (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>74</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R75.htm</HtmlFileName>
+      <LongName>240464030 - Disclosure - Goodwill and Intangible Assets - Narrative (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/GoodwillandIntangibleAssetsNarrativeDetails</Role>
+      <ShortName>Goodwill and Intangible Assets - Narrative (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>75</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R76.htm</HtmlFileName>
+      <LongName>240474031 - Disclosure - Goodwill and Intangible Assets - Schedule of Intangible Assets Other Than Goodwill (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/GoodwillandIntangibleAssetsScheduleofIntangibleAssetsOtherThanGoodwillDetails</Role>
+      <ShortName>Goodwill and Intangible Assets - Schedule of Intangible Assets Other Than Goodwill (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>76</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R77.htm</HtmlFileName>
+      <LongName>240484032 - Disclosure - Goodwill and Intangible Assets - Estimated Aggregate Intangible Asset Amortization Expense (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/GoodwillandIntangibleAssetsEstimatedAggregateIntangibleAssetAmortizationExpenseDetails</Role>
+      <ShortName>Goodwill and Intangible Assets - Estimated Aggregate Intangible Asset Amortization Expense (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>77</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R78.htm</HtmlFileName>
+      <LongName>240514033 - Disclosure - Income Taxes - Provision for Income Tax (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/IncomeTaxesProvisionforIncomeTaxDetails</Role>
+      <ShortName>Income Taxes - Provision for Income Tax (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>78</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R79.htm</HtmlFileName>
+      <LongName>240524034 - Disclosure - Income Taxes - Components of Earnings Before Income Tax Expense (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/IncomeTaxesComponentsofEarningsBeforeIncomeTaxExpenseDetails</Role>
+      <ShortName>Income Taxes - Components of Earnings Before Income Tax Expense (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>79</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R80.htm</HtmlFileName>
+      <LongName>240534035 - Disclosure - Income Taxes - Certain Prior Year Income Tax Rates (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/IncomeTaxesCertainPriorYearIncomeTaxRatesDetails</Role>
+      <ShortName>Income Taxes - Certain Prior Year Income Tax Rates (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>80</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R81.htm</HtmlFileName>
+      <LongName>240544036 - Disclosure - Income Taxes - Components of Deferred Tax Assets and Liabilities (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/IncomeTaxesComponentsofDeferredTaxAssetsandLiabilitiesDetails</Role>
+      <ShortName>Income Taxes - Components of Deferred Tax Assets and Liabilities (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>81</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R82.htm</HtmlFileName>
+      <LongName>240554037 - Disclosure - Income Taxes - Narrative (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/IncomeTaxesNarrativeDetails</Role>
+      <ShortName>Income Taxes - Narrative (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>82</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R83.htm</HtmlFileName>
+      <LongName>240564038 - Disclosure - Income Taxes - Reconciliation of Changes in Gross Balances of Unrecognized Tax Benefits (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/IncomeTaxesReconciliationofChangesinGrossBalancesofUnrecognizedTaxBenefitsDetails</Role>
+      <ShortName>Income Taxes - Reconciliation of Changes in Gross Balances of Unrecognized Tax Benefits (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>83</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R84.htm</HtmlFileName>
+      <LongName>240574039 - Disclosure - Income Taxes - Income Taxes Paid (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/IncomeTaxesIncomeTaxesPaidDetails</Role>
+      <ShortName>Income Taxes - Income Taxes Paid (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>84</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R85.htm</HtmlFileName>
+      <LongName>240604040 - Disclosure - Accrued and Other Current Liabilities (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/AccruedandOtherCurrentLiabilitiesDetails</Role>
+      <ShortName>Accrued and Other Current Liabilities (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/AccruedandOtherCurrentLiabilitiesTables</ParentRole>
+      <Position>85</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R86.htm</HtmlFileName>
+      <LongName>240634041 - Disclosure - Leases - Narrative (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/LeasesNarrativeDetails</Role>
+      <ShortName>Leases - Narrative (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>86</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R87.htm</HtmlFileName>
+      <LongName>240644042 - Disclosure - Leases - Rent Expense and Other Cost Information (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/LeasesRentExpenseandOtherCostInformationDetails</Role>
+      <ShortName>Leases - Rent Expense and Other Cost Information (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>87</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R88.htm</HtmlFileName>
+      <LongName>240654043 - Disclosure - Leases - Minimum Lease Obligations for Operating Lease Liabilities (ASC 842) (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/LeasesMinimumLeaseObligationsforOperatingLeaseLiabilitiesASC842Details</Role>
+      <ShortName>Leases - Minimum Lease Obligations for Operating Lease Liabilities (ASC 842) (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>88</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R89.htm</HtmlFileName>
+      <LongName>240664044 - Disclosure - Leases - Future Minimum Lease Obligations (ASC 840) (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/LeasesFutureMinimumLeaseObligationsASC840Details</Role>
+      <ShortName>Leases - Future Minimum Lease Obligations (ASC 840) (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>89</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R90.htm</HtmlFileName>
+      <LongName>240694045 - Disclosure - Debt - Schedule of Debt (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/DebtScheduleofDebtDetails</Role>
+      <ShortName>Debt - Schedule of Debt (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>90</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R91.htm</HtmlFileName>
+      <LongName>240704046 - Disclosure - Debt - Senior Notes (Details)</LongName>
+      <ReportType>Notes</ReportType>
+      <Role>http://www.gamestop.com/role/DebtSeniorNotesDetails</Role>
+      <ShortName>Debt - Senior Notes (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>91</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R92.htm</HtmlFileName>
+      <LongName>240714047 - Disclosure - Debt - Revolving Credit Facility (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/DebtRevolvingCreditFacilityDetails</Role>
+      <ShortName>Debt - Revolving Credit Facility (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>92</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R93.htm</HtmlFileName>
+      <LongName>240724048 - Disclosure - Debt - Letter of Credit Facilities (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/DebtLetterofCreditFacilitiesDetails</Role>
+      <ShortName>Debt - Letter of Credit Facilities (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>93</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R94.htm</HtmlFileName>
+      <LongName>240734049 - Disclosure - Debt - French Term Loans and Credit Facility (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/DebtFrenchTermLoansandCreditFacilityDetails</Role>
+      <ShortName>Debt - French Term Loans and Credit Facility (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>94</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R95.htm</HtmlFileName>
+      <LongName>240744050 - Disclosure - Debt - Interest Paid (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/DebtInterestPaidDetails</Role>
+      <ShortName>Debt - Interest Paid (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>95</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R96.htm</HtmlFileName>
+      <LongName>240764051 - Disclosure - Commitments and Contingencies (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/CommitmentsandContingenciesDetails</Role>
+      <ShortName>Commitments and Contingencies (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/CommitmentsandContingencies</ParentRole>
+      <Position>96</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R97.htm</HtmlFileName>
+      <LongName>240794052 - Disclosure - Common Stock and Share-Based Compensation - Common Stock (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/CommonStockandShareBasedCompensationCommonStockDetails</Role>
+      <ShortName>Common Stock and Share-Based Compensation - Common Stock (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>97</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R98.htm</HtmlFileName>
+      <LongName>240804053 - Disclosure - Common Stock and Share-Based Compensation - Stock Options (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/CommonStockandShareBasedCompensationStockOptionsDetails</Role>
+      <ShortName>Common Stock and Share-Based Compensation - Stock Options (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>98</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R99.htm</HtmlFileName>
+      <LongName>240814054 - Disclosure - Common Stock and Share-Based Compensation - Stock Option Activity (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/CommonStockandShareBasedCompensationStockOptionActivityDetails</Role>
+      <ShortName>Common Stock and Share-Based Compensation - Stock Option Activity (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>99</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R100.htm</HtmlFileName>
+      <LongName>240824055 - Disclosure - Common Stock and Share-Based Compensation - Restricted Stock Awards (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/CommonStockandShareBasedCompensationRestrictedStockAwardsDetails</Role>
+      <ShortName>Common Stock and Share-Based Compensation - Restricted Stock Awards (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>100</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R101.htm</HtmlFileName>
+      <LongName>240834056 - Disclosure - Common Stock and Share-Based Compensation - Summary of Restricted Stock Awards (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/CommonStockandShareBasedCompensationSummaryofRestrictedStockAwardsDetails</Role>
+      <ShortName>Common Stock and Share-Based Compensation - Summary of Restricted Stock Awards (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>101</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R102.htm</HtmlFileName>
+      <LongName>240864057 - Disclosure - Earnings Per Share - Reconciliation of Common Shares Used in Calculating Basic and Diluted Net Income (Loss) Per Common Share (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/EarningsPerShareReconciliationofCommonSharesUsedinCalculatingBasicandDilutedNetIncomeLossPerCommonShareDetails</Role>
+      <ShortName>Earnings Per Share - Reconciliation of Common Shares Used in Calculating Basic and Diluted Net Income (Loss) Per Common Share (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>102</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R103.htm</HtmlFileName>
+      <LongName>240884058 - Disclosure - Associates' Defined Contribution Plan - (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/AssociatesDefinedContributionPlanDetails</Role>
+      <ShortName>Associates' Defined Contribution Plan - (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/AssociatesDefinedContributionPlan</ParentRole>
+      <Position>103</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R104.htm</HtmlFileName>
+      <LongName>240914059 - Disclosure - Segment Information - Narrative (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/SegmentInformationNarrativeDetails</Role>
+      <ShortName>Segment Information - Narrative (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>104</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R105.htm</HtmlFileName>
+      <LongName>240924060 - Disclosure - Segment Information - Schedule of Segment Information (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/SegmentInformationScheduleofSegmentInformationDetails</Role>
+      <ShortName>Segment Information - Schedule of Segment Information (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>105</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R106.htm</HtmlFileName>
+      <LongName>240934061 - Disclosure - Segment Information - Capital Expenditures (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/SegmentInformationCapitalExpendituresDetails</Role>
+      <ShortName>Segment Information - Capital Expenditures (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>106</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R107.htm</HtmlFileName>
+      <LongName>240964062 - Disclosure - Unaudited Quarterly Financial Information - Unaudited Quarterly Information (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/UnauditedQuarterlyFinancialInformationUnauditedQuarterlyInformationDetails</Role>
+      <ShortName>Unaudited Quarterly Financial Information - Unaudited Quarterly Information (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <Position>107</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R108.htm</HtmlFileName>
+      <LongName>240984063 - Disclosure - Subsequent Events (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/SubsequentEventsDetails</Role>
+      <ShortName>Subsequent Events (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/SubsequentEvents</ParentRole>
+      <Position>108</Position>
+    </Report>
+    <Report instance="gme-20210130.htm">
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <HtmlFileName>R109.htm</HtmlFileName>
+      <LongName>241004064 - Disclosure - Schedule II - Valuation and Qualifying Accounts (Details)</LongName>
+      <ReportType>Sheet</ReportType>
+      <Role>http://www.gamestop.com/role/ScheduleIIValuationandQualifyingAccountsDetails</Role>
+      <ShortName>Schedule II - Valuation and Qualifying Accounts (Details)</ShortName>
+      <MenuCategory>Details</MenuCategory>
+      <ParentRole>http://www.gamestop.com/role/ScheduleIIValuationandQualifyingAccounts</ParentRole>
+      <Position>109</Position>
+    </Report>
+    <Report>
+      <IsDefault>false</IsDefault>
+      <HasEmbeddedReports>false</HasEmbeddedReports>
+      <LongName>All Reports</LongName>
+      <ReportType>Book</ReportType>
+      <ShortName>All Reports</ShortName>
+    </Report>
+  </MyReports>
+  <InputFiles>
+    <File doctype="10-K" original="gme-20210130.htm">gme-20210130.htm</File>
+    <File>ex211-fy20q4.htm</File>
+    <File>ex231-fy20q4.htm</File>
+    <File>ex311-fy20q4.htm</File>
+    <File>ex312-fy20q4.htm</File>
+    <File>ex321-fy20q4.htm</File>
+    <File>ex322-fy20q4.htm</File>
+    <File>gme-20210130.xsd</File>
+    <File>gme-20210130_cal.xml</File>
+    <File>gme-20210130_def.xml</File>
+    <File>gme-20210130_lab.xml</File>
+    <File>gme-20210130_pre.xml</File>
+  </InputFiles>
+  <SupplementalFiles>
+    <File>gme-20210130_g1.jpg</File>
+    <File>gme-20210130_g2.gif</File>
+  </SupplementalFiles>
+  <BaseTaxonomies>
+    <BaseTaxonomy>http://fasb.org/us-gaap/2019-01-31</BaseTaxonomy>
+    <BaseTaxonomy>http://xbrl.sec.gov/country/2017-01-31</BaseTaxonomy>
+    <BaseTaxonomy>http://fasb.org/srt/2019-01-31</BaseTaxonomy>
+    <BaseTaxonomy>http://xbrl.sec.gov/dei/2019-01-31</BaseTaxonomy>
+  </BaseTaxonomies>
+  <HasPresentationLinkbase>true</HasPresentationLinkbase>
+  <HasCalculationLinkbase>true</HasCalculationLinkbase>
+</FilingSummary>
+</XML>

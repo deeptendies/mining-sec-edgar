@@ -1,0 +1,307 @@
+<XBRL>
+<?xml version="1.0" encoding="utf-8"?>
+<InstanceReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.0.0.10</Version>
+  <hasSegments>false</hasSegments>
+  <ReportName>Commitments and Contingencies</ReportName>
+  <ReportLongName>0611 - Disclosure - Commitments and Contingencies</ReportLongName>
+  <DisplayLabelColumn>true</DisplayLabelColumn>
+  <ShowElementNames>false</ShowElementNames>
+  <RoundingOption />
+  <HasEmbeddedReports>false</HasEmbeddedReports>
+  <Columns>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>1</Id>
+      <Labels>
+        <Label Id="1" Label="12 Months Ended" />
+        <Label Id="2" Label="Jan. 30, 2010" />
+      </Labels>
+      <CurrencyCode>usd</CurrencyCode>
+      <CurrencySymbol>$</CurrencySymbol>
+      <FootnoteIndexer />
+      <hasSegments>false</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments />
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>Shares</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>USD</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>USDEPS</UnitID>
+          <UnitType>Divide</UnitType>
+          <NumeratorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </NumeratorMeasure>
+          <DenominatorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </DenominatorMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+    </Column>
+  </Columns>
+  <Rows>
+    <Row>
+      <Id>2</Id>
+      <Label>Commitments and Contingencies [Abstract]</Label>
+      <Level>0</Level>
+      <ElementName>gme_CommitmentsAndContingenciesAbstract</ElementName>
+      <ElementPrefix>gme</ElementPrefix>
+      <IsBaseElement>false</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ElementDataType>string</ElementDataType>
+      <ShortDefinition>Commitments and Contingencies.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>true</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDefenition>Commitments and Contingencies.</ElementDefenition>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>3</Id>
+      <Label>Commitments and Contingencies</Label>
+      <Level>1</Level>
+      <ElementName>us-gaap_CommitmentsAndContingenciesDisclosureTextBlock</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ElementDataType>string</ElementDataType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>verboselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note 11 - us-gaap:CommitmentsAndContingenciesDisclosureTextBlock--&gt;
+   &lt;div style="margin-left: 0%"&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff; text-align: left"&gt;
+   &lt;tr&gt;
+       &lt;td width="5%"&gt;&lt;/td&gt;
+       &lt;td width="95%"&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="top"&gt;
+       &lt;td&gt;
+       &lt;b&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;11.&amp;#160;&amp;#160;&lt;/font&gt;&lt;/b&gt;
+   &lt;/td&gt;
+       &lt;td&gt;
+       &lt;b&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Commitments
+       and Contingencies&lt;/font&gt;&lt;/b&gt;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;/table&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Contingencies&lt;/font&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       On February&amp;#160;14, 2005, and as amended, Steve Strickland, as
+       personal representative of the Estate of Arnold&amp;#160;Strickland,
+       deceased, Henry Mealer, as personal representative of the Estate
+       of Ace Mealer, deceased, and Willie Crump, as personal
+       representative of the Estate of James Crump, deceased, filed a
+       wrongful death lawsuit against GameStop, Sony, Take-Two
+       Interactive, Rock Star Games and Wal-Mart (collectively, the
+       &amp;#8220;Defendants&amp;#8221;) and Devin&amp;#160;Moore, alleging that
+       Defendants&amp;#8217; actions in designing, manufacturing, marketing
+       and supplying Defendant Moore with violent video games were
+       negligent and contributed to Defendant Moore killing Arnold
+       Strickland, Ace&amp;#160;Mealer and James Crump. Moore was found
+       guilty of capital murder in a criminal trial and was sentenced
+       to death in August 2005.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       Plaintiffs&amp;#8217; counsel named an expert who plaintiffs
+       indicated would testify that violent video games were a
+       substantial factor in causing the murders. The testimony of
+       plaintiffs&amp;#8217; psychologist expert was heard by the Court on
+       October&amp;#160;30, 2008, and the motion to exclude that testimony
+       was argued on December&amp;#160;12, 2008. On July&amp;#160;30, 2009, the
+       trial court entered its Order granting summary judgment for all
+       defendants, dismissing the case with prejudice on the grounds
+       that plaintiffs&amp;#8217; expert&amp;#8217;s testimony did not satisfy
+       the Frye standard for expert admissibility. Subsequent to the
+       entry of the Order, the plaintiffs filed a notice of appeal.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       The Company does not believe there is sufficient information to
+       estimate the amount of the possible loss, if any, resulting from
+       the lawsuit if the plaintiffs&amp;#8217; appeal is successful.
+   &lt;/div&gt;
+   &lt;!-- XBRL Pagebreak Begin --&gt;
+   &lt;/div&gt;
+   &lt;!-- END PAGE WIDTH --&gt;
+   &lt;!-- PAGEBREAK --&gt;
+   &lt;div style="margin-left: 0%"&gt;
+   &lt;!-- BEGIN PAGE WIDTH --&gt;
+   &lt;div style="margin-top: 0pt; font-size: 1pt"&gt;
+   &lt;/div&gt;
+   &lt;div align="center" style="margin-left: 0%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+   &lt;b&gt;
+   &lt;font style="font-family: 'Times New Roman', Times"&gt;
+   &lt;/font&gt;
+   &lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 0pt; font-size: 1pt"&gt;
+   &lt;/div&gt;
+   &lt;div align="center" style="margin-left: 0%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+   &lt;b&gt;
+   &lt;font style="font-family: 'Times New Roman', Times"&gt;
+   &lt;/font&gt;
+   &lt;/b&gt;
+   &lt;/div&gt;
+   &lt;!-- XBRL Pagebreak End --&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       In the ordinary course of the Company&amp;#8217;s business, the
+       Company is, from time to time, subject to various other legal
+       proceedings, including matters involving wage and hour employee
+       class actions. The Company may enter into discussions regarding
+       settlement of these and other types of lawsuits, and may enter
+       into settlement agreements, if it believes settlement is in the
+       best interest of the Company&amp;#8217;s shareholders. Management
+       does not believe that any such other legal proceedings or
+       settlements, individually or in the aggregate, will have a
+       material adverse effect on the Company&amp;#8217;s financial
+       condition, results of operations or liquidity.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       In 2003, the Company purchased a 51% controlling interest in
+       GameStop Group Limited, which operates stores in Ireland and the
+       United Kingdom. Under the terms of the purchase agreement, the
+       minority interest owners have the ability to require the Company
+       to purchase their remaining shares in incremental percentages at
+       a price to be determined based partially on the Company&amp;#8217;s
+       price to earnings ratio and GameStop Group Limited&amp;#8217;s
+       earnings. Shares representing approximately 16% were purchased
+       in June 2008 and in July 2009 an additional 16% was purchased,
+       bringing the Company&amp;#8217;s total interest in GameStop Group
+       Limited to approximately 84%. The Company already consolidates
+       the results of GameStop Group Limited; therefore, any additional
+       amounts acquired will not have a material effect on the
+       Company&amp;#8217;s financial statements.
+   &lt;/div&gt;
+   &lt;/div&gt;
+</NonNumbericText>
+          <NonNumericTextHeader>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note</NonNumericTextHeader>
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDefenition>Includes disclosure of commitments and contingencies. This element may be used as a single block of text to encapsulate the entire disclosure including data and tables.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name FASB Interpretation (FIN)
+ -Number 14
+ -Paragraph 3
+
+Reference 2: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 5
+ -Paragraph 9, 10, 11, 12
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+  </Rows>
+  <Footnotes />
+  <ComparabilityReport>false</ComparabilityReport>
+  <NumberOfCols>1</NumberOfCols>
+  <NumberOfRows>2</NumberOfRows>
+  <HasScenarios>false</HasScenarios>
+  <MonetaryRoundingLevel>UnKnown</MonetaryRoundingLevel>
+  <SharesRoundingLevel>UnKnown</SharesRoundingLevel>
+  <PerShareRoundingLevel>UnKnown</PerShareRoundingLevel>
+  <HasPureData>false</HasPureData>
+  <SharesShouldBeRounded>true</SharesShouldBeRounded>
+</InstanceReport>
+</XBRL>

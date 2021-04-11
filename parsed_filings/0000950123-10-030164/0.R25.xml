@@ -1,0 +1,1058 @@
+<XBRL>
+<?xml version="1.0" encoding="utf-8"?>
+<InstanceReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.0.0.10</Version>
+  <hasSegments>false</hasSegments>
+  <ReportName>Supplemental Cash Flow Information</ReportName>
+  <ReportLongName>0618 - Disclosure - Supplemental Cash Flow Information</ReportLongName>
+  <DisplayLabelColumn>true</DisplayLabelColumn>
+  <ShowElementNames>false</ShowElementNames>
+  <RoundingOption />
+  <HasEmbeddedReports>false</HasEmbeddedReports>
+  <Columns>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>1</Id>
+      <Labels>
+        <Label Id="1" Label="12 Months Ended" />
+        <Label Id="2" Label="Jan. 30, 2010" />
+      </Labels>
+      <CurrencyCode>usd</CurrencyCode>
+      <CurrencySymbol>$</CurrencySymbol>
+      <FootnoteIndexer />
+      <hasSegments>false</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments />
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>Shares</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>USD</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>USDEPS</UnitID>
+          <UnitType>Divide</UnitType>
+          <NumeratorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </NumeratorMeasure>
+          <DenominatorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </DenominatorMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+    </Column>
+  </Columns>
+  <Rows>
+    <Row>
+      <Id>2</Id>
+      <Label>Supplemental Cash Flow Information [Abstract]</Label>
+      <Level>0</Level>
+      <ElementName>us-gaap_SupplementalCashFlowInformationAbstract</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ElementDataType>string</ElementDataType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>true</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>3</Id>
+      <Label>Supplemental Cash Flow Information</Label>
+      <Level>1</Level>
+      <ElementName>us-gaap_CashFlowSupplementalDisclosuresTextBlock</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ElementDataType>string</ElementDataType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>verboselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note 18 - us-gaap:CashFlowSupplementalDisclosuresTextBlock--&gt;
+   &lt;div style="margin-left: 0%"&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff; text-align: left"&gt;
+   &lt;tr&gt;
+       &lt;td width="5%"&gt;&lt;/td&gt;
+       &lt;td width="95%"&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="top"&gt;
+       &lt;td&gt;
+       &lt;b&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;18.&amp;#160;&amp;#160;&lt;/font&gt;&lt;/b&gt;
+   &lt;/td&gt;
+       &lt;td&gt;
+       &lt;b&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Supplemental
+       Cash Flow Information&lt;/font&gt;&lt;/b&gt;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;/table&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;table border="0" width="100%" align="center" cellpadding="0" cellspacing="0" style="font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff; text-align: left"&gt;
+   &lt;!-- Table Width Row BEGIN --&gt;
+   &lt;tr style="font-size: 1pt" valign="bottom"&gt;
+       &lt;td width="68%"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=01 type=maindata --&gt;
+       &lt;td width="2%"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=02 type=gutter --&gt;
+       &lt;td width="1%" align="right"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=02 type=lead --&gt;
+       &lt;td width="6%" align="right"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=02 type=body --&gt;
+       &lt;td width="1%" align="left"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=02 type=hang1 --&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=03 type=gutter --&gt;
+       &lt;td width="1%" align="right"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=03 type=lead --&gt;
+       &lt;td width="6%" align="right"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=03 type=body --&gt;
+       &lt;td width="1%" align="left"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=03 type=hang1 --&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=04 type=gutter --&gt;
+       &lt;td width="1%" align="right"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=04 type=lead --&gt;
+       &lt;td width="6%" align="right"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=04 type=body --&gt;
+       &lt;td width="1%" align="left"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=04 type=hang1 --&gt;
+   &lt;/tr&gt;
+   &lt;!-- Table Width Row END --&gt;
+   &lt;!-- TableOutputHead --&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom" align="center"&gt;
+   &lt;td nowrap="nowrap" align="center" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;52 Weeks&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;52 Weeks&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;52 Weeks&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom" align="center"&gt;
+   &lt;td nowrap="nowrap" align="center" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;Ended&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;Ended&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;Ended&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom" align="center"&gt;
+   &lt;td nowrap="nowrap" align="center" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;January&amp;#160;30,&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;January&amp;#160;31,&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;February&amp;#160;2,&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom" align="center"&gt;
+   &lt;td nowrap="nowrap" align="center" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom" style="border-bottom: 1px solid #000000"&gt;
+       &lt;b&gt;2010&lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom" style="border-bottom: 1px solid #000000"&gt;
+       &lt;b&gt;2009&lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom" style="border-bottom: 1px solid #000000"&gt;
+       &lt;b&gt;2008&lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom" align="center"&gt;
+   &lt;td nowrap="nowrap" align="center" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="10" align="center" valign="bottom"&gt;
+       &lt;b&gt;(In thousands)&lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="line-height: 3pt; font-size: 1pt"&gt;
+   &lt;td&gt;&amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- TableOutputBody --&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+   &lt;td align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 10pt"&gt;
+       Cash paid during the period for:
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 20pt"&gt;
+       Interest
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       $
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       44,136
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       $
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       45,252
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       $
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       59,357
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="font-size: 1pt"&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 20pt"&gt;
+       Income taxes
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       153,083
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       204,776
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       47,792
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="font-size: 1pt"&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 10pt"&gt;
+       Subsidiaries acquired:
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 20pt"&gt;
+       Goodwill
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       4,194
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       459,287
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       (1,061
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       )
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+   &lt;td align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 20pt"&gt;
+       Cash received in acquisition
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       51
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       45,650
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       &amp;#8212;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 20pt"&gt;
+       Noncontrolling interests
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       4,667
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       &amp;#8212;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       &amp;#8212;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+   &lt;td align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 20pt"&gt;
+       Net assets acquired (or liabilities assumed)
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       (504
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       )
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       171,419
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       &amp;#8212;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="font-size: 1pt"&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 1px solid #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 1px solid #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 1px solid #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 1px solid #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 1px solid #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 1px solid #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+   &lt;td align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 20pt"&gt;
+       Cash paid for subsidiaries
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       $
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       8,408
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       $
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       676,356
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       $
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       (1,061
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       )
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="font-size: 1pt"&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+   &lt;td align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 10pt"&gt;
+       Other non-cash financing activities:
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+   &lt;td align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 20pt"&gt;
+       Treasury stock repurchases settled in Feb. 2010
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       $
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       64,615
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       $
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       &amp;#8212;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       $
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       &amp;#8212;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="font-size: 1pt"&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;/table&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 0%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+   &lt;/div&gt;
+   &lt;/div&gt;
+</NonNumbericText>
+          <NonNumericTextHeader>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note</NonNumericTextHeader>
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDefenition>Designated to encapsulate the entire footnote disclosure that provides information on the supplemental cash flow activities, including cash, noncash, and part noncash transactions, for the period. Noncash is defined as information about all investing and financing activities of an enterprise during a period that affect recognized assets or liabilities but that do not result in cash receipts or cash payments in the period. "Part noncash" refers to that portion of the transaction not resulting in cash receipts or cash payments in the period.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 95
+ -Paragraph 32
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+  </Rows>
+  <Footnotes />
+  <ComparabilityReport>false</ComparabilityReport>
+  <NumberOfCols>1</NumberOfCols>
+  <NumberOfRows>2</NumberOfRows>
+  <HasScenarios>false</HasScenarios>
+  <MonetaryRoundingLevel>UnKnown</MonetaryRoundingLevel>
+  <SharesRoundingLevel>UnKnown</SharesRoundingLevel>
+  <PerShareRoundingLevel>UnKnown</PerShareRoundingLevel>
+  <HasPureData>false</HasPureData>
+  <SharesShouldBeRounded>true</SharesShouldBeRounded>
+</InstanceReport>
+</XBRL>

@@ -1,0 +1,841 @@
+<XBRL>
+<?xml version="1.0" encoding="utf-8"?>
+<InstanceReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.0.0.10</Version>
+  <hasSegments>false</hasSegments>
+  <ReportName>Leases</ReportName>
+  <ReportLongName>0610 - Disclosure - Leases</ReportLongName>
+  <DisplayLabelColumn>true</DisplayLabelColumn>
+  <ShowElementNames>false</ShowElementNames>
+  <RoundingOption />
+  <HasEmbeddedReports>false</HasEmbeddedReports>
+  <Columns>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>1</Id>
+      <Labels>
+        <Label Id="1" Label="12 Months Ended" />
+        <Label Id="2" Label="Jan. 30, 2010" />
+      </Labels>
+      <CurrencyCode>usd</CurrencyCode>
+      <CurrencySymbol>$</CurrencySymbol>
+      <FootnoteIndexer />
+      <hasSegments>false</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments />
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>Shares</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>USD</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>USDEPS</UnitID>
+          <UnitType>Divide</UnitType>
+          <NumeratorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </NumeratorMeasure>
+          <DenominatorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </DenominatorMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+    </Column>
+  </Columns>
+  <Rows>
+    <Row>
+      <Id>2</Id>
+      <Label>Leases [Abstract]</Label>
+      <Level>0</Level>
+      <ElementName>us-gaap_LeasesOperatingAbstract</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ElementDataType>string</ElementDataType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>true</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>3</Id>
+      <Label>Leases</Label>
+      <Level>1</Level>
+      <ElementName>us-gaap_OperatingLeasesOfLesseeDisclosureTextBlock</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ElementDataType>string</ElementDataType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>verboselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note 10 - us-gaap:OperatingLeasesOfLesseeDisclosureTextBlock--&gt;
+   &lt;div style="margin-left: 0%"&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff; text-align: left"&gt;
+   &lt;tr&gt;
+       &lt;td width="5%"&gt;&lt;/td&gt;
+       &lt;td width="95%"&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="top"&gt;
+       &lt;td&gt;
+       &lt;b&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;10.&amp;#160;&amp;#160;&lt;/font&gt;&lt;/b&gt;
+   &lt;/td&gt;
+       &lt;td&gt;
+       &lt;b&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Leases&lt;/font&gt;&lt;/b&gt;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;/table&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       The Company leases retail stores, warehouse facilities, office
+       space and equipment. These are generally leased under
+       noncancelable agreements that expire at various dates through
+       2034 with various renewal options for additional periods. The
+       agreements, which have been classified as operating leases,
+       generally provide for minimum and, in some cases, percentage
+       rentals and require the Company to pay all insurance, taxes and
+       other maintenance
+   costs. Leases with step rent provisions, escalation clauses or
+       other lease concessions are accounted for on a straight-line
+       basis over the lease term, which includes renewal option periods
+       when the Company is reasonably assured of exercising the renewal
+       options and includes &amp;#8220;rent holidays&amp;#8221; (periods in which
+       the Company is not obligated to pay rent). The Company does not
+       have leases with capital improvement funding. Percentage rentals
+       are based on sales performance in excess of specified minimums
+       at various stores.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       Approximate rental expenses under operating leases were as
+       follows:
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;table border="0" width="100%" align="center" cellpadding="0" cellspacing="0" style="font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff; text-align: left"&gt;
+   &lt;!-- Table Width Row BEGIN --&gt;
+   &lt;tr style="font-size: 1pt" valign="bottom"&gt;
+       &lt;td width="65%"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=01 type=maindata --&gt;
+       &lt;td width="2%"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=02 type=gutter --&gt;
+       &lt;td width="1%" align="right"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=02 type=lead --&gt;
+       &lt;td width="7%" align="right"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=02 type=body --&gt;
+       &lt;td width="1%" align="left"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=02 type=hang1 --&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=03 type=gutter --&gt;
+       &lt;td width="1%" align="right"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=03 type=lead --&gt;
+       &lt;td width="7%" align="right"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=03 type=body --&gt;
+       &lt;td width="1%" align="left"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=03 type=hang1 --&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=04 type=gutter --&gt;
+       &lt;td width="1%" align="right"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=04 type=lead --&gt;
+       &lt;td width="7%" align="right"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=04 type=body --&gt;
+       &lt;td width="1%" align="left"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=04 type=hang1 --&gt;
+   &lt;/tr&gt;
+   &lt;!-- Table Width Row END --&gt;
+   &lt;!-- TableOutputHead --&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom" align="center"&gt;
+   &lt;td nowrap="nowrap" align="center" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;52 Weeks&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;52 Weeks&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;52 Weeks&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom" align="center"&gt;
+   &lt;td nowrap="nowrap" align="center" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;Ended&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;Ended&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;Ended&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom" align="center"&gt;
+   &lt;td nowrap="nowrap" align="center" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;January&amp;#160;30,&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;January&amp;#160;31,&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;February&amp;#160;2,&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom" align="center"&gt;
+   &lt;td nowrap="nowrap" align="center" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom" style="border-bottom: 1px solid #000000"&gt;
+       &lt;b&gt;2010&lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom" style="border-bottom: 1px solid #000000"&gt;
+       &lt;b&gt;2009&lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom" style="border-bottom: 1px solid #000000"&gt;
+       &lt;b&gt;2008&lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom" align="center"&gt;
+   &lt;td nowrap="nowrap" align="center" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="10" align="center" valign="bottom"&gt;
+       &lt;b&gt;(In thousands)&lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="line-height: 3pt; font-size: 1pt"&gt;
+   &lt;td&gt;&amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- TableOutputBody --&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 10pt"&gt;
+       Minimum
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       $
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       354,310
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       $
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       303,727
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       $
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       255,259
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 10pt"&gt;
+       Percentage rentals
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       22,580
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       22,927
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       19,968
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="font-size: 1pt"&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 1px solid #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 1px solid #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 1px solid #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 1px solid #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 1px solid #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 1px solid #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       $
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       376,890
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       $
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       326,654
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       $
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       275,227
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="font-size: 1pt"&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;/table&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 0%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       Future minimum annual rentals, excluding percentage rentals,
+       required under leases that had initial, noncancelable lease
+       terms greater than one year, as of January&amp;#160;30, 2010 are
+       approximately:
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;table border="0" width="100%" align="center" cellpadding="0" cellspacing="0" style="font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff; text-align: left"&gt;
+   &lt;!-- Table Width Row BEGIN --&gt;
+   &lt;tr style="font-size: 1pt" valign="bottom"&gt;
+       &lt;td width="87%"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=01 type=maindata --&gt;
+       &lt;td width="2%"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=02 type=gutter --&gt;
+       &lt;td width="1%" align="right"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=02 type=lead --&gt;
+       &lt;td width="9%" align="right"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=02 type=body --&gt;
+       &lt;td width="1%" align="left"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=02 type=hang1 --&gt;
+   &lt;/tr&gt;
+   &lt;!-- Table Width Row END --&gt;
+   &lt;!-- TableOutputHead --&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom" align="center"&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &lt;div style="border-bottom: 1px solid #000000; width: 1%; padding-bottom: 1px"&gt;
+       &lt;b&gt;Year Ended&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom" style="border-bottom: 1px solid #000000"&gt;
+       &lt;b&gt;Amount&lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom" align="center"&gt;
+   &lt;td nowrap="nowrap" align="center" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="2" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;(In thousands)&lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="line-height: 3pt; font-size: 1pt"&gt;
+   &lt;td&gt;&amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- TableOutputBody --&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 10pt"&gt;
+       January 2011
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       $
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       338,745
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 10pt"&gt;
+       January 2012
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       282,537
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 10pt"&gt;
+       January 2013
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       228,683
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 10pt"&gt;
+       January 2014
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       160,224
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 10pt"&gt;
+       January 2015
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       100,420
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 10pt"&gt;
+       Thereafter
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       154,933
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="font-size: 1pt"&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 1px solid #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 1px solid #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       $
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       1,265,542
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="font-size: 1pt"&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td style="border-top: 3px double #000000"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;/table&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 0%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+   &lt;/div&gt;
+   &lt;/div&gt;
+</NonNumbericText>
+          <NonNumericTextHeader>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note</NonNumericTextHeader>
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDefenition>General description of lessee's leasing arrangements including: (1) The basis on which contingent rental payments are determined, (2) The existence and terms of renewal or purchase options and escalation clauses, (3) Restrictions imposed by lease arrangements, such as those concerning dividends, additional debt, and further leasing, (4) Rent holidays, rent concessions, or leasehold improvement incentives and unusual provisions or conditions.  Disclosure may also include the specific period used to amortize material leasehold improvements made at the inception of the lease or during the lease term. Additionally, for operating leases having initial or remaining noncancelable lease terms in excess of one year: (a) future minimum rental payments required as of the date of the latest balance sheet presented, in the aggregate and for each of the five succeeding fiscal years, (b) the total of minimum rentals to be received in the future under noncancelable subleases as of the date of the la
+test balance sheet presented, and (c) for all operating leases, rental expense for each period for which an income statement is presented, with separate amounts for minimum rentals, contingent rentals, and sublease rentals. Rental payments under leases with terms of a month or less that were not renewed need not be included.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher FASB
+ -Name Statement of Financial Accounting Standard (FAS)
+ -Number 13
+ -Paragraph 16
+ -Subparagraph b, c, d
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+  </Rows>
+  <Footnotes />
+  <ComparabilityReport>false</ComparabilityReport>
+  <NumberOfCols>1</NumberOfCols>
+  <NumberOfRows>2</NumberOfRows>
+  <HasScenarios>false</HasScenarios>
+  <MonetaryRoundingLevel>UnKnown</MonetaryRoundingLevel>
+  <SharesRoundingLevel>UnKnown</SharesRoundingLevel>
+  <PerShareRoundingLevel>UnKnown</PerShareRoundingLevel>
+  <HasPureData>false</HasPureData>
+  <SharesShouldBeRounded>true</SharesShouldBeRounded>
+</InstanceReport>
+</XBRL>

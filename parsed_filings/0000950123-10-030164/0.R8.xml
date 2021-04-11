@@ -1,0 +1,1323 @@
+<XBRL>
+<?xml version="1.0" encoding="utf-8"?>
+<InstanceReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Version>2.0.0.10</Version>
+  <hasSegments>false</hasSegments>
+  <ReportName>Summary of Significant Accounting Policies</ReportName>
+  <ReportLongName>0601 - Disclosure - Summary of Significant Accounting Policies</ReportLongName>
+  <DisplayLabelColumn>true</DisplayLabelColumn>
+  <ShowElementNames>false</ShowElementNames>
+  <RoundingOption />
+  <HasEmbeddedReports>false</HasEmbeddedReports>
+  <Columns>
+    <Column>
+      <LabelColumn>false</LabelColumn>
+      <Id>1</Id>
+      <Labels>
+        <Label Id="1" Label="12 Months Ended" />
+        <Label Id="2" Label="Jan. 30, 2010" />
+      </Labels>
+      <CurrencyCode>usd</CurrencyCode>
+      <CurrencySymbol>$</CurrencySymbol>
+      <FootnoteIndexer />
+      <hasSegments>false</hasSegments>
+      <hasScenarios>false</hasScenarios>
+      <Segments />
+      <Scenarios />
+      <Units>
+        <Unit>
+          <UnitID>Shares</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>USD</UnitID>
+          <UnitType>Standard</UnitType>
+          <StandardMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </StandardMeasure>
+          <Scale>0</Scale>
+        </Unit>
+        <Unit>
+          <UnitID>USDEPS</UnitID>
+          <UnitType>Divide</UnitType>
+          <NumeratorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/iso4217</MeasureSchema>
+            <MeasureValue>USD</MeasureValue>
+            <MeasureNamespace>iso4217</MeasureNamespace>
+          </NumeratorMeasure>
+          <DenominatorMeasure>
+            <MeasureSchema>http://www.xbrl.org/2003/instance</MeasureSchema>
+            <MeasureValue>shares</MeasureValue>
+            <MeasureNamespace>xbrli</MeasureNamespace>
+          </DenominatorMeasure>
+          <Scale>0</Scale>
+        </Unit>
+      </Units>
+    </Column>
+  </Columns>
+  <Rows>
+    <Row>
+      <Id>2</Id>
+      <Label>Summary of Significant Accounting Policies [Abstract]</Label>
+      <Level>0</Level>
+      <ElementName>us-gaap_GeneralPoliciesAbstract</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ElementDataType>string</ElementDataType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>true</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole />
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText />
+          <NonNumericTextHeader />
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDefenition>No definition available.</ElementDefenition>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+    <Row>
+      <Id>3</Id>
+      <Label>Summary of Significant Accounting Policies</Label>
+      <Level>1</Level>
+      <ElementName>us-gaap_SignificantAccountingPoliciesTextBlock</ElementName>
+      <ElementPrefix>us-gaap</ElementPrefix>
+      <IsBaseElement>true</IsBaseElement>
+      <BalanceType>na</BalanceType>
+      <PeriodType>duration</PeriodType>
+      <ElementDataType>string</ElementDataType>
+      <ShortDefinition>No definition available.</ShortDefinition>
+      <IsReportTitle>false</IsReportTitle>
+      <IsSegmentTitle>false</IsSegmentTitle>
+      <IsSubReportEnd>false</IsSubReportEnd>
+      <IsCalendarTitle>false</IsCalendarTitle>
+      <IsTuple>false</IsTuple>
+      <IsAbstractGroupTitle>false</IsAbstractGroupTitle>
+      <IsEquityPrevioslyReportedAsRow>false</IsEquityPrevioslyReportedAsRow>
+      <IsEquityAdjustmentRow>false</IsEquityAdjustmentRow>
+      <IsBeginningBalance>false</IsBeginningBalance>
+      <IsEndingBalance>false</IsEndingBalance>
+      <IsReverseSign>false</IsReverseSign>
+      <PreferredLabelRole>verboselabel</PreferredLabelRole>
+      <IsEPS>false</IsEPS>
+      <FootnoteIndexer />
+      <Cells>
+        <Cell>
+          <Id>1</Id>
+          <ShowCurrencySymbol>false</ShowCurrencySymbol>
+          <IsNumeric>false</IsNumeric>
+          <IsRatio>false</IsRatio>
+          <DisplayZeroAsNone>false</DisplayZeroAsNone>
+          <NumericAmount>0</NumericAmount>
+          <RoundedNumericAmount>0</RoundedNumericAmount>
+          <NonNumbericText>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note 1 - us-gaap:SignificantAccountingPoliciesTextBlock--&gt;
+   &lt;div style="margin-left: 0%"&gt;&lt;!-- BEGIN PAGE WIDTH --&gt;
+   &lt;!-- XBRL Pagebreak End --&gt;
+   &lt;div align="center" style="margin-left: 0%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+   &lt;b&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;
+   &lt;/font&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 0pt; font-size: 1pt"&gt;&lt;/div&gt;
+   &lt;!-- XBRL,ns --&gt;
+   &lt;div align="center" style="margin-left: 0%; margin-right: 0%; text-indent: 0%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+   &lt;b&gt;
+   &lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;table width="100%" border="0" cellpadding="0" cellspacing="0" style="font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff; text-align: left"&gt;
+   &lt;tr&gt;
+       &lt;td width="3%"&gt;&lt;/td&gt;
+       &lt;td width="97%"&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="top"&gt;
+       &lt;td&gt;
+       &lt;b&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;1.&amp;#160;&amp;#160;&lt;/font&gt;&lt;/b&gt;
+   &lt;/td&gt;
+       &lt;td&gt;
+       &lt;b&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Summary
+       of Significant Accounting Policies&lt;/font&gt;&lt;/b&gt;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;/table&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 2%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;i&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Background&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       GameStop Corp. (together with its predecessor companies,
+       &amp;#8220;GameStop,&amp;#8221; &amp;#8220;we,&amp;#8221; &amp;#8220;our,&amp;#8221; or the
+       &amp;#8220;Company&amp;#8221;) is the world&amp;#8217;s largest retailer of
+       video game systems and software and PC entertainment software
+       and related accessories primarily through its GameStop and EB
+       Games stores. We also operate electronic commerce Web sites
+       &lt;u&gt;www.gamestop.com&lt;/u&gt;, &lt;u&gt;www.ebgames.com.au&lt;/u&gt;,
+       &lt;u&gt;www.gamestop.ca&lt;/u&gt;, &lt;u&gt;www.gamestop.it&lt;/u&gt;, and
+       &lt;u&gt;www.micromania.fr&lt;/u&gt;, and publish &lt;i&gt;Game Informer
+       Magazine&lt;/i&gt;. The Company&amp;#8217;s stores, which totaled 6,450 at
+       January&amp;#160;30, 2010, are located in major regional shopping
+       malls and strip centers. The Company operates in four business
+       segments, which are the United States, Australia, Canada and
+       Europe.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       The Company is a Delaware corporation, formerly known as GSC
+       Holdings Corp., and has grown through a business combination
+       (the &amp;#8220;EB merger&amp;#8221;) of GameStop Holdings Corp., formerly
+       known as GameStop Corp., and Electronics Boutique Holdings Corp.
+       (&amp;#8220;EB&amp;#8221;), which was completed on October&amp;#160;8, 2005.
+       The Company also has grown through acquisitions, including the
+       purchase in November 2008 of SFMI Micromania SAS
+       (&amp;#8220;Micromania&amp;#8221;), a leading retailer of video and
+       computer games in France.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 2%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;i&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Basis
+       of Presentation and Consolidation&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       Our consolidated financial statements include the accounts of
+       the Company, its wholly-owned subsidiaries and its
+       majority-owned subsidiaries. All significant intercompany
+       accounts and transactions have been eliminated in consolidation.
+       All dollar and share amounts in the consolidated financial
+       statements and notes to the consolidated financial statements
+       are stated in thousands unless otherwise indicated.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       The Company&amp;#8217;s fiscal year is composed of the 52 or
+       53&amp;#160;weeks ending on the Saturday closest to the last day of
+       January. Fiscal 2009 consisted of the 52&amp;#160;weeks ended on
+       January&amp;#160;30, 2010. Fiscal 2008 consisted of the
+       52&amp;#160;weeks ended on January&amp;#160;31, 2009. Fiscal 2007
+       consisted of the 52&amp;#160;weeks ended on February&amp;#160;2, 2008.
+       The Company&amp;#8217;s operating results for fiscal 2009 include
+       52&amp;#160;weeks of Micromania&amp;#8217;s results and the operating
+       results for fiscal 2008 include 11&amp;#160;weeks of
+       Micromania&amp;#8217;s results.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 2%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;i&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Use of
+       Estimates&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       The preparation of financial statements in conformity with
+       accounting principles generally accepted in the United States of
+       America (&amp;#8220;GAAP&amp;#8221;) requires management to make estimates
+       and assumptions that affect the reported amounts of assets and
+       liabilities, the disclosure of contingent assets and liabilities
+       at the date of the financial statements and the reported amounts
+       of revenues and expenses during the reporting period. In
+       preparing these financial statements, management has made its
+       best estimates and judgments of certain amounts included in the
+       financial statements, giving due consideration to materiality.
+       Changes in the estimates and assumptions used by management
+       could have significant impact on the Company&amp;#8217;s financial
+       results. Actual results could differ from those estimates.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 2%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;i&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Reclassifications&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       Certain reclassifications have been made to conform the prior
+       period data to the current year presentation.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 2%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;i&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Cash
+       and Cash Equivalents&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       The Company considers all short-term, highly-liquid instruments
+       purchased with an original maturity of three months or less to
+       be cash equivalents. The Company&amp;#8217;s cash and cash
+       equivalents are carried at cost, which approximates market
+       value, and consist primarily of time deposits with highly rated
+       commercial banks. From time to time depending upon interest
+       rates, credit worthiness and other factors, the Company invests
+       in money market
+   investment funds holding direct U.S.&amp;#160;Treasury obligations.
+       The Company held such cash equivalents as of January&amp;#160;30,
+       2010.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 2%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;i&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Merchandise
+       Inventories&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       The Company&amp;#8217;s merchandise inventories are carried at the
+       lower of cost or market generally using the average cost method.
+       Under the average cost method, as new product is received from
+       vendors, its current cost is added to the existing cost of
+       product on-hand and this amount is re-averaged over the
+       cumulative units. Used video game products traded in by
+       customers are recorded as inventory at the amount of the store
+       credit given to the customer. In valuing inventory, management
+       is required to make assumptions regarding the necessity of
+       reserves required to value potentially obsolete or over-valued
+       items at the lower of cost or market. Management considers
+       quantities on hand, recent sales, potential price protections
+       and returns to vendors, among other factors, when making these
+       assumptions. The Company&amp;#8217;s ability to gauge these factors
+       is dependent upon the Company&amp;#8217;s ability to forecast
+       customer demand and to provide a well-balanced merchandise
+       assortment. Inventory is adjusted based on anticipated physical
+       inventory losses or shrinkage and actual losses resulting from
+       periodic physical inventory counts. Inventory reserves as of
+       January&amp;#160;30, 2010 and January&amp;#160;31, 2009 were $66,499 and
+       $56,567, respectively.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 2%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;i&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Property
+       and Equipment&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       Property and equipment are carried at cost less accumulated
+       depreciation and amortization. Depreciation on furniture,
+       fixtures and equipment is computed using the straight-line
+       method over their estimated useful lives ranging from two to
+       eight years. Maintenance and repairs are expensed as incurred,
+       while betterments and major remodeling costs are capitalized.
+       Leasehold improvements are capitalized and amortized over the
+       shorter of their estimated useful lives or the terms of the
+       respective leases, including option periods in which the
+       exercise of the option is reasonably assured (generally ranging
+       from three to ten years). Costs incurred in purchasing
+       management information systems are capitalized and included in
+       property and equipment. These costs are amortized over their
+       estimated useful lives from the date the systems become
+       operational.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       The Company periodically reviews its property and equipment when
+       events or changes in circumstances indicate that their carrying
+       amounts may not be recoverable or their depreciation or
+       amortization periods should be accelerated. The Company assesses
+       recoverability based on several factors, including
+       management&amp;#8217;s intention with respect to its stores and those
+       stores&amp;#8217; projected undiscounted cash flows. An impairment
+       loss would be recognized for the amount by which the carrying
+       amount of the assets exceeds their fair value, as approximated
+       by the present value of their projected cash flows. Write-downs
+       incurred by the Company through January&amp;#160;30, 2010 have not
+       been material.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 2%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;i&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Goodwill&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       Goodwill represents the excess purchase price over tangible net
+       assets and identifiable intangible assets acquired. The Company
+       is required to evaluate goodwill and other intangible assets not
+       subject to amortization for impairment at least annually. This
+       test is completed at the beginning of the fourth quarter each
+       fiscal year or when circumstances indicate the carrying value of
+       the goodwill or other intangible assets might be impaired.
+       Goodwill has been assigned to reporting units for the purpose of
+       impairment testing. The Company has four business segments, the
+       United States, Australia, Canada and Europe, which also define
+       our reporting units based upon the similar economic
+       characteristics of operations within each segment, including the
+       nature of products, product distribution and the type of
+       customer and separate management within those regions. The
+       Company estimates fair value based on the discounted cash flows
+       of each reporting unit. The Company uses a two-step process to
+       measure goodwill impairment. If the fair value of the reporting
+       unit is higher than its carrying value, then goodwill is not
+       impaired. If the carrying value of the reporting unit is higher
+       than the fair value, then the second test of goodwill impairment
+       is needed. The second test compares the implied fair value of
+       the reporting unit&amp;#8217;s goodwill with its carrying amount. If
+       the carrying amount of the reporting unit&amp;#8217;s goodwill
+       exceeds the implied fair value, then an impairment loss is
+   recognized in the amount of the excess. The Company completed
+       its annual impairment test of goodwill on the first day of the
+       fourth quarter of fiscal 2007, fiscal 2008 and fiscal 2009 and
+       concluded that none of its goodwill was impaired. Note&amp;#160;8
+       provides additional information concerning the changes in
+       goodwill for the consolidated financial statements presented.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 2%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;i&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Other
+       Intangible Assets&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       Other intangible assets consist primarily of tradenames,
+       leasehold rights and amounts attributed to favorable leasehold
+       interests recorded as a result of business acquisitions.
+       Intangible assets are recorded apart from goodwill if they arise
+       from a contractual right and are capable of being separated from
+       the entity and sold, transferred, licensed, rented or exchanged
+       individually. The useful life and amortization methodology of
+       intangible assets are determined based on the period in which
+       they are expected to contribute directly to cash flows.
+       Intangible assets that are determined to have a definite life
+       are amortized over that period. Intangible assets that are
+       determined to have an indefinite life are not amortized, but are
+       required to be evaluated at least annually for impairment. If
+       the carrying value of an individual indefinite-life intangible
+       asset exceeds its fair value as determined by its discounted
+       cash flows, such individual indefinite-life intangible asset is
+       written down by the amount of the excess. The Company completed
+       its annual impairment tests of indefinite-life intangible assets
+       as of the first day of the fourth quarter of fiscal 2007, fiscal
+       2008 and fiscal 2009 and concluded that none of its intangible
+       assets were impaired.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       Tradenames which were recorded as a result of the Micromania
+       acquisition are considered indefinite life intangible assets as
+       they are expected to contribute to cash flows indefinitely and
+       are not subject to amortization, but are subject to annual
+       impairment testing. Leasehold rights which were recorded as a
+       result of the Micromania acquisition represent the value of
+       rights of tenancy under commercial property leases for
+       properties located in France. Rights pertaining to individual
+       leases can be sold by us to a new tenant or recovered by us from
+       the landlord if the exercise of the automatic right of renewal
+       is refused. Leasehold rights are amortized on a straight-line
+       basis over the expected lease term not to exceed 20&amp;#160;years
+       with no residual value. Favorable leasehold interests represent
+       the value of the contractual monthly rental payments that are
+       less than the current market rent at stores acquired as part of
+       the Micromania acquisition or the EB merger. Favorable leasehold
+       interests are amortized on a straight-line basis over their
+       remaining lease term with no expected residual value.
+       Note&amp;#160;8 provides additional information related to the
+       Company&amp;#8217;s intangible assets.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 2%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;i&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Revenue
+       Recognition&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       Revenue from the sales of the Company&amp;#8217;s products is
+       recognized at the time of sale and is stated net of sales
+       discounts. The sales of used video game products are recorded at
+       the retail price charged to the customer. Sales returns (which
+       are not significant) are recognized at the time returns are
+       made. Subscription and advertising revenues are recorded upon
+       release of magazines for sale to consumers. Magazine
+       subscription revenue is recognized on a straight-line basis over
+       the subscription period. Revenue from the sales of product
+       replacement plans is recognized on a straight-line basis over
+       the coverage period. The deferred revenues for magazine
+       subscriptions and deferred financing plans are included in
+       accrued liabilities (see Note&amp;#160;7).
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       Revenues do not include sales taxes or other taxes collected
+       from customers.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 2%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;i&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Cost
+       of Sales and Selling, General and Administrative Expenses
+       Classification&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       The classification of cost of sales and selling, general and
+       administrative expenses varies across the retail industry. The
+       Company includes purchasing, receiving and distribution costs in
+       selling, general and administrative expenses, rather than cost
+       of goods sold, in the statement of operations. For the
+       52&amp;#160;weeks ended January&amp;#160;30, 2010, January&amp;#160;31, 2009
+       and February&amp;#160;2, 2008, these purchasing, receiving and
+       distribution costs amounted to $63,589, $57,037 and $43,928,
+       respectively.
+   &lt;/div&gt;
+   &lt;!-- XBRL Pagebreak Begin --&gt;
+   &lt;/div&gt;
+   &lt;!-- END PAGE WIDTH --&gt;
+   &lt;!-- PAGEBREAK --&gt;
+   &lt;div style="margin-left: 0%"&gt;
+   &lt;!-- BEGIN PAGE WIDTH --&gt;
+   &lt;div style="margin-top: 0pt; font-size: 1pt"&gt;
+   &lt;/div&gt;
+   &lt;div align="center" style="margin-left: 0%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+   &lt;b&gt;
+   &lt;font style="font-family: 'Times New Roman', Times"&gt;
+   &lt;/font&gt;
+   &lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 0pt; font-size: 1pt"&gt;
+   &lt;/div&gt;
+   &lt;div align="center" style="margin-left: 0%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+   &lt;b&gt;
+   &lt;font style="font-family: 'Times New Roman', Times"&gt;
+   &lt;/font&gt;
+   &lt;/b&gt;
+   &lt;/div&gt;
+   &lt;!-- XBRL Pagebreak End --&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       The Company includes processing fees associated with purchases
+       made by check and credit cards in cost of sales, rather than
+       selling, general and administrative expenses, in the statement
+       of operations. For the 52&amp;#160;weeks ended January&amp;#160;30,
+       2010, January&amp;#160;31, 2009 and February&amp;#160;2, 2008, these
+       processing fees amounted to $63,059, $65,493 and $55,215,
+       respectively.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 2%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;i&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Customer
+       Liabilities&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       The Company establishes a liability upon the issuance of
+       merchandise credits and the sale of gift cards. Revenue is
+       subsequently recognized when the credits and gift cards are
+       redeemed. In addition, income (&amp;#8220;breakage&amp;#8221;) is
+       recognized quarterly on unused customer liabilities older than
+       three years to the extent that the Company believes the
+       likelihood of redemption by the customer is remote, based on
+       historical redemption patterns. Breakage has historically been
+       immaterial. To the extent that future redemption patterns differ
+       from those historically experienced, there will be variations in
+       the recorded breakage.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 2%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;i&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Pre-Opening
+       Expenses&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       All costs associated with the opening of new stores are expensed
+       as incurred. Pre-opening expenses are included in selling,
+       general and administrative expenses in the accompanying
+       consolidated statements of operations.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 2%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;i&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Closed
+       Store Expenses&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       Upon a formal decision to close or relocate a store, the Company
+       charges unrecoverable costs to expense. Such costs include the
+       net book value of abandoned fixtures and leasehold improvements
+       and, once the store is vacated, a provision for future lease
+       obligations, net of expected sublease recoveries. Costs
+       associated with store closings are included in selling, general
+       and administrative expenses in the accompanying consolidated
+       statements of operations.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 2%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;i&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Advertising
+       Expenses&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       The Company expenses advertising costs for newspapers and other
+       media when the advertising takes place. Advertising expenses for
+       television, newspapers and other media during the 52&amp;#160;weeks
+       ended January&amp;#160;30, 2010, January&amp;#160;31, 2009 and
+       February&amp;#160;2, 2008 were $57,681, $46,708 and $26,243,
+       respectively. During fiscal 2007, the Company launched a new
+       marketing campaign for television, radio and print to promote
+       the GameStop brand and its brand tagline, &amp;#8220;Power to the
+       Players.&amp;#8221;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 2%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;i&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Income
+       Taxes&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       Income tax expense includes United States, state, local and
+       international income taxes, plus a provision for U.S.&amp;#160;taxes
+       on undistributed earnings of foreign subsidiaries not deemed to
+       be indefinitely reinvested. Deferred tax assets and liabilities
+       are recognized for the tax consequences of temporary differences
+       between the financial reporting basis and the tax basis of
+       existing assets and liabilities using enacted tax rates.
+       Valuation allowances are recorded to reduce deferred tax assets
+       to the amount that will more likely than not be realized.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       In July 2006, the Financial Accounting Standards Board
+       (&amp;#8220;FASB&amp;#8221;) issued accounting guidance that clarified the
+       accounting for uncertainty in income taxes recognized in an
+       enterprise&amp;#8217;s financial statements. This guidance prescribes
+       a recognition threshold and measurement attribute for the
+       financial statement recognition and measurement of a tax
+       position taken or expected to be taken in a tax return. It also
+       provides guidance on derecognition, classification, interest and
+       penalties, accounting in interim periods, disclosure and
+       transition. The Company adopted the provisions of this
+       accounting guidance and changed our accounting policy effective
+       on February&amp;#160;4, 2007. As a result, we recorded an
+       approximate $16,679 increase in accrued income taxes in our
+       consolidated balance sheet for
+   unrecognized tax benefits, which was accounted for as a
+       cumulative effect adjustment to the February&amp;#160;4, 2007
+       balance of retained earnings (see Note&amp;#160;12).
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       U.S.&amp;#160;income taxes have not been provided on $353,465 of
+       undistributed earnings of foreign subsidiaries as of
+       January&amp;#160;30, 2010. The Company reinvests earnings of foreign
+       subsidiaries in foreign operations and expects that future
+       earnings will also be reinvested in foreign operations
+       indefinitely.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 2%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;i&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Lease
+       Accounting&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       The Company&amp;#8217;s method of accounting for rent expense (and
+       related deferred rent liability) and leasehold improvements
+       funded by landlord incentives for allowances under operating
+       leases (tenant improvement allowances) is in conformance with
+       GAAP. For leases that contain predetermined fixed escalations of
+       the minimum rent, the Company recognizes the related rent
+       expense on a straight-line basis and includes the impact of
+       escalating rents for periods in which it is reasonably assured
+       of exercising lease options and the Company includes in the
+       lease term any period during which the Company is not obligated
+       to pay rent while the store is being constructed.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 2%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;i&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Foreign
+       Currency Translation&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       GameStop has determined that the functional currencies of its
+       foreign subsidiaries are the subsidiaries&amp;#8217; local
+       currencies. The assets and liabilities of the subsidiaries are
+       translated at the applicable exchange rate as of the end of the
+       balance sheet date and revenue and expenses are translated at an
+       average rate over the period. Currency translation adjustments
+       are recorded as a component of other comprehensive income.
+       Transaction gains and (losses) are included in selling, general
+       and administrative expenses and amounted to $3,891, ($9,993) and
+       $8,575 for the 52&amp;#160;weeks ended January&amp;#160;30, 2010,
+       January&amp;#160;31, 2009 and February&amp;#160;2, 2008, respectively.
+       The foreign currency transaction gains in fiscal 2009 and fiscal
+       2007 are primarily due to the decrease in the value of the
+       U.S.&amp;#160;dollar compared to the functional currencies in the
+       countries the Company operates in internationally, primarily the
+       euro, the Canadian dollar and the Australian dollar. The foreign
+       currency transaction losses in fiscal 2008 are primarily related
+       to the increase in the value of the U.S.&amp;#160;dollar compared to
+       the functional currencies in the countries the Company operates
+       in internationally, primarily the euro, the Canadian dollar and
+       the Australian dollar. The net foreign currency transaction loss
+       in the 52&amp;#160;weeks ended January&amp;#160;31, 2009 included a
+       $3,545&amp;#160;net loss related to the change in foreign exchange
+       rates related to the funding of the Micromania acquisition
+       recorded in merger-related expenses.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       The Company uses forward exchange contracts, foreign currency
+       options and cross-currency swaps, (together, the &amp;#8220;Foreign
+       Currency Contracts&amp;#8221;) to manage currency risk primarily
+       related to intercompany loans denominated in non-functional
+       currencies and certain foreign currency assets and liabilities.
+       These Foreign Currency Contracts are not designated as hedges
+       and, therefore, changes in the fair values of these derivatives
+       are recognized in earnings, thereby offsetting the current
+       earnings effect of the re-measurement of related intercompany
+       loans and foreign currency assets and liabilities (see
+       Note&amp;#160;5).
+   &lt;/div&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 2%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;i&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Net
+       Income Per Common Share&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       Basic net income per common share is computed by dividing the
+       net income available to common stockholders by the weighted
+       average number of common shares outstanding during the period.
+       Diluted net income per common share is computed by dividing the
+       net income available to common stockholders by the weighted
+       average number of common shares outstanding and potentially
+       dilutive securities outstanding during the period. Potentially
+       dilutive securities include stock options and unvested
+       restricted stock outstanding during the period, using the
+       treasury stock method. Potentially dilutive securities are
+       excluded from the computations of diluted earnings per share if
+       their effect would be antidilutive. Note&amp;#160;4 provides
+       additional information regarding net earnings per common share.
+   &lt;/div&gt;
+   &lt;!-- XBRL Pagebreak Begin --&gt;
+   &lt;/div&gt;
+   &lt;!-- END PAGE WIDTH --&gt;
+   &lt;!-- PAGEBREAK --&gt;
+   &lt;div style="margin-left: 0%"&gt;
+   &lt;!-- BEGIN PAGE WIDTH --&gt;
+   &lt;div style="margin-top: 0pt; font-size: 1pt"&gt;
+   &lt;/div&gt;
+   &lt;div align="center" style="margin-left: 0%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+   &lt;b&gt;
+   &lt;font style="font-family: 'Times New Roman', Times"&gt;
+   &lt;/font&gt;
+   &lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 0pt; font-size: 1pt"&gt;
+   &lt;/div&gt;
+   &lt;div align="center" style="margin-left: 0%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+   &lt;b&gt;
+   &lt;font style="font-family: 'Times New Roman', Times"&gt;
+   &lt;/font&gt;
+   &lt;/b&gt;
+   &lt;/div&gt;
+   &lt;!-- XBRL Pagebreak End --&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 2%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;i&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Stock
+       Options&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       The Company records share-based compensation expense in earnings
+       based on the grant-date fair value of options granted. The fair
+       value of each option grant is estimated on the date of grant
+       using the Black-Scholes option pricing model. This valuation
+       model requires the use of subjective assumptions, including
+       expected option life and expected volatility. The Company uses
+       historical data to estimate the option life and the employee
+       forfeiture rate, and uses historical volatility when estimating
+       the stock price volatility. The weighted-average fair values of
+       the options granted during the 52&amp;#160;weeks ended
+       January&amp;#160;30, 2010, January&amp;#160;31, 2009 and
+       February&amp;#160;2, 2008 were estimated at $9.45, $15.45 and
+       $10.16, respectively, using the following assumptions:
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;table border="0" width="100%" align="center" cellpadding="0" cellspacing="0" style="font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff; text-align: left"&gt;
+   &lt;!-- Table Width Row BEGIN --&gt;
+   &lt;tr style="font-size: 1pt" valign="bottom"&gt;
+       &lt;td width="65%"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=01 type=maindata --&gt;
+       &lt;td width="2%"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=02 type=gutter --&gt;
+       &lt;td width="4%" align="right"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=02 type=lead --&gt;
+       &lt;td width="1%" align="right"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=02 type=body --&gt;
+       &lt;td width="4%" align="left"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=02 type=hang1 --&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=03 type=gutter --&gt;
+       &lt;td width="4%" align="right"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=03 type=lead --&gt;
+       &lt;td width="1%" align="right"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=03 type=body --&gt;
+       &lt;td width="4%" align="left"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=03 type=hang1 --&gt;
+       &lt;td width="3%"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=04 type=gutter --&gt;
+       &lt;td width="4%" align="right"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=04 type=lead --&gt;
+       &lt;td width="1%" align="right"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=04 type=body --&gt;
+       &lt;td width="4%" align="left"&gt;&amp;#160;&lt;/td&gt;&lt;!-- colindex=04 type=hang1 --&gt;
+   &lt;/tr&gt;
+   &lt;!-- Table Width Row END --&gt;
+   &lt;!-- TableOutputHead --&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom" align="center"&gt;
+   &lt;td nowrap="nowrap" align="center" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="3" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;52 Weeks&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="3" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;52 Weeks&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="3" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;52 Weeks&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom" align="center"&gt;
+   &lt;td nowrap="nowrap" align="center" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="3" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;Ended&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="3" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;Ended&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="3" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;Ended&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom" align="center"&gt;
+   &lt;td nowrap="nowrap" align="center" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="3" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;January&amp;#160;30,&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="3" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;January&amp;#160;31,&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="3" nowrap="nowrap" align="center" valign="bottom"&gt;
+       &lt;b&gt;February&amp;#160;2,&lt;br /&gt;
+       &lt;/b&gt;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="font-size: 8pt" valign="bottom" align="center"&gt;
+   &lt;td nowrap="nowrap" align="center" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="3" nowrap="nowrap" align="center" valign="bottom" style="border-bottom: 1px solid #000000"&gt;
+       &lt;b&gt;2010&lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="3" nowrap="nowrap" align="center" valign="bottom" style="border-bottom: 1px solid #000000"&gt;
+       &lt;b&gt;2009&lt;/b&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td colspan="3" nowrap="nowrap" align="center" valign="bottom" style="border-bottom: 1px solid #000000"&gt;
+       &lt;b&gt;2008&lt;/b&gt;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr style="line-height: 3pt; font-size: 1pt"&gt;
+   &lt;td&gt;&amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;!-- TableOutputBody --&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 10pt"&gt;
+       Volatility
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       47.9
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       %
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       38.2
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       %
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       40.5
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       %
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+   &lt;td align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 10pt"&gt;
+       Risk-free interest rate
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       1.5
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       %
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       2.4
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       %
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       4.8
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       %
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom" style="background: #cceeff"&gt;
+   &lt;td align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 10pt"&gt;
+       Expected life (years)
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       3.5
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       3.5
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       4.0
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;tr valign="bottom"&gt;
+   &lt;td align="left" valign="bottom"&gt;
+   &lt;div style="text-indent: -10pt; margin-left: 10pt"&gt;
+       Expected dividend yield
+   &lt;/div&gt;
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       0
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       %
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       0
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       %
+   &lt;/td&gt;
+   &lt;td&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+   &amp;#160;
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="right" valign="bottom"&gt;
+       0
+   &lt;/td&gt;
+   &lt;td nowrap="nowrap" align="left" valign="bottom"&gt;
+       %
+   &lt;/td&gt;
+   &lt;/tr&gt;
+   &lt;/table&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 0%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       In addition to requiring companies to recognize the estimated
+       fair value of share-based payments in earnings, companies now
+       have to present tax benefits received in excess of amounts
+       determined based on the compensation expense recognized on the
+       statements of cash flows. Such tax benefits are presented as a
+       use of cash in the operating section and a source of cash in the
+       financing section of the Statement of Cash Flows. Note&amp;#160;13
+       provides additional information regarding the Company&amp;#8217;s
+       stock option plan.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 2%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;i&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Fair
+       Values of Financial Instruments&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       The carrying values of cash and cash equivalents, accounts
+       receivable, accounts payable and accrued liabilities reported in
+       the accompanying consolidated balance sheets approximate fair
+       value due to the short-term maturities of these assets and
+       liabilities. The fair value of the Company&amp;#8217;s senior notes
+       payable in the accompanying consolidated balance sheets is
+       estimated based on recent quotes from brokers. Note&amp;#160;5
+       provides additional information regarding the Company&amp;#8217;s
+       fair values of our financial assets and liabilities.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 2%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;i&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Guarantees&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       The Company had bank guarantees relating to international store
+       leases totaling $15,982 as of January&amp;#160;30, 2010 and $12,930
+       as of January&amp;#160;31, 2009.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 2%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;i&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Vendor
+       Concentration&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       The Company&amp;#8217;s largest vendors worldwide are Nintendo, Sony
+       Computer Entertainment, Microsoft, Electronic Arts, Inc. and
+       Activision, which accounted for 23%, 17%, 12%, 12% and 11%,
+       respectively, of the Company&amp;#8217;s new product purchases in
+       fiscal 2009 and 25%, 13%, 13%, 11% and less than 10%,
+       respectively, in fiscal 2008.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 2%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;i&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;Stock
+       Split&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       On February&amp;#160;9, 2007, the Board of Directors of the Company
+       authorized a
+       &lt;font style="white-space: nowrap"&gt;two-for-one&lt;/font&gt;
+       stock split, effected by a
+       &lt;font style="white-space: nowrap"&gt;one-for-one&lt;/font&gt;
+       stock dividend to stockholders of record at the close of
+       business on February&amp;#160;20, 2007, paid on March&amp;#160;16, 2007
+       (the &amp;#8220;Stock Split&amp;#8221;). The effect of the Stock Split has
+       been retroactively applied to all periods presented in the
+       consolidated financial statements and notes thereto.
+   &lt;/div&gt;
+   &lt;!-- XBRL Pagebreak Begin --&gt;
+   &lt;/div&gt;
+   &lt;!-- END PAGE WIDTH --&gt;
+   &lt;!-- PAGEBREAK --&gt;
+   &lt;div style="margin-left: 0%"&gt;
+   &lt;!-- BEGIN PAGE WIDTH --&gt;
+   &lt;div style="margin-top: 0pt; font-size: 1pt"&gt;
+   &lt;/div&gt;
+   &lt;div align="center" style="margin-left: 0%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+   &lt;b&gt;
+   &lt;font style="font-family: 'Times New Roman', Times"&gt;
+   &lt;/font&gt;
+   &lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 0pt; font-size: 1pt"&gt;
+   &lt;/div&gt;
+   &lt;div align="center" style="margin-left: 0%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+   &lt;b&gt;
+   &lt;font style="font-family: 'Times New Roman', Times"&gt;
+   &lt;/font&gt;
+   &lt;/b&gt;
+   &lt;/div&gt;
+   &lt;!-- XBRL Pagebreak End --&gt;
+   &lt;div style="margin-top: 12pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 2%; margin-right: 0%; font-size: 10pt; font-family: Arial, Helvetica; color: #000000; background: #ffffff"&gt;
+       &lt;b&gt;&lt;i&gt;&lt;font style="font-family: 'Times New Roman', Times"&gt;New
+       Accounting Pronouncements&lt;/font&gt;&lt;/i&gt;&lt;/b&gt;
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       In March 2008, the FASB amended existing disclosure requirements
+       related to derivative and hedging activities, which became
+       effective for the Company on February&amp;#160;1, 2009 and is being
+       applied prospectively. As a result of the amended disclosure
+       requirements, the Company is required to provide expanded
+       qualitative and quantitative disclosures about derivatives and
+       hedging activities in each interim and annual period. The
+       adoption of the new disclosure requirements had no impact on our
+       consolidated financial statements.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       In December 2007, the FASB amended its guidance on accounting
+       for business combinations. The new accounting guidance amends
+       the principles and requirements for how an acquirer recognizes
+       and measures in its financial statements the identifiable assets
+       acquired, the liabilities assumed, any noncontrolling interest
+       in the acquiree and the goodwill acquired. It also establishes
+       disclosure requirements to enable the evaluation of the nature
+       and financial effects of the business combination. The new
+       accounting guidance resulted in a change in our accounting
+       policy effective February&amp;#160;1, 2009, and is being applied
+       prospectively to all business combinations subsequent to the
+       effective date. The adoption of this new accounting policy did
+       not have a significant impact on our consolidated financial
+       statements and the impact that its adoption will have on our
+       consolidated financial statements in future periods will depend
+       on the nature and size of business combinations completed
+       subsequent to the date of adoption.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       In December 2007, the FASB issued new accounting and disclosure
+       guidance related to noncontrolling interests in subsidiaries
+       (previously referred to as minority interests), which resulted
+       in a change to our accounting policy effective February&amp;#160;1,
+       2009. The new guidance requires all entities to report
+       noncontrolling interests in subsidiaries as a component of
+       equity in the consolidated financial statements and also
+       establishes disclosure requirements that clearly identify and
+       distinguish between controlling and noncontrolling interests and
+       requires the separate disclosure of income attributable to
+       controlling and noncontrolling interests. The new accounting
+       guidance is being applied prospectively. The adoption of this
+       new accounting policy did not have a significant impact on our
+       consolidated financial statements.
+   &lt;/div&gt;
+   &lt;div style="margin-top: 6pt; font-size: 1pt"&gt;&amp;#160;
+   &lt;/div&gt;
+   &lt;div align="left" style="margin-left: 0%; margin-right: 0%; text-indent: 4%; font-size: 10pt; font-family: 'Times New Roman', Times; color: #000000; background: #ffffff"&gt;
+       In September 2006, the FASB issued new accounting guidance which
+       defines fair value, establishes a framework for measuring fair
+       value and expands disclosure requirements about fair value
+       measurements. However, in February 2008, the FASB delayed the
+       effective date of the new accounting guidance for all
+       nonfinancial assets and nonfinancial liabilities, except those
+       that are recognized or disclosed at fair value in the financial
+       statements on a recurring basis (at least annually). The
+       adoption of this new accounting guidance for our nonfinancial
+       assets and nonfinancial liabilities on February&amp;#160;1, 2009 did
+       not have a significant impact on our consolidated financial
+       statements.
+   &lt;/div&gt;
+   &lt;/div&gt;
+</NonNumbericText>
+          <NonNumericTextHeader>&lt;!--DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" --&gt;
+   &lt;!-- Begin Block Tagged Note</NonNumericTextHeader>
+          <FootnoteIndexer />
+          <hasSegments>false</hasSegments>
+          <hasScenarios>false</hasScenarios>
+          <DisplayDateInUSFormat>false</DisplayDateInUSFormat>
+        </Cell>
+      </Cells>
+      <OriginalInstanceReportColumns />
+      <ElementDefenition>This element may be used to describe all significant accounting policies of the reporting entity.</ElementDefenition>
+      <ElementReferences>Reference 1: http://www.xbrl.org/2003/role/presentationRef
+ -Publisher AICPA
+ -Name Accounting Principles Board Opinion (APB)
+ -Number 22
+ -Paragraph 8
+
+</ElementReferences>
+      <IsTotalLabel>false</IsTotalLabel>
+    </Row>
+  </Rows>
+  <Footnotes />
+  <ComparabilityReport>false</ComparabilityReport>
+  <NumberOfCols>1</NumberOfCols>
+  <NumberOfRows>2</NumberOfRows>
+  <HasScenarios>false</HasScenarios>
+  <MonetaryRoundingLevel>UnKnown</MonetaryRoundingLevel>
+  <SharesRoundingLevel>UnKnown</SharesRoundingLevel>
+  <PerShareRoundingLevel>UnKnown</PerShareRoundingLevel>
+  <HasPureData>false</HasPureData>
+  <SharesShouldBeRounded>true</SharesShouldBeRounded>
+</InstanceReport>
+</XBRL>

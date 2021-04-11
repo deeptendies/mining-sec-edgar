@@ -1,0 +1,827 @@
+<XBRL>
+<?xml version="1.0" encoding="US-ASCII"?>
+<!--XBRL Document Created with Wdesk from Workiva-->
+<!-- -->
+<xsd:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.gamestop.com/20200201" xmlns:gme="http://www.gamestop.com/20200201" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric" xmlns:num="http://www.xbrl.org/dtr/type/numeric" xmlns:us-types="http://fasb.org/us-types/2019-01-31" xmlns:xbrldt="http://xbrl.org/2005/xbrldt" xmlns:xbrli="http://www.xbrl.org/2003/instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:import namespace="http://fasb.org/srt-types/2019-01-31" schemaLocation="http://xbrl.fasb.org/srt/2019/elts/srt-types-2019-01-31.xsd" />
+  <xsd:import namespace="http://fasb.org/srt/2019-01-31" schemaLocation="http://xbrl.fasb.org/srt/2019/elts/srt-2019-01-31.xsd" />
+  <xsd:import namespace="http://fasb.org/us-gaap/2019-01-31" schemaLocation="http://xbrl.fasb.org/us-gaap/2019/elts/us-gaap-2019-01-31.xsd" />
+  <xsd:import namespace="http://fasb.org/us-roles/2019-01-31" schemaLocation="http://xbrl.fasb.org/us-gaap/2019/elts/us-roles-2019-01-31.xsd" />
+  <xsd:import namespace="http://fasb.org/us-types/2019-01-31" schemaLocation="http://xbrl.fasb.org/us-gaap/2019/elts/us-types-2019-01-31.xsd" />
+  <xsd:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  <xsd:import namespace="http://www.xbrl.org/2003/linkbase" schemaLocation="http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" />
+  <xsd:import namespace="http://www.xbrl.org/2009/arcrole/fact-explanatoryFact" schemaLocation="http://www.xbrl.org/lrr/arcrole/factExplanatory-2009-12-16.xsd" />
+  <xsd:import namespace="http://www.xbrl.org/2009/role/negated" schemaLocation="http://www.xbrl.org/lrr/role/negated-2009-12-16.xsd" />
+  <xsd:import namespace="http://www.xbrl.org/2009/role/net" schemaLocation="http://www.xbrl.org/lrr/role/net-2009-12-16.xsd" />
+  <xsd:import namespace="http://www.xbrl.org/dtr/type/non-numeric" schemaLocation="http://www.xbrl.org/dtr/type/nonNumeric-2009-12-16.xsd" />
+  <xsd:import namespace="http://www.xbrl.org/dtr/type/numeric" schemaLocation="http://www.xbrl.org/dtr/type/numeric-2009-12-16.xsd" />
+  <xsd:import namespace="http://xbrl.org/2005/xbrldt" schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd" />
+  <xsd:import namespace="http://xbrl.sec.gov/country/2017-01-31" schemaLocation="https://xbrl.sec.gov/country/2017/country-2017-01-31.xsd" />
+  <xsd:import namespace="http://xbrl.sec.gov/currency/2019-01-31" schemaLocation="https://xbrl.sec.gov/currency/2019/currency-2019-01-31.xsd" />
+  <xsd:import namespace="http://xbrl.sec.gov/dei/2019-01-31" schemaLocation="https://xbrl.sec.gov/dei/2019/dei-2019-01-31.xsd" />
+  <xsd:import namespace="http://xbrl.sec.gov/exch/2019-01-31" schemaLocation="https://xbrl.sec.gov/exch/2019/exch-2019-01-31.xsd" />
+  <xsd:import namespace="http://xbrl.sec.gov/naics/2017-01-31" schemaLocation="http://xbrl.sec.gov/naics/2017/naics-2017-01-31.xsd" />
+  <xsd:import namespace="http://xbrl.sec.gov/sic/2011-01-31" schemaLocation="http://xbrl.sec.gov/sic/2011/sic-2011-01-31.xsd" />
+  <xsd:import namespace="http://xbrl.sec.gov/stpr/2018-01-31" schemaLocation="https://xbrl.sec.gov/stpr/2018/stpr-2018-01-31.xsd" />
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="gme-20200201_cal.xml" xlink:role="http://www.xbrl.org/2003/role/calculationLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="gme-20200201_def.xml" xlink:role="http://www.xbrl.org/2003/role/definitionLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="gme-20200201_lab.xml" xlink:role="http://www.xbrl.org/2003/role/labelLinkbaseRef" xlink:type="simple" />
+      <link:linkbaseRef xlink:arcrole="http://www.w3.org/1999/xlink/properties/linkbase" xlink:href="gme-20200201_pre.xml" xlink:role="http://www.xbrl.org/2003/role/presentationLinkbaseRef" xlink:type="simple" />
+      <link:roleType id="AccruedLiabilities" roleURI="http://www.gamestop.com/role/AccruedLiabilities">
+        <link:definition>2125100 - Disclosure - Accrued Liabilities</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccruedLiabilitiesSummaryOfAccruedLiabilitiesDetail" roleURI="http://www.gamestop.com/role/AccruedLiabilitiesSummaryOfAccruedLiabilitiesDetail">
+        <link:definition>2425402 - Disclosure - Accrued Liabilities - Summary of Accrued Liabilities (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AccruedLiabilitiesTables" roleURI="http://www.gamestop.com/role/AccruedLiabilitiesTables">
+        <link:definition>2325301 - Disclosure - Accrued Liabilities (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AssetImpairments" roleURI="http://www.gamestop.com/role/AssetImpairments">
+        <link:definition>2114100 - Disclosure - Asset Impairments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AssetImpairmentsNarrativeDetail" roleURI="http://www.gamestop.com/role/AssetImpairmentsNarrativeDetail">
+        <link:definition>2414402 - Disclosure - Asset Impairments - Narrative (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AssetImpairmentsSummaryOfAssetImpairmentsDetail" roleURI="http://www.gamestop.com/role/AssetImpairmentsSummaryOfAssetImpairmentsDetail">
+        <link:definition>2414403 - Disclosure - Asset Impairments - Summary Of Asset Impairments (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="AssetImpairmentsTables" roleURI="http://www.gamestop.com/role/AssetImpairmentsTables">
+        <link:definition>2314301 - Disclosure - Asset Impairments (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentsAndContingencies" roleURI="http://www.gamestop.com/role/CommitmentsAndContingencies">
+        <link:definition>2138100 - Disclosure - Commitments and Contingencies</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommitmentsAndContingenciesNarrativeDetails" roleURI="http://www.gamestop.com/role/CommitmentsAndContingenciesNarrativeDetails">
+        <link:definition>2438401 - Disclosure - Commitments and Contingencies - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommonStockAndShareBasedCompensation" roleURI="http://www.gamestop.com/role/CommonStockAndShareBasedCompensation">
+        <link:definition>2139100 - Disclosure - Common Stock and Share-Based Compensation</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommonStockAndShareBasedCompensationNarrativeDetail" roleURI="http://www.gamestop.com/role/CommonStockAndShareBasedCompensationNarrativeDetail">
+        <link:definition>2439402 - Disclosure - Common Stock and Share-Based Compensation  - Narrative (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommonStockAndShareBasedCompensationSummaryOfCompanysRestrictedStockAwardsDetail" roleURI="http://www.gamestop.com/role/CommonStockAndShareBasedCompensationSummaryOfCompanysRestrictedStockAwardsDetail">
+        <link:definition>2439405 - Disclosure - Common Stock and Share-Based Compensation  - Summary of Company's Restricted Stock Awards (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommonStockAndShareBasedCompensationSummaryOfCompanysStockOptionsDetail" roleURI="http://www.gamestop.com/role/CommonStockAndShareBasedCompensationSummaryOfCompanysStockOptionsDetail">
+        <link:definition>2439404 - Disclosure - Common Stock and Share-Based Compensation  - Summary of Company's Stock Options (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommonStockAndShareBasedCompensationSummaryOfShareRepurchaseActivityDetails" roleURI="http://www.gamestop.com/role/CommonStockAndShareBasedCompensationSummaryOfShareRepurchaseActivityDetails">
+        <link:definition>2439403 - Disclosure - Common Stock and Share-Based Compensation  - Summary of Share Repurchase Activity (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="CommonStockAndShareBasedCompensationTables" roleURI="http://www.gamestop.com/role/CommonStockAndShareBasedCompensationTables">
+        <link:definition>2339301 - Disclosure - Common Stock and Share-Based Compensation (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedBalanceSheets" roleURI="http://www.gamestop.com/role/ConsolidatedBalanceSheets">
+        <link:definition>1001000 - Statement - Consolidated Balance Sheets</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedBalanceSheetsParenthetical" roleURI="http://www.gamestop.com/role/ConsolidatedBalanceSheetsParenthetical">
+        <link:definition>1001501 - Statement - Consolidated Balance Sheets (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsOfCashFlows" roleURI="http://www.gamestop.com/role/ConsolidatedStatementsOfCashFlows">
+        <link:definition>1005000 - Statement - Consolidated Statements Of Cash Flows</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsOfChangesInEquity" roleURI="http://www.gamestop.com/role/ConsolidatedStatementsOfChangesInEquity">
+        <link:definition>1004000 - Statement - Consolidated Statements Of Changes In Equity</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsOfChangesInEquityParenthetical" roleURI="http://www.gamestop.com/role/ConsolidatedStatementsOfChangesInEquityParenthetical">
+        <link:definition>1004501 - Statement - Consolidated Statements Of Changes In Equity (Parenthetical)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsOfComprehensiveIncome" roleURI="http://www.gamestop.com/role/ConsolidatedStatementsOfComprehensiveIncome">
+        <link:definition>1003000 - Statement - Consolidated Statements Of Comprehensive Income</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ConsolidatedStatementsOfOperations" roleURI="http://www.gamestop.com/role/ConsolidatedStatementsOfOperations">
+        <link:definition>1002000 - Statement - Consolidated Statements Of Operations</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Debt" roleURI="http://www.gamestop.com/role/Debt">
+        <link:definition>2128100 - Disclosure - Debt</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtDebtTables" roleURI="http://www.gamestop.com/role/DebtDebtTables">
+        <link:definition>2328301 - Disclosure - Debt Debt (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtInterestPaidDetails" roleURI="http://www.gamestop.com/role/DebtInterestPaidDetails">
+        <link:definition>2428408 - Disclosure - Debt  - Interest Paid (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtLuxembourgLineOfCreditDetails" roleURI="http://www.gamestop.com/role/DebtLuxembourgLineOfCreditDetails">
+        <link:definition>2428407 - Disclosure - Debt  - Luxembourg Line of Credit (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtRevolvingCreditFacilityCovenantTermsAndAssetAndDividendRestrictionsDetails" roleURI="http://www.gamestop.com/role/DebtRevolvingCreditFacilityCovenantTermsAndAssetAndDividendRestrictionsDetails">
+        <link:definition>2428406 - Disclosure - Debt  - Revolving Credit Facility, Covenant Terms and Asset and Dividend Restrictions (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtRevolvingCreditFacilityNarrativeDetails" roleURI="http://www.gamestop.com/role/DebtRevolvingCreditFacilityNarrativeDetails">
+        <link:definition>2428405 - Disclosure - Debt  - Revolving Credit Facility Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtSeniorNoteCovenantTermsAndDividendRestrictionsDetails" roleURI="http://www.gamestop.com/role/DebtSeniorNoteCovenantTermsAndDividendRestrictionsDetails">
+        <link:definition>2428404 - Disclosure - Debt  - Senior Note Covenant Terms and Dividend Restrictions (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtSeniorNotesNarrativeDetail" roleURI="http://www.gamestop.com/role/DebtSeniorNotesNarrativeDetail">
+        <link:definition>2428403 - Disclosure - Debt  - Senior Notes Narrative (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DebtSeniorNotesTableDetails" roleURI="http://www.gamestop.com/role/DebtSeniorNotesTableDetails">
+        <link:definition>2428402 - Disclosure - Debt  - Senior Notes Table (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DiscontinuedOperationsAndDispositionsDiscontinuedOperationsAndDispositionsNotes" roleURI="http://www.gamestop.com/role/DiscontinuedOperationsAndDispositionsDiscontinuedOperationsAndDispositionsNotes">
+        <link:definition>2107100 - Disclosure - Discontinued Operations and Dispositions Discontinued Operations and Dispositions (Notes)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DiscontinuedOperationsAndDispositionsDiscontinuedOperationsDetails" roleURI="http://www.gamestop.com/role/DiscontinuedOperationsAndDispositionsDiscontinuedOperationsDetails">
+        <link:definition>2407402 - Disclosure - Discontinued Operations and Dispositions - Discontinued Operations (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DiscontinuedOperationsAndDispositionsDivestituresAndDispositionsNotClassifiedAsDiscontinuedOperationsAndAssetsHeldForSaleDetails" roleURI="http://www.gamestop.com/role/DiscontinuedOperationsAndDispositionsDivestituresAndDispositionsNotClassifiedAsDiscontinuedOperationsAndAssetsHeldForSaleDetails">
+        <link:definition>2407405 - Disclosure - Discontinued Operations and Dispositions - Divestitures and Dispositions, not classified as Discontinued Operations, and Assets Held for Sale (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DiscontinuedOperationsAndDispositionsOtherSignificantOperatingItemsDetails" roleURI="http://www.gamestop.com/role/DiscontinuedOperationsAndDispositionsOtherSignificantOperatingItemsDetails">
+        <link:definition>2407404 - Disclosure - Discontinued Operations and Dispositions - Other Significant Operating Items (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DiscontinuedOperationsAndDispositionsResultsOfDiscontinuedOperationsDetails" roleURI="http://www.gamestop.com/role/DiscontinuedOperationsAndDispositionsResultsOfDiscontinuedOperationsDetails">
+        <link:definition>2407403 - Disclosure - Discontinued Operations and Dispositions - Results of Discontinued Operations (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DiscontinuedOperationsAndDispositionsTables" roleURI="http://www.gamestop.com/role/DiscontinuedOperationsAndDispositionsTables">
+        <link:definition>2307301 - Disclosure - Discontinued Operations and Dispositions (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="DocumentAndEntityInformationDocumentAndEntityInformation" roleURI="http://www.gamestop.com/role/DocumentAndEntityInformationDocumentAndEntityInformation">
+        <link:definition>0001000 - Document - Document and Entity Information Document and Entity Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerShare" roleURI="http://www.gamestop.com/role/EarningsPerShare">
+        <link:definition>2144100 - Disclosure - Earnings Per Share</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerShareReconciliationOfCommonSharesUsedInCalculatingBasicAndDilutedNetIncomeLossPerCommonShareDetail" roleURI="http://www.gamestop.com/role/EarningsPerShareReconciliationOfCommonSharesUsedInCalculatingBasicAndDilutedNetIncomeLossPerCommonShareDetail">
+        <link:definition>2444402 - Disclosure - Earnings Per Share  - Reconciliation of Common Shares Used in Calculating Basic and Diluted Net Income (Loss) Per Common Share (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerShareRestrictedSharesAndOptionsToPurchaseSharesOfClassCommonStockExcludedFromComputationOfDilutedEarningsPerShareDetail" roleURI="http://www.gamestop.com/role/EarningsPerShareRestrictedSharesAndOptionsToPurchaseSharesOfClassCommonStockExcludedFromComputationOfDilutedEarningsPerShareDetail">
+        <link:definition>2444403 - Disclosure - Earnings Per Share  - Restricted Shares and Options to Purchase Shares of Class A Common Stock Excluded from Computation of Diluted Earnings Per Share (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EarningsPerShareTables" roleURI="http://www.gamestop.com/role/EarningsPerShareTables">
+        <link:definition>2344301 - Disclosure - Earnings Per Share (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EmployeesDefinedContributionPlan" roleURI="http://www.gamestop.com/role/EmployeesDefinedContributionPlan">
+        <link:definition>2145100 - Disclosure - Employees' Defined Contribution Plan</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="EmployeesDefinedContributionPlanNarrativeDetail" roleURI="http://www.gamestop.com/role/EmployeesDefinedContributionPlanNarrativeDetail">
+        <link:definition>2445401 - Disclosure - Employees' Defined Contribution Plan  - Narrative (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurementsAndFinancialInstruments" roleURI="http://www.gamestop.com/role/FairValueMeasurementsAndFinancialInstruments">
+        <link:definition>2118100 - Disclosure - Fair Value Measurements and Financial Instruments</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurementsAndFinancialInstrumentsAssetsThatAreMeasuredAtFairValueOnNonrecurringBasisDetails" roleURI="http://www.gamestop.com/role/FairValueMeasurementsAndFinancialInstrumentsAssetsThatAreMeasuredAtFairValueOnNonrecurringBasisDetails">
+        <link:definition>2418405 - Disclosure - Fair Value Measurements and Financial Instruments  - Assets that are Measured at Fair Value on a Nonrecurring Basis (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurementsAndFinancialInstrumentsFairValueOfAssetsAndLiabilitiesMeasuredOnRecurringBasisDetail" roleURI="http://www.gamestop.com/role/FairValueMeasurementsAndFinancialInstrumentsFairValueOfAssetsAndLiabilitiesMeasuredOnRecurringBasisDetail">
+        <link:definition>2418403 - Disclosure - Fair Value Measurements and Financial Instruments  - Fair Value of Assets and Liabilities Measured on Recurring Basis (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurementsAndFinancialInstrumentsGainsAndLossesOnDerivativeInstrumentsAndForeignCurrencyTransactionDetail" roleURI="http://www.gamestop.com/role/FairValueMeasurementsAndFinancialInstrumentsGainsAndLossesOnDerivativeInstrumentsAndForeignCurrencyTransactionDetail">
+        <link:definition>2418404 - Disclosure - Fair Value Measurements and Financial Instruments  - Gains and Losses on Derivative Instruments and Foreign Currency Transaction (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurementsAndFinancialInstrumentsNarrativeDetail" roleURI="http://www.gamestop.com/role/FairValueMeasurementsAndFinancialInstrumentsNarrativeDetail">
+        <link:definition>2418402 - Disclosure - Fair Value Measurements and Financial Instruments  - Narrative (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurementsAndFinancialInstrumentsOtherFairValueDisclosuresDetails" roleURI="http://www.gamestop.com/role/FairValueMeasurementsAndFinancialInstrumentsOtherFairValueDisclosuresDetails">
+        <link:definition>2418406 - Disclosure - Fair Value Measurements and Financial Instruments  - Other Fair Value Disclosures (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="FairValueMeasurementsAndFinancialInstrumentsTables" roleURI="http://www.gamestop.com/role/FairValueMeasurementsAndFinancialInstrumentsTables">
+        <link:definition>2318301 - Disclosure - Fair Value Measurements and Financial Instruments (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillAndIntangibleAssets" roleURI="http://www.gamestop.com/role/GoodwillAndIntangibleAssets">
+        <link:definition>2123100 - Disclosure - Goodwill and Intangible Assets</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillAndIntangibleAssetsChangesInCarryingAmountOfGoodwillForOperatingSegmentsDetail" roleURI="http://www.gamestop.com/role/GoodwillAndIntangibleAssetsChangesInCarryingAmountOfGoodwillForOperatingSegmentsDetail">
+        <link:definition>2423403 - Disclosure - Goodwill and Intangible Assets - Changes in Carrying Amount of Goodwill for Operating Segments (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillAndIntangibleAssetsEstimatedAggregateAmortizationExpensesForDeferredFinancingFeesAndOtherIntangibleAssetsDetail" roleURI="http://www.gamestop.com/role/GoodwillAndIntangibleAssetsEstimatedAggregateAmortizationExpensesForDeferredFinancingFeesAndOtherIntangibleAssetsDetail">
+        <link:definition>2423405 - Disclosure - Goodwill and Intangible Assets - Estimated Aggregate Amortization Expenses for Deferred Financing Fees and Other Intangible Assets (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillAndIntangibleAssetsNarrativeDetail" roleURI="http://www.gamestop.com/role/GoodwillAndIntangibleAssetsNarrativeDetail">
+        <link:definition>2423402 - Disclosure - Goodwill and Intangible Assets - Narrative (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillAndIntangibleAssetsScheduleOfIntangibleAssetsOtherThanGoodwillDetails" roleURI="http://www.gamestop.com/role/GoodwillAndIntangibleAssetsScheduleOfIntangibleAssetsOtherThanGoodwillDetails">
+        <link:definition>2423404 - Disclosure - Goodwill and Intangible Assets - Schedule of Intangible Assets Other Than Goodwill (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="GoodwillAndIntangibleAssetsTables" roleURI="http://www.gamestop.com/role/GoodwillAndIntangibleAssetsTables">
+        <link:definition>2323301 - Disclosure - Goodwill and Intangible Assets (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxes" roleURI="http://www.gamestop.com/role/IncomeTaxes">
+        <link:definition>2124100 - Disclosure - Income Taxes</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesComponentsOfDeferredTaxAssetsAndLiabilitiesDetail" roleURI="http://www.gamestop.com/role/IncomeTaxesComponentsOfDeferredTaxAssetsAndLiabilitiesDetail">
+        <link:definition>2424406 - Disclosure - Income Taxes  - Components of Deferred Tax Assets and Liabilities (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesComponentsOfEarningsBeforeIncomeTaxExpenseDetail" roleURI="http://www.gamestop.com/role/IncomeTaxesComponentsOfEarningsBeforeIncomeTaxExpenseDetail">
+        <link:definition>2424404 - Disclosure - Income Taxes  - Components of Earnings Before Income Tax Expense (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesDifferenceInIncomeTaxProvidedAndAmountsDeterminedByApplyingStatutoryRateToIncomeBeforeIncomeTaxesDetail" roleURI="http://www.gamestop.com/role/IncomeTaxesDifferenceInIncomeTaxProvidedAndAmountsDeterminedByApplyingStatutoryRateToIncomeBeforeIncomeTaxesDetail">
+        <link:definition>2424405 - Disclosure - Income Taxes  - Difference in Income Tax Provided and Amounts Determined by Applying the Statutory Rate to Income Before Income Taxes (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesIncomeTaxesPaidDetails" roleURI="http://www.gamestop.com/role/IncomeTaxesIncomeTaxesPaidDetails">
+        <link:definition>2424408 - Disclosure - Income Taxes  - Income Taxes Paid (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesNarrativeDetail" roleURI="http://www.gamestop.com/role/IncomeTaxesNarrativeDetail">
+        <link:definition>2424402 - Disclosure - Income Taxes  - Narrative (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesProvisionForIncomeTaxDetail" roleURI="http://www.gamestop.com/role/IncomeTaxesProvisionForIncomeTaxDetail">
+        <link:definition>2424403 - Disclosure - Income Taxes  - Provision for Income Tax (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesReconciliationOfChangesInGrossBalancesOfUnrecognizedTaxBenefitsDetail" roleURI="http://www.gamestop.com/role/IncomeTaxesReconciliationOfChangesInGrossBalancesOfUnrecognizedTaxBenefitsDetail">
+        <link:definition>2424407 - Disclosure - Income Taxes  - Reconciliation of Changes in Gross Balances of Unrecognized Tax Benefits (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="IncomeTaxesTables" roleURI="http://www.gamestop.com/role/IncomeTaxesTables">
+        <link:definition>2324301 - Disclosure - Income Taxes (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="Leases" roleURI="http://www.gamestop.com/role/Leases">
+        <link:definition>2134100 - Disclosure - Leases</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesFutureMinimumLeaseObligationsAsc840Details" roleURI="http://www.gamestop.com/role/LeasesFutureMinimumLeaseObligationsAsc840Details">
+        <link:definition>2434405 - Disclosure - Leases  - Future Minimum Lease Obligations (ASC 840) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesMinimumLeaseObligationsForOperatingLeaseLiabilitiesAsc842Details" roleURI="http://www.gamestop.com/role/LeasesMinimumLeaseObligationsForOperatingLeaseLiabilitiesAsc842Details">
+        <link:definition>2434404 - Disclosure - Leases  - Minimum Lease Obligations for Operating Lease Liabilities (ASC 842) (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesNarrativeDetails" roleURI="http://www.gamestop.com/role/LeasesNarrativeDetails">
+        <link:definition>2434403 - Disclosure - Leases  - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesRentExpenseDetail" roleURI="http://www.gamestop.com/role/LeasesRentExpenseDetail">
+        <link:definition>2434402 - Disclosure - Leases  - Rent expense (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="LeasesTables" roleURI="http://www.gamestop.com/role/LeasesTables">
+        <link:definition>2334301 - Disclosure - Leases (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ReceivablesNet" roleURI="http://www.gamestop.com/role/ReceivablesNet">
+        <link:definition>2119100 - Disclosure - Receivables, Net</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ReceivablesNetSummaryOfReceivablesDetail" roleURI="http://www.gamestop.com/role/ReceivablesNetSummaryOfReceivablesDetail">
+        <link:definition>2419402 - Disclosure - Receivables, Net - Summary of Receivables (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ReceivablesNetTables" roleURI="http://www.gamestop.com/role/ReceivablesNetTables">
+        <link:definition>2319301 - Disclosure - Receivables, Net (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenueChangeInContractLiabilitiesDetails" roleURI="http://www.gamestop.com/role/RevenueChangeInContractLiabilitiesDetails">
+        <link:definition>2408404 - Disclosure - Revenue  - Change in Contract Liabilities (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenueNarrativeDetails" roleURI="http://www.gamestop.com/role/RevenueNarrativeDetails">
+        <link:definition>2408403 - Disclosure - Revenue  - Narrative (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenueNotes" roleURI="http://www.gamestop.com/role/RevenueNotes">
+        <link:definition>2108100 - Disclosure - Revenue (Notes)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenueSalesOfTotalNetSalesBySignificantProductCategoryDetails" roleURI="http://www.gamestop.com/role/RevenueSalesOfTotalNetSalesBySignificantProductCategoryDetails">
+        <link:definition>2408402 - Disclosure - Revenue  - Sales of Total Net Sales by Significant Product Category (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="RevenueTables" roleURI="http://www.gamestop.com/role/RevenueTables">
+        <link:definition>2308301 - Disclosure - Revenue (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ScheduleIiValuationAndQualifyingAccountsDetails" roleURI="http://www.gamestop.com/role/ScheduleIiValuationAndQualifyingAccountsDetails">
+        <link:definition>2450402 - Schedule - Schedule II - Valuation and Qualifying Accounts (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ScheduleIiValuationAndQualifyingAccountsNotes" roleURI="http://www.gamestop.com/role/ScheduleIiValuationAndQualifyingAccountsNotes">
+        <link:definition>2150100 - Schedule - Schedule II - Valuation and Qualifying Accounts (Notes)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="ScheduleIiValuationAndQualifyingAccountsValuationAndQualifyingAccountsTables" roleURI="http://www.gamestop.com/role/ScheduleIiValuationAndQualifyingAccountsValuationAndQualifyingAccountsTables">
+        <link:definition>2350301 - Schedule - Schedule II - Valuation and Qualifying Accounts Valuation and Qualifying Accounts (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentInformation" roleURI="http://www.gamestop.com/role/SegmentInformation">
+        <link:definition>2147100 - Disclosure - Segment Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentInformationAdditionalInformationDetail" roleURI="http://www.gamestop.com/role/SegmentInformationAdditionalInformationDetail">
+        <link:definition>2447402 - Disclosure - Segment Information Additional Information (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentInformationInformationOnSegmentsAndReconciliationToEarningsBeforeIncomeTaxesDetail" roleURI="http://www.gamestop.com/role/SegmentInformationInformationOnSegmentsAndReconciliationToEarningsBeforeIncomeTaxesDetail">
+        <link:definition>2447403 - Disclosure - Segment Information Information on Segments and Reconciliation to Earnings Before Income Taxes (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SegmentInformationTables" roleURI="http://www.gamestop.com/role/SegmentInformationTables">
+        <link:definition>2347301 - Disclosure - Segment Information (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SubsequentEventsDetails" roleURI="http://www.gamestop.com/role/SubsequentEventsDetails">
+        <link:definition>2449402 - Disclosure - Subsequent Events (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SubsequentEventsNotes" roleURI="http://www.gamestop.com/role/SubsequentEventsNotes">
+        <link:definition>2149100 - Disclosure - Subsequent Events (Notes)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SubsequentEventsTables" roleURI="http://www.gamestop.com/role/SubsequentEventsTables">
+        <link:definition>2349301 - Disclosure - Subsequent Events (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryOfSignificantAccountingPolicies" roleURI="http://www.gamestop.com/role/SummaryOfSignificantAccountingPolicies">
+        <link:definition>2103102 - Disclosure - Summary of Significant Accounting Policies</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryOfSignificantAccountingPoliciesAdvertisingExpensesDetails" roleURI="http://www.gamestop.com/role/SummaryOfSignificantAccountingPoliciesAdvertisingExpensesDetails">
+        <link:definition>2403410 - Disclosure - Summary of Significant Accounting Policies - Advertising Expenses (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryOfSignificantAccountingPoliciesGoodwillAndIntangibleAssetsDetails" roleURI="http://www.gamestop.com/role/SummaryOfSignificantAccountingPoliciesGoodwillAndIntangibleAssetsDetails">
+        <link:definition>2403408 - Disclosure - Summary of Significant Accounting Policies - Goodwill and Intangible Assets (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryOfSignificantAccountingPoliciesMerchandiseInventoriesDetails" roleURI="http://www.gamestop.com/role/SummaryOfSignificantAccountingPoliciesMerchandiseInventoriesDetails">
+        <link:definition>2403406 - Disclosure - Summary of Significant Accounting Policies - Merchandise Inventories (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryOfSignificantAccountingPoliciesNarrativeDetail" roleURI="http://www.gamestop.com/role/SummaryOfSignificantAccountingPoliciesNarrativeDetail">
+        <link:definition>2403403 - Disclosure - Summary of Significant Accounting Policies - Narrative (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryOfSignificantAccountingPoliciesPolicies" roleURI="http://www.gamestop.com/role/SummaryOfSignificantAccountingPoliciesPolicies">
+        <link:definition>2203200 - Disclosure - Summary of Significant Accounting Policies (Policies)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryOfSignificantAccountingPoliciesPropertyAndEquipmentDetails" roleURI="http://www.gamestop.com/role/SummaryOfSignificantAccountingPoliciesPropertyAndEquipmentDetails">
+        <link:definition>2403407 - Disclosure - Summary of Significant Accounting Policies - Property and Equipment (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryOfSignificantAccountingPoliciesRecentlyAdoptedAccountingPronouncementsRevenueDetails" roleURI="http://www.gamestop.com/role/SummaryOfSignificantAccountingPoliciesRecentlyAdoptedAccountingPronouncementsRevenueDetails">
+        <link:definition>2403411 - Disclosure - Summary of Significant Accounting Policies - Recently Adopted Accounting Pronouncements - Revenue (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryOfSignificantAccountingPoliciesReclassificationsDetails" roleURI="http://www.gamestop.com/role/SummaryOfSignificantAccountingPoliciesReclassificationsDetails">
+        <link:definition>2403404 - Disclosure - Summary of Significant Accounting Policies - Reclassifications (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryOfSignificantAccountingPoliciesRestrictedCashDetails" roleURI="http://www.gamestop.com/role/SummaryOfSignificantAccountingPoliciesRestrictedCashDetails">
+        <link:definition>2403405 - Disclosure - Summary of Significant Accounting Policies - Restricted Cash (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryOfSignificantAccountingPoliciesTables" roleURI="http://www.gamestop.com/role/SummaryOfSignificantAccountingPoliciesTables">
+        <link:definition>2303301 - Disclosure - Summary of Significant Accounting Policies (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="SummaryOfSignificantAccountingPoliciesVendorArrangementsDetails" roleURI="http://www.gamestop.com/role/SummaryOfSignificantAccountingPoliciesVendorArrangementsDetails">
+        <link:definition>2403409 - Disclosure - Summary of Significant Accounting Policies - Vendor Arrangements (Details)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="UnauditedQuarterlyFinancialInformation" roleURI="http://www.gamestop.com/role/UnauditedQuarterlyFinancialInformation">
+        <link:definition>2148100 - Disclosure - Unaudited Quarterly Financial Information</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="UnauditedQuarterlyFinancialInformationConsolidatedStatementOfOperationsDetail" roleURI="http://www.gamestop.com/role/UnauditedQuarterlyFinancialInformationConsolidatedStatementOfOperationsDetail">
+        <link:definition>2448402 - Disclosure - Unaudited Quarterly Financial Information - Consolidated Statement of Operations (Detail)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+      <link:roleType id="UnauditedQuarterlyFinancialInformationTables" roleURI="http://www.gamestop.com/role/UnauditedQuarterlyFinancialInformationTables">
+        <link:definition>2348301 - Disclosure - Unaudited Quarterly Financial Information (Tables)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+  <xsd:element abstract="true" id="gme_AmendedFiveYearRevolvingCreditFacilityMember" name="AmendedFiveYearRevolvingCreditFacilityMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_ApplicableMarginRate" name="ApplicableMarginRate" nillable="true" substitutionGroup="xbrli:item" type="num:percentItemType" xbrli:periodType="instant" />
+  <xsd:element abstract="true" id="gme_AssetsthatareMeasuredatFairValueonaNonrecurringBasisAbstract" name="AssetsthatareMeasuredatFairValueonaNonrecurringBasisAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_AustraliaAndNewZealandMember" name="AustraliaAndNewZealandMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_BankGuaranteeRelatingToInternationalStoreLeases" name="BankGuaranteeRelatingToInternationalStoreLeases" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant" />
+  <xsd:element abstract="true" id="gme_BrandNameAxis" name="BrandNameAxis" nillable="true" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_BrandNameDomain" name="BrandNameDomain" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_BuildingsAndLeaseholdImprovements" name="BuildingsAndLeaseholdImprovements" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant" />
+  <xsd:element abstract="true" id="gme_CanadaSegmentMember" name="CanadaSegmentMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_Cashreceivedinterestincome" name="Cashreceivedinterestincome" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xsd:element id="gme_ChangeCashHeldforSale" name="ChangeCashHeldforSale" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_ChangeinContractLiabilitiesLineItems" name="ChangeinContractLiabilitiesLineItems" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_ChangeinContractLiabilitiesTable" name="ChangeinContractLiabilitiesTable" nillable="true" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_ChangeinROUAssetLiab" name="ChangeinROUAssetLiab" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration" />
+  <xsd:element id="gme_ChecksAndTransfersYetToBePresentedForPaymentFromZeroBalanceCashAccounts" name="ChecksAndTransfersYetToBePresentedForPaymentFromZeroBalanceCashAccounts" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant" />
+  <xsd:element abstract="true" id="gme_CollectiblesMember" name="CollectiblesMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_CommitmentFeeCurrent" name="CommitmentFeeCurrent" nillable="true" substitutionGroup="xbrli:item" type="num:percentItemType" xbrli:periodType="instant" />
+  <xsd:element abstract="true" id="gme_CompensationRelatedCostsShareBasedPaymentsDisclosureLineItems" name="CompensationRelatedCostsShareBasedPaymentsDisclosureLineItems" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_CompensationRelatedCostsShareBasedPaymentsDisclosureTable" name="CompensationRelatedCostsShareBasedPaymentsDisclosureTable" nillable="true" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_CostOfSalesVendorAllowances" name="CostOfSalesVendorAllowances" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration" />
+  <xsd:element id="gme_CovenantPercentage" name="CovenantPercentage" nillable="true" substitutionGroup="xbrli:item" type="num:percentItemType" xbrli:periodType="instant" />
+  <xsd:element abstract="true" id="gme_CricketBrandedMember" name="CricketBrandedMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_CustomerLiabilitiesCurrent" name="CustomerLiabilitiesCurrent" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant" />
+  <xsd:element abstract="true" id="gme_CustomerLiabilitiesDomain" name="CustomerLiabilitiesDomain" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_CustomerLiabilitiesMember" name="CustomerLiabilitiesMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_DIspositionGainLossonSaleNetofTax" name="DIspositionGainLossonSaleNetofTax" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_DealerAgreementsMember" name="DealerAgreementsMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_DebtInstrumentCashDividendRestrictionFiscalYearMaximum" name="DebtInstrumentCashDividendRestrictionFiscalYearMaximum" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xsd:element id="gme_DebtInstrumentCashDividendRestrictionFixedChargeCoverageRatio" name="DebtInstrumentCashDividendRestrictionFixedChargeCoverageRatio" nillable="true" substitutionGroup="xbrli:item" type="xbrli:pureItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_DebtInstrumentCashDividendRestrictionMaximumRatioofIndentureLifetodateDividendPaidtoNetIncome" name="DebtInstrumentCashDividendRestrictionMaximumRatioofIndentureLifetodateDividendPaidtoNetIncome" nillable="true" substitutionGroup="xbrli:item" type="num:percentItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_DebtInstrumentCashDividendRestrictionMaximumRatioofIndentureLifetodateDividendPaidtoStockSaleProceeds" name="DebtInstrumentCashDividendRestrictionMaximumRatioofIndentureLifetodateDividendPaidtoStockSaleProceeds" nillable="true" substitutionGroup="xbrli:item" type="num:percentItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_DebtInstrumentCashDividendRestrictionProFormaFixedChargeCoverageRatio" name="DebtInstrumentCashDividendRestrictionProFormaFixedChargeCoverageRatio" nillable="true" substitutionGroup="xbrli:item" type="xbrli:pureItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_DebtInstrumentDividendRestriction" name="DebtInstrumentDividendRestriction" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_DecreasetoContractLiabilities" name="DecreasetoContractLiabilities" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration" />
+  <xsd:element id="gme_DeferredCompensationPlanLiabilitiesFairValueDisclosure" name="DeferredCompensationPlanLiabilitiesFairValueDisclosure" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant" />
+  <xsd:element id="gme_DeferredIncomeTaxExpenseForCashFlow" name="DeferredIncomeTaxExpenseForCashFlow" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xsd:element id="gme_DeferredTaxAssetsGoodwill" name="DeferredTaxAssetsGoodwill" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant" />
+  <xsd:element id="gme_DeferredTaxAssetsIntangibleAssets" name="DeferredTaxAssetsIntangibleAssets" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant" />
+  <xsd:element id="gme_DeferredtaxassetsOperatingleaseliabilities" name="DeferredtaxassetsOperatingleaseliabilities" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant" />
+  <xsd:element id="gme_DeferredtaxliabilitiesOperatingleaserightofuseassets" name="DeferredtaxliabilitiesOperatingleaserightofuseassets" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant" />
+  <xsd:element id="gme_Deferredtaxliabilitiesdeferredtaxgain" name="Deferredtaxliabilitiesdeferredtaxgain" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant" />
+  <xsd:element id="gme_DerivativeInstrumentsAndForeignCurrencyTransactionGainLossRecognizedInIncomeNet" name="DerivativeInstrumentsAndForeignCurrencyTransactionGainLossRecognizedInIncomeNet" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_DisclosureIncomeTaxesAdditionalInformationAbstract" name="DisclosureIncomeTaxesAdditionalInformationAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_DisclosureSummaryOfCompanysAssetImpairmentsAbstract" name="DisclosureSummaryOfCompanysAssetImpairmentsAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_DisposalGroupIncludingDiscontinuedOperationGoodwillImairmentLoss" name="DisposalGroupIncludingDiscontinuedOperationGoodwillImairmentLoss" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xsd:element id="gme_DisposalGroupIncludingDiscontinuedOperationGoodwillandAssetImpairments" name="DisposalGroupIncludingDiscontinuedOperationGoodwillandAssetImpairments" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xsd:element id="gme_DisposalGroupIncludingDiscontinuedOperationInventoryReserveProvision" name="DisposalGroupIncludingDiscontinuedOperationInventoryReserveProvision" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xsd:element id="gme_DisposalGroupIncludingDiscontinuedOperationOtherAssetImpairmentCharges" name="DisposalGroupIncludingDiscontinuedOperationOtherAssetImpairmentCharges" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xsd:element id="gme_DispositionSalePrice" name="DispositionSalePrice" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xsd:element id="gme_DispositionTransactionCosts" name="DispositionTransactionCosts" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration" />
+  <xsd:element id="gme_DispositionWorkingCapitalAdjustments" name="DispositionWorkingCapitalAdjustments" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration" />
+  <xsd:element id="gme_DispositionWorkingCapitalAdjustmentsnetoftax" name="DispositionWorkingCapitalAdjustmentsnetoftax" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_DocumentInformationAbstract" name="DocumentInformationAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_EffectiveIncomeTaxRateReconciliationChangeInUnrecognizedTaxBenefits" name="EffectiveIncomeTaxRateReconciliationChangeInUnrecognizedTaxBenefits" nillable="true" substitutionGroup="xbrli:item" type="num:percentItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_EffectiveIncomeTaxRateReconciliationOtherThresholdofItemsIncludedasaPercentageofEarningsBeforeIncomeTaxes" name="EffectiveIncomeTaxRateReconciliationOtherThresholdofItemsIncludedasaPercentageofEarningsBeforeIncomeTaxes" nillable="true" substitutionGroup="xbrli:item" type="num:percentItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_EffectiveIncomeTaxRateReconciliationSimplyMacLossonSale" name="EffectiveIncomeTaxRateReconciliationSimplyMacLossonSale" nillable="true" substitutionGroup="xbrli:item" type="num:percentItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_EffectiveIncomeTaxRateReconciliationTaxReform" name="EffectiveIncomeTaxRateReconciliationTaxReform" nillable="true" substitutionGroup="xbrli:item" type="num:percentItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_EffectiveIncomeTaxRateReconciliationTaxReformTransitionTax" name="EffectiveIncomeTaxRateReconciliationTaxReformTransitionTax" nillable="true" substitutionGroup="xbrli:item" type="num:percentItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_EffectiveIncomeTaxRateReconciliationWithholdingTaxExpense" name="EffectiveIncomeTaxRateReconciliationWithholdingTaxExpense" nillable="true" substitutionGroup="xbrli:item" type="num:percentItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_EuropeSegmentMember" name="EuropeSegmentMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_ExpectedAmortizationExpenseLineItems" name="ExpectedAmortizationExpenseLineItems" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_ExpectedAmortizationExpenseTable" name="ExpectedAmortizationExpenseTable" nillable="true" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_ExtendedWarrantiesMember" name="ExtendedWarrantiesMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_FairValueDerivativeContractAssetsAndLiabilitiesMeasuredOnRecurringBasisGainLossIncludedInEarningsLineItems" name="FairValueDerivativeContractAssetsAndLiabilitiesMeasuredOnRecurringBasisGainLossIncludedInEarningsLineItems" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_FairValueDerivativeContractAssetsAndLiabilitiesMeasuredOnRecurringBasisGainLossIncludedInEarningsTable" name="FairValueDerivativeContractAssetsAndLiabilitiesMeasuredOnRecurringBasisGainLossIncludedInEarningsTable" nillable="true" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_FederalFundsRateMember" name="FederalFundsRateMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_ForwardContractsAbstract" name="ForwardContractsAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_FurnitureFixturesAndEquipmentMember" name="FurnitureFixturesAndEquipmentMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_GeeknetMember" name="GeeknetMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_GiftCardsTradeInCreditsMember" name="GiftCardsTradeInCreditsMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_Gme_EffectiveIncomeTaxRateReconciliationIntercompanySaleofIntangibleAssets" name="Gme_EffectiveIncomeTaxRateReconciliationIntercompanySaleofIntangibleAssets" nillable="true" substitutionGroup="xbrli:item" type="num:percentItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_GoodwillAndIntangibleAssetsDisclosureLineItems" name="GoodwillAndIntangibleAssetsDisclosureLineItems" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_GoodwillAndIntangibleAssetsDisclosureTable" name="GoodwillAndIntangibleAssetsDisclosureTable" nillable="true" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_GoodwillandIntangibleAssetsAbstract" name="GoodwillandIntangibleAssetsAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_Impairmentofstorelevelassets" name="Impairmentofstorelevelassets" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="duration" />
+  <xsd:element id="gme_IncomeTaxExaminationYearsSubjectToExamination" name="IncomeTaxExaminationYearsSubjectToExamination" nillable="true" substitutionGroup="xbrli:item" type="us-types:durationStringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_IncomeTaxesLineItems" name="IncomeTaxesLineItems" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_IncomeTaxesTable" name="IncomeTaxesTable" nillable="true" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_IncreasetoContractLiabilities" name="IncreasetoContractLiabilities" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration" />
+  <xsd:element id="gme_IncrementalFILOfacility" name="IncrementalFILOfacility" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant" />
+  <xsd:element id="gme_IndefiniteandFiniteLivedIntangibleAssetsGross" name="IndefiniteandFiniteLivedIntangibleAssetsGross" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant" />
+  <xsd:element id="gme_IndefiniteandFiniteLivedIntangibleAssetsNetCarryingAmount" name="IndefiniteandFiniteLivedIntangibleAssetsNetCarryingAmount" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant" />
+  <xsd:element id="gme_InterestRateMargin" name="InterestRateMargin" nillable="true" substitutionGroup="xbrli:item" type="num:percentItemType" xbrli:periodType="instant" />
+  <xsd:element id="gme_Interestpaidnetofinterestincome" name="Interestpaidnetofinterestincome" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_KeyMoneyMember" name="KeyMoneyMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_KongregateMember" name="KongregateMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_LineOfCreditFacilityAdditionalBorrowingCapacity" name="LineOfCreditFacilityAdditionalBorrowingCapacity" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant" />
+  <xsd:element id="gme_LineOfCreditFacilityMaximumBorrowingCapacityInventoryPercentage" name="LineOfCreditFacilityMaximumBorrowingCapacityInventoryPercentage" nillable="true" substitutionGroup="xbrli:item" type="num:percentItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_LineofCreditFacilityCovenantTermsMaximumAdditionalAcquisitionIndebtedness" name="LineofCreditFacilityCovenantTermsMaximumAdditionalAcquisitionIndebtedness" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant" />
+  <xsd:element id="gme_LineofCreditFacilityCovenantTermsMaximumAdditionalGeneralIndebtedness" name="LineofCreditFacilityCovenantTermsMaximumAdditionalGeneralIndebtedness" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant" />
+  <xsd:element id="gme_LineofCreditFacilityCovenantTermsMaximumAdditionalIndebtedness" name="LineofCreditFacilityCovenantTermsMaximumAdditionalIndebtedness" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant" />
+  <xsd:element id="gme_LineofCreditFacilityMaximumBorrowingCapacityCreditCardReceivablesPercentage" name="LineofCreditFacilityMaximumBorrowingCapacityCreditCardReceivablesPercentage" nillable="true" substitutionGroup="xbrli:item" type="num:percentItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_LineofCreditFacilityMaximumBorrowingCapacityInventoryIncreasedBorrowingPercentage" name="LineofCreditFacilityMaximumBorrowingCapacityInventoryIncreasedBorrowingPercentage" nillable="true" substitutionGroup="xbrli:item" type="num:percentItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_MagazineSubscriptionsMember" name="MagazineSubscriptionsMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_MicromaniaMember" name="MicromaniaMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_ModifiedDutchAuctionTenderOfferPricePerShare" name="ModifiedDutchAuctionTenderOfferPricePerShare" nillable="true" substitutionGroup="xbrli:item" type="num:perShareItemType" xbrli:periodType="instant" />
+  <xsd:element abstract="true" id="gme_NOLtypeAxis" name="NOLtypeAxis" nillable="true" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_NOLtypeDomain" name="NOLtypeDomain" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_NOLwithexpirationMember" name="NOLwithexpirationMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_NOLwithoutexpirationMemberMember" name="NOLwithoutexpirationMemberMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_NarrativeAbstract" name="NarrativeAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_NotionalAmountOfForeignCurrencyDerivativesGross" name="NotionalAmountOfForeignCurrencyDerivativesGross" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant" />
+  <xsd:element id="gme_OtherAdjustments" name="OtherAdjustments" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration" />
+  <xsd:element id="gme_PrepaidIncomeTaxesAndAccruedIncomeTaxesPayable" name="PrepaidIncomeTaxesAndAccruedIncomeTaxesPayable" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration" />
+  <xsd:element id="gme_ProjectedRevolverUsagePercentage" name="ProjectedRevolverUsagePercentage" nillable="true" substitutionGroup="xbrli:item" type="num:percentItemType" xbrli:periodType="instant" />
+  <xsd:element id="gme_RatioCovenantLowerLimit" name="RatioCovenantLowerLimit" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="instant" />
+  <xsd:element abstract="true" id="gme_ReclassificationTypeAxis" name="ReclassificationTypeAxis" nillable="true" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_ReclassificationTypeDomain" name="ReclassificationTypeDomain" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_ReclassificationsAbstract" name="ReclassificationsAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_ReclassificationsLineItems" name="ReclassificationsLineItems" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_RepaymentofAcquisitionRelatedDebt" name="RepaymentofAcquisitionRelatedDebt" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="credit" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_RestrictedCashMember" name="RestrictedCashMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_RestructuringAndImpairmentCostsLineItems" name="RestructuringAndImpairmentCostsLineItems" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_RestructuringAndImpairmentCostsTable" name="RestructuringAndImpairmentCostsTable" nillable="true" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_ResultsofDiscontinuedOperationsAbstract" name="ResultsofDiscontinuedOperationsAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_ResultsofDiscontinuedOperationsandDetailofAssetsandLiabilitiesHeldforSaleAbstract" name="ResultsofDiscontinuedOperationsandDetailofAssetsandLiabilitiesHeldforSaleAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_RevolvingCreditFacilityAbstract" name="RevolvingCreditFacilityAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_SECScheduleValuationandQualifyingAccountsAbstract" name="SECScheduleValuationandQualifyingAccountsAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_SchedIIValuationandQualifyingAccountsAbstract" name="SchedIIValuationandQualifyingAccountsAbstract" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_ScheduleOfAssetImpairmentTableTextBlock" name="ScheduleOfAssetImpairmentTableTextBlock" nillable="true" substitutionGroup="xbrli:item" type="nonnum:textBlockItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_ScheduleOfDerivativeInstrumentsAndForeignCurrencyTransactionGainLossTableTextBlock" name="ScheduleOfDerivativeInstrumentsAndForeignCurrencyTransactionGainLossTableTextBlock" nillable="true" substitutionGroup="xbrli:item" type="nonnum:textBlockItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_ScheduleOfShareBasedCompensationArrangementByShareBasedPaymentAwardAxis" name="ScheduleOfShareBasedCompensationArrangementByShareBasedPaymentAwardAxis" nillable="true" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_SegmentReportingDisclosureLineItems" name="SegmentReportingDisclosureLineItems" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_SegmentReportingDisclosureTable" name="SegmentReportingDisclosureTable" nillable="true" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_SellingGeneralAndAdministrativeExpenseMember" name="SellingGeneralAndAdministrativeExpenseMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_SeniorNotes5.5due2019Member" name="SeniorNotes5.5due2019Member" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_SeniorNotes6.75due2021Member" name="SeniorNotes6.75due2021Member" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_SeniorNotesAllMember" name="SeniorNotesAllMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_ShareBasedCompensationArrangementsByShareBasedPaymentAwardDomain" name="ShareBasedCompensationArrangementsByShareBasedPaymentAwardDomain" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_SignificantAccountingPoliciesLineItems" name="SignificantAccountingPoliciesLineItems" nillable="true" substitutionGroup="xbrli:item" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_SignificantAccountingPoliciesTable" name="SignificantAccountingPoliciesTable" nillable="true" substitutionGroup="xbrldt:hypercubeItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_SignificantSupplierAxis" name="SignificantSupplierAxis" nillable="true" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_SignificantSupplierDomain" name="SignificantSupplierDomain" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_SimplyMacMember" name="SimplyMacMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_SoftwareMember" name="SoftwareMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_SpringMobileMember" name="SpringMobileMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_StatementofCashFlowReclassificationDomain" name="StatementofCashFlowReclassificationDomain" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_StatementofCashFlowReclassificationMember" name="StatementofCashFlowReclassificationMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_TenderOfferPriceDomain" name="TenderOfferPriceDomain" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_TenderOfferPriceOfferAcceptedMember" name="TenderOfferPriceOfferAcceptedMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_TenderOfferPriceOfferMaximumMember" name="TenderOfferPriceOfferMaximumMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_TenderOfferPriceOfferMinimumMember" name="TenderOfferPriceOfferMinimumMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_TenderOfferPricePerShareDataAxis" name="TenderOfferPricePerShareDataAxis" nillable="true" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_TenderOfferShareAmount" name="TenderOfferShareAmount" nillable="true" substitutionGroup="xbrli:item" type="xbrli:sharesItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_ThinkGeekMember" name="ThinkGeekMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_ThresholdMinimumForExcessAvailability" name="ThresholdMinimumForExcessAvailability" nillable="true" substitutionGroup="xbrli:item" type="num:percentItemType" xbrli:periodType="instant" />
+  <xsd:element abstract="true" id="gme_Top5VendorActivisionBlizzardDomain" name="Top5VendorActivisionBlizzardDomain" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_Top5VendorNintendoMember" name="Top5VendorNintendoMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_Top5VendorSonyMember" name="Top5VendorSonyMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_Top5vendorElectronicArtsMember" name="Top5vendorElectronicArtsMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_Top5vendorMicrosoftMember" name="Top5vendorMicrosoftMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_Top5vendorTakeTwoInteractiveMember" name="Top5vendorTakeTwoInteractiveMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_TwoThousandElevenStockIncentivePlanMember" name="TwoThousandElevenStockIncentivePlanMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_TwoThousandNineteenSockIncentivePlanMember" name="TwoThousandNineteenSockIncentivePlanMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_TypeofCustomerLiabilityAxis" name="TypeofCustomerLiabilityAxis" nillable="true" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_TypeofDeferredCreditsAxis" name="TypeofDeferredCreditsAxis" nillable="true" substitutionGroup="xbrldt:dimensionItem" type="xbrli:stringItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_TypeofDeferredCreditsDomain" name="TypeofDeferredCreditsDomain" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_UnitedStatesSegmentMember" name="UnitedStatesSegmentMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_UnrestrictedAndRestrictedMember" name="UnrestrictedAndRestrictedMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element id="gme_VendorandOtherReceivables" name="VendorandOtherReceivables" nillable="true" substitutionGroup="xbrli:item" type="xbrli:monetaryItemType" xbrli:balance="debit" xbrli:periodType="instant" />
+  <xsd:element abstract="true" id="gme_VideoGameBrandsUnitedStatesMember" name="VideoGameBrandsUnitedStatesMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+  <xsd:element abstract="true" id="gme_VideogamehardwareaccessoriesMember" name="VideogamehardwareaccessoriesMember" nillable="true" substitutionGroup="xbrli:item" type="nonnum:domainItemType" xbrli:periodType="duration" />
+</xsd:schema>
+</XBRL>

@@ -1,0 +1,299 @@
+{
+  "ACCESSION_NUMBER": "0000950123-11-030842",
+  "CONFORMED_PERIOD_OF_REPORT": "20110129",
+  "CONFORMED_SUBMISSION_TYPE": "10-K",
+  "DATE_AS_OF_CHANGE": "20110330",
+  "FILED_AS_OF_DATE": "20110330",
+  "FILER": {
+    "BUSINESS_ADDRESS": {
+      "BUSINESS_PHONE": "817-424-2000",
+      "CITY": "GRAPEVINE",
+      "STATE": "TX",
+      "STREET_1": "625 WESTPORT PARKWAY",
+      "ZIP": "76051"
+    },
+    "COMPANY_DATA": {
+      "CENTRAL_INDEX_KEY": "0001326380",
+      "COMPANY_CONFORMED_NAME": "GameStop Corp.",
+      "FISCAL_YEAR_END": "0129",
+      "IRS_NUMBER": "000000000",
+      "STANDARD_INDUSTRIAL_CLASSIFICATION": "RETAIL-COMPUTER & COMPUTER SOFTWARE STORES [5734]",
+      "STATE_OF_INCORPORATION": "DE"
+    },
+    "FILING_VALUES": {
+      "FILM_NUMBER": "11722287",
+      "FORM_TYPE": "10-K",
+      "SEC_ACT": "1934 Act",
+      "SEC_FILE_NUMBER": "001-32637"
+    },
+    "FORMER_COMPANY": {
+      "DATE_OF_NAME_CHANGE": "20050506",
+      "FORMER_CONFORMED_NAME": "GSC Holdings Corp."
+    },
+    "MAIL_ADDRESS": {
+      "CITY": "GRAPEVINE",
+      "STATE": "TX",
+      "STREET_1": "625 WESTPORT PARKWAY",
+      "ZIP": "76051"
+    }
+  },
+  "PUBLIC_DOCUMENT_COUNT": "18",
+  "acceptance-datetime": "20110330161217",
+  "documents": [
+    {
+      "filename": "d80233e10vk.htm",
+      "sequence": "1",
+      "type": "10-K"
+    },
+    {
+      "filename": "d80233exv12w1.htm",
+      "sequence": "2",
+      "type": "EX-12.1"
+    },
+    {
+      "filename": "d80233exv14w1.htm",
+      "sequence": "3",
+      "type": "EX-14.1"
+    },
+    {
+      "filename": "d80233exv14w2.htm",
+      "sequence": "4",
+      "type": "EX-14.2"
+    },
+    {
+      "filename": "d80233exv21w1.htm",
+      "sequence": "5",
+      "type": "EX-21.1"
+    },
+    {
+      "filename": "d80233exv23w1.htm",
+      "sequence": "6",
+      "type": "EX-23.1"
+    },
+    {
+      "filename": "d80233exv31w1.htm",
+      "sequence": "7",
+      "type": "EX-31.1"
+    },
+    {
+      "filename": "d80233exv31w2.htm",
+      "sequence": "8",
+      "type": "EX-31.2"
+    },
+    {
+      "filename": "d80233exv32w1.htm",
+      "sequence": "9",
+      "type": "EX-32.1"
+    },
+    {
+      "filename": "d80233exv32w2.htm",
+      "sequence": "10",
+      "type": "EX-32.2"
+    },
+    {
+      "filename": "gme-20110129.xml",
+      "sequence": "11",
+      "type": "EX-101.INS"
+    },
+    {
+      "filename": "gme-20110129.xsd",
+      "sequence": "12",
+      "type": "EX-101.SCH"
+    },
+    {
+      "filename": "gme-20110129_cal.xml",
+      "sequence": "13",
+      "type": "EX-101.CAL"
+    },
+    {
+      "filename": "gme-20110129_lab.xml",
+      "sequence": "14",
+      "type": "EX-101.LAB"
+    },
+    {
+      "filename": "gme-20110129_pre.xml",
+      "sequence": "15",
+      "type": "EX-101.PRE"
+    },
+    {
+      "filename": "gme-20110129_def.xml",
+      "sequence": "16",
+      "type": "EX-101.DEF"
+    },
+    {
+      "filename": "d80233d8023301.gif",
+      "sequence": "17",
+      "type": "GRAPHIC"
+    },
+    {
+      "filename": "d80233d8023300.gif",
+      "sequence": "18",
+      "type": "GRAPHIC"
+    },
+    {
+      "filename": "R19.xml",
+      "sequence": "19",
+      "type": "XML"
+    },
+    {
+      "filename": "R29.xml",
+      "sequence": "20",
+      "type": "XML"
+    },
+    {
+      "filename": "R11.xml",
+      "sequence": "21",
+      "type": "XML"
+    },
+    {
+      "filename": "R10.xml",
+      "sequence": "22",
+      "type": "XML"
+    },
+    {
+      "filename": "R8.xml",
+      "sequence": "23",
+      "type": "XML"
+    },
+    {
+      "filename": "R22.xml",
+      "sequence": "24",
+      "type": "XML"
+    },
+    {
+      "filename": "R18.xml",
+      "sequence": "25",
+      "type": "XML"
+    },
+    {
+      "filename": "0000950123-11-030842-xbrl.zip",
+      "sequence": "26",
+      "type": "ZIP"
+    },
+    {
+      "filename": "R12.xml",
+      "sequence": "27",
+      "type": "XML"
+    },
+    {
+      "filename": "R3.xml",
+      "sequence": "28",
+      "type": "XML"
+    },
+    {
+      "filename": "R14.xml",
+      "sequence": "29",
+      "type": "XML"
+    },
+    {
+      "filename": "R15.xml",
+      "sequence": "30",
+      "type": "XML"
+    },
+    {
+      "filename": "R24.xml",
+      "sequence": "31",
+      "type": "XML"
+    },
+    {
+      "filename": "R20.xml",
+      "sequence": "32",
+      "type": "XML"
+    },
+    {
+      "filename": "R4.xml",
+      "sequence": "33",
+      "type": "XML"
+    },
+    {
+      "filename": "R27.xml",
+      "sequence": "34",
+      "type": "XML"
+    },
+    {
+      "filename": "R16.xml",
+      "sequence": "35",
+      "type": "XML"
+    },
+    {
+      "filename": "R28.xml",
+      "sequence": "36",
+      "type": "XML"
+    },
+    {
+      "filename": "R9.xml",
+      "sequence": "37",
+      "type": "XML"
+    },
+    {
+      "filename": "R6.xml",
+      "sequence": "38",
+      "type": "XML"
+    },
+    {
+      "filename": "R5.xml",
+      "sequence": "39",
+      "type": "XML"
+    },
+    {
+      "filename": "R23.xml",
+      "sequence": "40",
+      "type": "XML"
+    },
+    {
+      "filename": "defnref.xml",
+      "sequence": "41",
+      "type": "XML"
+    },
+    {
+      "filename": "R21.xml",
+      "sequence": "42",
+      "type": "XML"
+    },
+    {
+      "filename": "R13.xml",
+      "sequence": "43",
+      "type": "XML"
+    },
+    {
+      "filename": "R26.xml",
+      "sequence": "44",
+      "type": "XML"
+    },
+    {
+      "filename": "R1.xml",
+      "sequence": "45",
+      "type": "XML"
+    },
+    {
+      "filename": "R2.xml",
+      "sequence": "46",
+      "type": "XML"
+    },
+    {
+      "filename": "FilingSummary.xml",
+      "sequence": "47",
+      "type": "XML"
+    },
+    {
+      "filename": "Financial_Report.xls",
+      "sequence": "48",
+      "type": "EXCEL"
+    },
+    {
+      "filename": "R25.xml",
+      "sequence": "49",
+      "type": "XML"
+    },
+    {
+      "filename": "R7.xml",
+      "sequence": "50",
+      "type": "XML"
+    },
+    {
+      "filename": "R17.xml",
+      "sequence": "51",
+      "type": "XML"
+    }
+  ]
+}

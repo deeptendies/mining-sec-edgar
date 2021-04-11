@@ -11,11 +11,13 @@
 
 
 import nest_asyncio
-
 nest_asyncio.apply()
+
 
 # In[19]:
 
+
+from secedgar.filings import Filing, FilingType
 
 # 10Q filings for Apple (ticker "aapl")
 from secedgar.filings import Filing, FilingType
@@ -23,8 +25,13 @@ from secedgar.filings import Filing, FilingType
 my_filings = Filing(cik_lookup=['gme'],
                     filing_type=FilingType.FILING_10K,
                     count=1326380,
-                    user_agent='deeptendies')
+                   user_agent='deeptendies')
 
 my_filings.save('filings')
 
+
 # In[ ]:
+
+
+
+
