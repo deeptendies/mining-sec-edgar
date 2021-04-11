@@ -26,7 +26,7 @@ from secedgar.filings import Filing, FilingType
 
 my_filings = Filing(cik_lookup=['gme'],
                     filing_type=FilingType.FILING_10K,
-                    count=1326380, # all avaliable gme reports
+                    count=1326380,
                    user_agent='deeptendies')
 
 my_filings.save('filings')
@@ -34,7 +34,7 @@ my_filings.save('filings')
 
 # # Parse Data
 
-# In[56]:
+# In[1]:
 
 
 import glob
@@ -53,6 +53,19 @@ for filepath in glob.iglob('filings/*/*/*.txt'):
 
 # # Extract Data
 # extra data from a specific report type, and put them in a result list
+
+# for the most interesting data: financial reports, the reports is already avaliable at:
+# ```
+# parsed_filings/0000950123-10-030164/0.Financial_Report.xls
+# 
+# parsed_filings/0001326380-18-000033/0.Financial_Report.xlsx
+# 
+# ```
+# feel free to write codes to load & combine them
+# suggestions:
+# https://pandas.pydata.org/docs/reference/api/pandas.read_excel.html
+
+# Extras
 
 # After parsing, the parsed data will be created at `out_dir='parsed_filings'`
 # need to access the file like so:
