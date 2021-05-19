@@ -72,7 +72,7 @@ def get_request(api, ticker, year_range, form_type):
     # TODO: ticker, filledAt, formType, from/size to be passed from SEC.initiate_request like api is
     payload = {
         "query": {"query_string": {"query": "ticker:AAPL AND "
-                                            "filedAt:{2019-01-01 TO 2019-12-31} AND formType:\"10-K\""}},
+                                            "filedAt:{2018-01-01 TO 2018-12-31} AND formType:\"10-K\""}},
         "sort": [{"filedAt": {"order": "desc"}}]
     }
     jsondata = json.dumps(payload)
@@ -83,7 +83,10 @@ def get_request(api, ticker, year_range, form_type):
     response = request.urlopen(req, jsondataasbytes)
     res_body = response.read()
     filings = json.loads(res_body.decode("utf-8"))
-    # print(filings)
+    print(filings)
+    #print(filings['filings'][0]['linkToTxt'])
+    #print(filings['filings'][0]['linkToFilingDetails'])
+    #print(filings['filings'][0]['documentFormatFiles'][0]['documentUrl'])
 
 
 def main():
